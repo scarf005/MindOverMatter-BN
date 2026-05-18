@@ -8,12 +8,35 @@
       {
         "condition": {
           "or": [
-            { "and": [ { "not": "npc_is_character" }, { "math": [ "n_val('anger') >= 10" ] } ] },
-            { "and": [ "npc_is_character", "npc_hostile" ] }
+            {
+              "and": [
+                {
+                  "not": "npc_is_character"
+                },
+                {
+                  "math": [
+                    "n_val('anger') >= 10"
+                  ]
+                }
+              ]
+            },
+            {
+              "and": [
+                "npc_is_character",
+                "npc_hostile"
+              ]
+            }
           ]
         },
         "distance": 25,
-        "descriptions": [ { "id": "moving_creature", "symbol": "?", "color": "c_white", "text": "You sense a hostile target here." } ]
+        "descriptions": [
+          {
+            "id": "moving_creature",
+            "symbol": "?",
+            "color": "c_white",
+            "text": "You sense a hostile target here."
+          }
+        ]
       }
     ]
   },
@@ -23,10 +46,34 @@
     "has": "WORN",
     "condition": "ACTIVE",
     "values": [
-      { "value": "STRENGTH", "add": 4 },
-      { "value": "DEXTERITY", "add": 4 },
-      { "value": "BONUS_DODGE", "add": 1 },
-      { "value": "SPEED", "add": 10 }
+      {
+        "value": "STRENGTH",
+        "add": 4
+      },
+      {
+        "value": "DEXTERITY",
+        "add": 4
+      },
+      {
+        "value": "BONUS_DODGE",
+        "add": 1
+      },
+      {
+        "value": "SPEED",
+        "add": 10
+      }
+    ]
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_bio_cameleoflage_fifth_sun",
+    "has": "WORN",
+    "condition": "ACTIVE",
+    "values": [
+      {
+        "value": "STEALTH_MODIFIER",
+        "add": 50
+      }
     ]
   }
 ]
