@@ -1,0 +1,133 @@
+[
+  {
+    "id": "telepathic_blast_test",
+    "type": "SPELL",
+    "name": "[Ψ]Synaptic Overload Test",
+    "description": "Short-circuit and overwhelm a target's brain as part of a specific kind of test.",
+    "message": "You unleash a psionic scream at your target!",
+    "valid_targets": [
+      "hostile"
+    ],
+    "spell_class": "TELEPATH",
+    "skill": "metaphysics",
+    "flags": [
+      "CONCENTRATE",
+      "NO_PROJECTILE",
+      "SILENT",
+      "NO_HANDS",
+      "NO_LEGS"
+    ],
+    "difficulty": 6,
+    "max_level": 30,
+    "effect": "target_attack",
+    "damage_type": "bash",
+    "min_damage": 10,
+    "max_damage": 10,
+    "damage_increment": 1,
+    "min_range": 3,
+    "max_range": 80,
+    "energy_source": "STAMINA",
+    "base_energy_cost": 1,
+    "base_casting_time": 1
+  },
+  {
+    "id": "mon_anti_telepath_zombie",
+    "type": "MONSTER",
+    "name": {
+      "str": "anti-telepath zombie"
+    },
+    "description": "A human body, swaying as it moves, an unstoppable rage visible in its oily black eyes.  It's even more immune to telepathy than a normal zombie.",
+    "default_faction": "zombie",
+    "bodytype": "human",
+    "categories": [
+      "CLASSIC"
+    ],
+    "species": [
+      "ZOMBIE",
+      "HUMAN"
+    ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 80,
+    "speed": 70,
+    "material": [
+      "flesh"
+    ],
+    "symbol": "Z",
+    "color": "light_green",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 4,
+    "melee_dice": 2,
+    "melee_dice_sides": 3,
+    "melee_damage": [
+      {
+        "damage_type": "cut",
+        "amount": 0
+      }
+    ],
+    "vision_night": 3,
+    "harvest": "zombie_humanoid",
+    "flags": [
+      "SEES",
+      "HEARS",
+      "STUMBLES",
+      "WARM",
+      "GRABS",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "PUSH_MON"
+    ]
+  },
+  {
+    "id": "mon_mi_go_test",
+    "type": "MONSTER",
+    "name": {
+      "str": "mi-go test subject"
+    },
+    "description": "An alien creature of uncertain origin.  Usually mi-go perform experiments on human subjects--this time it's the other way around.",
+    "default_faction": "mi-go",
+    "bodytype": "migo",
+    "species": [
+      "MIGO"
+    ],
+    "volume": "92500 ml",
+    "weight": "120 kg",
+    "hp": 210,
+    "speed": 0,
+    "material": [
+      "flesh"
+    ],
+    "symbol": "&",
+    "color": "pink",
+    "aggression": 20,
+    "morale": 30,
+    "melee_skill": 5,
+    "melee_dice": 4,
+    "melee_dice_sides": 6,
+    "melee_damage": [
+      {
+        "damage_type": "cut",
+        "amount": 6
+      }
+    ],
+    "dodge": 4,
+    "vision_day": 50,
+    "vision_night": 20,
+    "harvest": "zombie_meatslug",
+    "flags": [
+      "SEES",
+      "SMELLS",
+      "HEARS",
+      "WARM",
+      "BASHES",
+      "POISON",
+      "NO_BREATHE",
+      "CAN_OPEN_DOORS",
+      "PRIORITIZE_TARGETS"
+    ]
+  }
+]
