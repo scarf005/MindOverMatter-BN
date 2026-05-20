@@ -41,7 +41,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_vita_health_power"
+    "result": "mom_practice_vita_health_power",
+    "id": "practice_vita_health_power"
   },
   {
     "type": "recipe",
@@ -64,7 +65,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_vita_stop_bleeding"
+    "result": "mom_practice_vita_stop_bleeding",
+    "id": "practice_vita_stop_bleeding"
   },
   {
     "type": "recipe",
@@ -87,7 +89,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_vita_hurt_touch"
+    "result": "mom_practice_vita_hurt_touch",
+    "id": "practice_vita_hurt_touch"
   },
   {
     "type": "recipe",
@@ -110,7 +113,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_vita_healing_touch"
+    "result": "mom_practice_vita_healing_touch",
+    "id": "practice_vita_healing_touch"
   },
   {
     "type": "recipe",
@@ -141,7 +145,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_vita_sleeping_trance"
+    "result": "mom_practice_vita_sleeping_trance",
+    "id": "practice_vita_sleeping_trance"
   },
   {
     "type": "recipe",
@@ -172,7 +177,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_vita_pain_split"
+    "result": "mom_practice_vita_pain_split",
+    "id": "practice_vita_pain_split"
   },
   {
     "type": "recipe",
@@ -203,7 +209,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_vita_stop_infection"
+    "result": "mom_practice_vita_stop_infection",
+    "id": "practice_vita_stop_infection"
   },
   {
     "type": "recipe",
@@ -234,7 +241,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_vita_healing_trance"
+    "result": "mom_practice_vita_healing_trance",
+    "id": "practice_vita_healing_trance"
   },
   {
     "type": "recipe",
@@ -265,7 +273,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_vita_blood_purge"
+    "result": "mom_practice_vita_blood_purge",
+    "id": "practice_vita_blood_purge"
   },
   {
     "type": "recipe",
@@ -296,6 +305,7 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_vita_banish_illness"
+    "result": "mom_practice_vita_banish_illness",
+    "id": "practice_vita_banish_illness"
   }
 ]

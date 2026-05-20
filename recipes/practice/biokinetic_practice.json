@@ -39,7 +39,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_biokin_physical_enhance"
+    "result": "mom_practice_biokin_physical_enhance",
+    "id": "practice_biokin_physical_enhance"
   },
   {
     "type": "recipe",
@@ -62,7 +63,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_biokin_overcome_pain"
+    "result": "mom_practice_biokin_overcome_pain",
+    "id": "practice_biokin_overcome_pain"
   },
   {
     "type": "recipe",
@@ -85,7 +87,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_biokin_flexibility"
+    "result": "mom_practice_biokin_flexibility",
+    "id": "practice_biokin_flexibility"
   },
   {
     "type": "recipe",
@@ -116,7 +119,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_biokin_armor_skin"
+    "result": "mom_practice_biokin_armor_skin",
+    "id": "practice_biokin_armor_skin"
   },
   {
     "type": "recipe",
@@ -147,7 +151,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_biokin_climate_control"
+    "result": "mom_practice_biokin_climate_control",
+    "id": "practice_biokin_climate_control"
   },
   {
     "type": "recipe",
@@ -178,7 +183,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_biokin_reflex_enhance"
+    "result": "mom_practice_biokin_reflex_enhance",
+    "id": "practice_biokin_reflex_enhance"
   },
   {
     "type": "recipe",
@@ -209,7 +215,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_biokin_sealed_system"
+    "result": "mom_practice_biokin_sealed_system",
+    "id": "practice_biokin_sealed_system"
   },
   {
     "type": "recipe",
@@ -240,6 +247,7 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_biokin_combat_dance"
+    "result": "mom_practice_biokin_combat_dance",
+    "id": "practice_biokin_combat_dance"
   }
 ]

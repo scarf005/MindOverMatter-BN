@@ -11,6 +11,7 @@
       "SECRET",
       "BLIND_EASY"
     ],
-    "result": "mom_vitakin_disease_purge"
+    "result": "mom_vitakin_disease_purge",
+    "id": "vitakin_disease_purge"
   }
 ]

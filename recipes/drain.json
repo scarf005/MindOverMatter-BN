@@ -11,7 +11,8 @@
     "flags": [
       "BLIND_EASY"
     ],
-    "result": "mom_recipe_no_result"
+    "result": "mom_recipe_no_result",
+    "id": "psi_centering_meditation_drain_reduce"
   },
   {
     "type": "recipe",
@@ -40,6 +41,7 @@
       "BLIND_HARD"
     ],
     "result": "matrix_crystal_drained_dust",
-    "result_mult": 10
+    "result_mult": 10,
+    "id": "psi_matrix_channeling_drain_reduce"
   }
 ]

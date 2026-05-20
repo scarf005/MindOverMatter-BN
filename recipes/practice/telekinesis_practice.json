@@ -41,7 +41,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_telekinetic_pull"
+    "result": "mom_practice_telekinetic_pull",
+    "id": "practice_telekinetic_pull"
   },
   {
     "type": "recipe",
@@ -64,7 +65,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_telekinetic_push"
+    "result": "mom_practice_telekinetic_push",
+    "id": "practice_telekinetic_push"
   },
   {
     "type": "recipe",
@@ -87,7 +89,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_telekinetic_momentum"
+    "result": "mom_practice_telekinetic_momentum",
+    "id": "practice_telekinetic_momentum"
   },
   {
     "type": "recipe",
@@ -118,7 +121,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_telekinetic_wave"
+    "result": "mom_practice_telekinetic_wave",
+    "id": "practice_telekinetic_wave"
   },
   {
     "type": "recipe",
@@ -149,7 +153,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_telekinetic_strength"
+    "result": "mom_practice_telekinetic_strength",
+    "id": "practice_telekinetic_strength"
   },
   {
     "type": "recipe",
@@ -180,7 +185,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_telekinetic_hammer"
+    "result": "mom_practice_telekinetic_hammer",
+    "id": "practice_telekinetic_hammer"
   },
   {
     "type": "recipe",
@@ -211,7 +217,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_telekinetic_vehicle_lift"
+    "result": "mom_practice_telekinetic_vehicle_lift",
+    "id": "practice_telekinetic_vehicle_lift"
   },
   {
     "type": "recipe",
@@ -242,7 +249,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_telekinetic_shield"
+    "result": "mom_practice_telekinetic_shield",
+    "id": "practice_telekinetic_shield"
   },
   {
     "type": "recipe",
@@ -273,7 +281,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_telekinetic_explosion"
+    "result": "mom_practice_telekinetic_explosion",
+    "id": "practice_telekinetic_explosion"
   },
   {
     "type": "recipe",
@@ -304,6 +313,7 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_telekinetic_aegis"
+    "result": "mom_practice_telekinetic_aegis",
+    "id": "practice_telekinetic_aegis"
   }
 ]

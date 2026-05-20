@@ -179,6 +179,79 @@ local skill_practice = {
   mom_prac_psionics_prof_morphic = { amount = 150, cap = 6 },
 }
 
+local practice_result_aliases = {
+  practice_biokin_armor_skin = "mom_practice_biokin_armor_skin",
+  practice_biokin_climate_control = "mom_practice_biokin_climate_control",
+  practice_biokin_combat_dance = "mom_practice_biokin_combat_dance",
+  practice_biokin_flexibility = "mom_practice_biokin_flexibility",
+  practice_biokin_overcome_pain = "mom_practice_biokin_overcome_pain",
+  practice_biokin_physical_enhance = "mom_practice_biokin_physical_enhance",
+  practice_biokin_reflex_enhance = "mom_practice_biokin_reflex_enhance",
+  practice_biokin_sealed_system = "mom_practice_biokin_sealed_system",
+  practice_clair_clear_sight = "mom_practice_clair_clear_sight",
+  practice_clair_danger_sense = "mom_practice_clair_danger_sense",
+  practice_clair_dodge_power = "mom_practice_clair_dodge_power",
+  practice_clair_night_vision = "mom_practice_clair_night_vision",
+  practice_clair_ranged_enhance = "mom_practice_clair_ranged_enhance",
+  practice_clair_see_map = "mom_practice_clair_see_map",
+  practice_clair_speed_reading = "mom_practice_clair_speed_reading",
+  practice_clair_spot_weakness = "mom_practice_clair_spot_weakness",
+  practice_clair_voyance = "mom_practice_clair_voyance",
+  practice_pyrokinetic_aura = "mom_practice_pyrokinetic_aura",
+  practice_pyrokinetic_blast = "mom_practice_pyrokinetic_blast",
+  practice_pyrokinetic_call_flames = "mom_practice_pyrokinetic_call_flames",
+  practice_pyrokinetic_cloak = "mom_practice_pyrokinetic_cloak",
+  practice_pyrokinetic_eruption = "mom_practice_pyrokinetic_eruption",
+  practice_pyrokinetic_flamethrower = "mom_practice_pyrokinetic_flamethrower",
+  practice_pyrokinetic_flash = "mom_practice_pyrokinetic_flash",
+  practice_pyrokinetic_quell_flames = "mom_practice_pyrokinetic_quell_flames",
+  practice_telekinetic_aegis = "mom_practice_telekinetic_aegis",
+  practice_telekinetic_explosion = "mom_practice_telekinetic_explosion",
+  practice_telekinetic_hammer = "mom_practice_telekinetic_hammer",
+  practice_telekinetic_momentum = "mom_practice_telekinetic_momentum",
+  practice_telekinetic_pull = "mom_practice_telekinetic_pull",
+  practice_telekinetic_push = "mom_practice_telekinetic_push",
+  practice_telekinetic_shield = "mom_practice_telekinetic_shield",
+  practice_telekinetic_strength = "mom_practice_telekinetic_strength",
+  practice_telekinetic_vehicle_lift = "mom_practice_telekinetic_vehicle_lift",
+  practice_telekinetic_wave = "mom_practice_telekinetic_wave",
+  practice_telepathic_blast = "mom_practice_telepathic_blast",
+  practice_telepathic_concentration = "mom_practice_telepathic_concentration",
+  practice_telepathic_confusion = "mom_practice_telepathic_confusion",
+  practice_telepathic_invisibility = "mom_practice_telepathic_invisibility",
+  practice_telepathic_mind_control = "mom_practice_telepathic_mind_control",
+  practice_telepathic_morale = "mom_practice_telepathic_morale",
+  practice_telepathic_scream = "mom_practice_telepathic_scream",
+  practice_telepathic_shield = "mom_practice_telepathic_shield",
+  practice_teleport_banish = "mom_practice_teleport_banish",
+  practice_teleport_blink = "mom_practice_teleport_blink",
+  practice_teleport_collapse = "mom_practice_teleport_collapse",
+  practice_teleport_farstep = "mom_practice_teleport_farstep",
+  practice_teleport_gateway = "mom_practice_teleport_gateway",
+  practice_teleport_slow = "mom_practice_teleport_slow",
+  practice_teleport_transpose = "mom_practice_teleport_transpose",
+  practice_vita_banish_illness = "mom_practice_vita_banish_illness",
+  practice_vita_blood_purge = "mom_practice_vita_blood_purge",
+  practice_vita_healing_touch = "mom_practice_vita_healing_touch",
+  practice_vita_healing_trance = "mom_practice_vita_healing_trance",
+  practice_vita_health_power = "mom_practice_vita_health_power",
+  practice_vita_hurt_touch = "mom_practice_vita_hurt_touch",
+  practice_vita_pain_split = "mom_practice_vita_pain_split",
+  practice_vita_sleeping_trance = "mom_practice_vita_sleeping_trance",
+  practice_vita_stop_bleeding = "mom_practice_vita_stop_bleeding",
+  practice_vita_stop_infection = "mom_practice_vita_stop_infection",
+}
+
+for recipe_id, result_id in pairs(practice_result_aliases) do
+  if practice_spells[result_id] then
+    practice_spells[recipe_id] = {
+      spell = practice_spells[result_id].spell,
+      cap = practice_spells[result_id].cap,
+      result = result_id,
+    }
+  end
+end
+
 local practice_focus_cost = function(character)
   local focus = character and (character.focus_pool or 0) or 0
   local cost = focus >= 75 and 50 or focus >= 50 and 25 or focus >= 34 and 10 or focus >= 30 and 5 or 0
@@ -192,7 +265,7 @@ local practice_skill = function(character, result_id, meta)
 end
 
 local practice_spell = function(character, result_id, meta)
-  consume_item(character, result_id, 1)
+  consume_item(character, meta.result or result_id, 1)
   if not character or not meta then return nil end
   call(function()
     local magic = character:get_magic()
@@ -234,6 +307,18 @@ local effective_spell_level = function(caster, params)
   return math.max(0, (params and params.level or 0) + matrix_spell_adjustment(caster, params and params.spell_class))
 end
 
+local clear_clair_night_traits = function(character)
+  for i = 1, 8 do unset_trait(character, "CLAIR_NIGHT_EYES_" .. i) end
+end
+
+local apply_clair_night_eyes = function(character, params)
+  local tier = math.min(8, math.max(1, math.floor((effective_spell_level(character, params) or 0) / 3) + 1))
+  clear_clair_night_traits(character)
+  set_trait(character, "CLAIR_NIGHT_EYES_" .. tier)
+  add_effect(character, "effect_clair_night_eyes_" .. tier, minutes(10))
+  add_effect(character, "effect_clair_night_eyes", minutes(10))
+end
+
 local spell_success_effects = {
   pyrokinetic_flashlight = "effect_pyrokinetic_light",
   photokinetic_invisibility = "effect_photokin_invisibility",
@@ -263,13 +348,13 @@ handlers.on_craft_completed = function(params)
   if has_effect(character, "effect_clair_craft_bonus_blindness") then remove_effect(character, "effect_clair_craft_bonus_blindness") end
   if has_effect(character, "effect_clair_craft_bonus") then achievement("mom_clair_crafting_insight") end
   local recipe_id = params.recipe_id
-  if recipe_id == "mom_recipe_no_result" then
+  if recipe_id == "mom_recipe_no_result" or recipe_id == "psi_centering_meditation_drain_reduce" then
     consume_item(character, "mom_recipe_no_result", params.batch_size or 1)
     mod_vitamin(character, "vitamin_psionic_drain", -1 * (params.batch_size or 1))
-  elseif recipe_id == "matrix_crystal_drained_dust" then
+  elseif recipe_id == "matrix_crystal_drained_dust" or recipe_id == "psi_matrix_channeling_drain_reduce" then
     set_vitamin(character, "vitamin_psionic_drain", 0)
     add_msg("You channel the unnatural fatigue into the drained matrix crystal until it shatters into dust.")
-  elseif recipe_id == "mom_telekinetic_lifting_field_training" then
+  elseif recipe_id == "mom_telekinetic_lifting_field_training" or recipe_id == "improve_telekinesis_lifting_field" then
     consume_item(character, "mom_telekinetic_lifting_field_training", params.batch_size or 1)
     advance_lifter(character)
   elseif practice_spells[recipe_id] then
@@ -426,6 +511,10 @@ local lua_spell_semantics = {
 local apply_lua_spell_semantics = function(caster, params)
   local key = params and (params.effect_id or params.spell_id)
   local spell_id = params and params.spell_id
+  if key == "EOC_CLAIR_NIGHT_EYES_INITIATE" or key == "EOC_CLAIR_NIGHT_EYES" or (key and key:match("^effect_clair_night_eyes_%d$")) then
+    apply_clair_night_eyes(caster, params)
+    return true
+  end
   if key == "EOC_TELEKIN_SUMMON_JACKING_TOOL_INITIATE" then
     create_item(caster, "telekin_lifting_jack_" .. math.max(1, math.min(20, effective_spell_level(caster, params) or 1)), 1)
     return true
@@ -449,6 +538,11 @@ local apply_lua_spell_semantics = function(caster, params)
     for _, id in pairs(concentration_effects) do remove_effect(caster, id) end
     return true
   end
+  if key == "biokin_sealed_system" then remove_effect(caster, "effect_biokin_breathe_skin"); return true end
+  if key == "biokin_climate_control" then remove_effect(caster, "effect_biokin_climate_control"); return true end
+  if key == "effect_telepathic_learning_bonus" then remove_effect(caster, "effect_telepathic_learning_bonus"); return true end
+  if key == "EOC_VITAKIN_SLEEP" or key == "FATIGUE" then mod_fatigue(caster, -200); return true end
+  if key and key:match("^fd_hot_air") then add_msg("You smother the nearby heat with focused will."); return true end
   local meta = lua_spell_semantics[key] or lua_spell_semantics[spell_id]
   if meta then
     if meta.remove_effect then remove_effect(caster, meta.remove_effect) end
@@ -792,6 +886,7 @@ handlers.on_character_effect_removed = function(params)
   local character = params and (params.character or params.char)
   local removed = params and params.effect and call(function() return params.effect:get_id():str() end)
   if removed == "effect_clair_speed_reader" then unset_trait(character, "CLAIR_SPEED_READ") end
+  if removed and removed:match("^effect_clair_night_eyes") then clear_clair_night_traits(character) end
   for _, meta in pairs(potion_effects) do
     if removed == meta.effect then
       add_effect(character, meta.comedown, hours(math.random(24, 55)))

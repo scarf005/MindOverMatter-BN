@@ -40,7 +40,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_clair_night_vision"
+    "result": "mom_practice_clair_night_vision",
+    "id": "practice_clair_night_vision"
   },
   {
     "type": "recipe",
@@ -63,7 +64,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_clair_danger_sense"
+    "result": "mom_practice_clair_danger_sense",
+    "id": "practice_clair_danger_sense"
   },
   {
     "type": "recipe",
@@ -86,7 +88,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_clair_speed_reading"
+    "result": "mom_practice_clair_speed_reading",
+    "id": "practice_clair_speed_reading"
   },
   {
     "type": "recipe",
@@ -109,7 +112,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_clair_spot_weakness"
+    "result": "mom_practice_clair_spot_weakness",
+    "id": "practice_clair_spot_weakness"
   },
   {
     "type": "recipe",
@@ -140,7 +144,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_clair_dodge_power"
+    "result": "mom_practice_clair_dodge_power",
+    "id": "practice_clair_dodge_power"
   },
   {
     "type": "recipe",
@@ -171,7 +176,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_clair_ranged_enhance"
+    "result": "mom_practice_clair_ranged_enhance",
+    "id": "practice_clair_ranged_enhance"
   },
   {
     "type": "recipe",
@@ -202,7 +208,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_clair_voyance"
+    "result": "mom_practice_clair_voyance",
+    "id": "practice_clair_voyance"
   },
   {
     "type": "recipe",
@@ -233,7 +240,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_clair_clear_sight"
+    "result": "mom_practice_clair_clear_sight",
+    "id": "practice_clair_clear_sight"
   },
   {
     "type": "recipe",
@@ -264,6 +272,7 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_clair_see_map"
+    "result": "mom_practice_clair_see_map",
+    "id": "practice_clair_see_map"
   }
 ]

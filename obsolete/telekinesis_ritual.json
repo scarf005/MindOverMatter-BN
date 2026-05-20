@@ -11,7 +11,8 @@
       "SECRET",
       "BLIND_EASY"
     ],
-    "result": "mom_telekin_push_heavy_things"
+    "result": "mom_telekin_push_heavy_things",
+    "id": "telekin_push_heavy_things"
   },
   {
     "type": "recipe",
@@ -25,6 +26,7 @@
       "SECRET",
       "BLIND_EASY"
     ],
-    "result": "mom_telekin_lift_cars"
+    "result": "mom_telekin_lift_cars",
+    "id": "telekin_lift_cars"
   }
 ]

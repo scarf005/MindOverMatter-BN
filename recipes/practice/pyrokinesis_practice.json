@@ -39,7 +39,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_pyrokinetic_flash"
+    "result": "mom_practice_pyrokinetic_flash",
+    "id": "practice_pyrokinetic_flash"
   },
   {
     "type": "recipe",
@@ -62,7 +63,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_pyrokinetic_eruption"
+    "result": "mom_practice_pyrokinetic_eruption",
+    "id": "practice_pyrokinetic_eruption"
   },
   {
     "type": "recipe",
@@ -85,7 +87,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_pyrokinetic_quell_flames"
+    "result": "mom_practice_pyrokinetic_quell_flames",
+    "id": "practice_pyrokinetic_quell_flames"
   },
   {
     "type": "recipe",
@@ -108,7 +111,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_pyrokinetic_call_flames"
+    "result": "mom_practice_pyrokinetic_call_flames",
+    "id": "practice_pyrokinetic_call_flames"
   },
   {
     "type": "recipe",
@@ -139,7 +143,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_pyrokinetic_cloak"
+    "result": "mom_practice_pyrokinetic_cloak",
+    "id": "practice_pyrokinetic_cloak"
   },
   {
     "type": "recipe",
@@ -170,7 +175,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_pyrokinetic_flamethrower"
+    "result": "mom_practice_pyrokinetic_flamethrower",
+    "id": "practice_pyrokinetic_flamethrower"
   },
   {
     "type": "recipe",
@@ -201,7 +207,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_pyrokinetic_aura"
+    "result": "mom_practice_pyrokinetic_aura",
+    "id": "practice_pyrokinetic_aura"
   },
   {
     "type": "recipe",
@@ -232,6 +239,7 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_pyrokinetic_blast"
+    "result": "mom_practice_pyrokinetic_blast",
+    "id": "practice_pyrokinetic_blast"
   }
 ]

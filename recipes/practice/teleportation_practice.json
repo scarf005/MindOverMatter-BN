@@ -38,7 +38,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_teleport_blink"
+    "result": "mom_practice_teleport_blink",
+    "id": "practice_teleport_blink"
   },
   {
     "type": "recipe",
@@ -61,7 +62,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_teleport_slow"
+    "result": "mom_practice_teleport_slow",
+    "id": "practice_teleport_slow"
   },
   {
     "type": "recipe",
@@ -84,7 +86,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_teleport_transpose"
+    "result": "mom_practice_teleport_transpose",
+    "id": "practice_teleport_transpose"
   },
   {
     "type": "recipe",
@@ -115,7 +118,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_teleport_farstep"
+    "result": "mom_practice_teleport_farstep",
+    "id": "practice_teleport_farstep"
   },
   {
     "type": "recipe",
@@ -146,7 +150,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_teleport_collapse"
+    "result": "mom_practice_teleport_collapse",
+    "id": "practice_teleport_collapse"
   },
   {
     "type": "recipe",
@@ -177,7 +182,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_teleport_gateway"
+    "result": "mom_practice_teleport_gateway",
+    "id": "practice_teleport_gateway"
   },
   {
     "type": "recipe",
@@ -208,6 +214,7 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_teleport_banish"
+    "result": "mom_practice_teleport_banish",
+    "id": "practice_teleport_banish"
   }
 ]

@@ -39,7 +39,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_telepathic_concentration"
+    "result": "mom_practice_telepathic_concentration",
+    "id": "practice_telepathic_concentration"
   },
   {
     "type": "recipe",
@@ -62,7 +63,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_telepathic_shield"
+    "result": "mom_practice_telepathic_shield",
+    "id": "practice_telepathic_shield"
   },
   {
     "type": "recipe",
@@ -85,7 +87,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_telepathic_morale"
+    "result": "mom_practice_telepathic_morale",
+    "id": "practice_telepathic_morale"
   },
   {
     "type": "recipe",
@@ -116,7 +119,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_telepathic_blast"
+    "result": "mom_practice_telepathic_blast",
+    "id": "practice_telepathic_blast"
   },
   {
     "type": "recipe",
@@ -147,7 +151,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_telepathic_confusion"
+    "result": "mom_practice_telepathic_confusion",
+    "id": "practice_telepathic_confusion"
   },
   {
     "type": "recipe",
@@ -178,7 +183,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_telepathic_invisibility"
+    "result": "mom_practice_telepathic_invisibility",
+    "id": "practice_telepathic_invisibility"
   },
   {
     "type": "recipe",
@@ -209,7 +215,8 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_telepathic_scream"
+    "result": "mom_practice_telepathic_scream",
+    "id": "practice_telepathic_scream"
   },
   {
     "type": "recipe",
@@ -240,6 +247,7 @@
       "SECRET",
       "BLIND_HARD"
     ],
-    "result": "mom_practice_telepathic_mind_control"
+    "result": "mom_practice_telepathic_mind_control",
+    "id": "practice_telepathic_mind_control"
   }
 ]
