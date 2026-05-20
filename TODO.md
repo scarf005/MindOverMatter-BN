@@ -2,10 +2,18 @@
 
 Goal: reach DDA Mind Over Matter feature parity in the XDG fork at `~/.local/share/cataclysm-bn/mods/MindOverMatter` without porting DDA EoC/jmath/math interpreters or loader support.
 
+## Hard migration rule
+
+- MUST NOT port DDA EoC, jmath, queued EoC runners, result EoCs, generic math interpreters, or compatibility loaders for those systems.
+- MUST implement every EoC-backed user-visible behavior semantically with BN-compatible JSON and Lua.
+- Lua bindings may be added when Lua lacks the narrow capability needed to express a specific feature.
+- Avoid C++ changes unless a narrow Lua binding or hook is absolutely necessary; prefer pure Lua/JSON first.
+- Missing DDA EoC/jmath source files are not themselves blockers if their gameplay behavior is fully represented by Lua/JSON replacements.
+
 ## Validation loop
 
 1. Add or update a focused regression test/audit for one parity gap.
-2. Implement the smallest Lua/JSON or narrow BN Lua binding change that makes it pass.
+2. Implement the smallest Lua/JSON change that makes it pass; add a narrow Lua binding only when pure Lua/JSON cannot express the behavior.
 3. Run `./out/build/linux-full/src/cataclysm-bn-tiles --check-mods mindovermatter` from the BN worktree against this XDG mod.
 4. Run the no-EoC residual scan against this XDG mod.
 5. Commit the tested parity slice.
