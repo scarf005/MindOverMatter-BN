@@ -2,89 +2,13 @@
   {
     "type": "monster_attack",
     "attack_type": "melee",
-    "id": "teleport_touch",
-    "cooldown": 15,
-    "miss_msg_u": "%s reaches for you but you avoid their touch!",
-    "miss_msg_npc": "%s reaches for <npcname> but they dodge!"
-  },
-  {
-    "type": "monster_attack",
-    "attack_type": "melee",
-    "id": "psychic_shriek",
-    "cooldown": 5,
-    "no_dmg_msg_u": "%1$s's shriek radiates out at you without doing any damage.",
-    "no_dmg_msg_npc": "%1$s's shriek radiates out at <npcname> without doing any damage.",
-    "miss_msg_u": "%s's shriek radiates at you, but you dodge!"
-  },
-  {
-    "type": "monster_attack",
-    "attack_type": "melee",
-    "id": "mind_blast_monster",
-    "cooldown": 15,
-    "miss_msg_u": "%s looks at you but nothing happens!",
-    "miss_msg_npc": "%s looks at <npcname> but nothing happens!"
-  },
-  {
-    "id": "feral_clair_thrown_rock",
-    "type": "GUN",
-    "symbol": "%",
-    "color": "red",
-    "name": {
-      "str": "hurled rubble"
-    },
-    "description": "Stone at the ready to crush that which isn't part of the blob.",
-    "//": "Buffed stats account for the feral clairsentient using Marksman's Eye.",
-    "material": [
-      "stone"
-    ],
-    "skill": "throw",
-    "ammo": [
-      "rock"
-    ],
-    "ammo_effects": [
-      "NO_PENETRATE_OBSTACLES"
-    ],
-    "ranged_damage": {
-      "damage_type": "bash",
-      "amount": -1
-    },
-    "clip_size": 1,
-    "weight": 540,
-    "volume": 210,
-    "loudness": 2,
-    "dispersion": 15,
-    "durability": 8
-  },
-  {
-    "id": "pattern_screamer_thrown_rock",
-    "type": "GUN",
-    "symbol": "%",
-    "color": "red",
-    "name": {
-      "str": "hurled rubble"
-    },
-    "description": "Stone at the ready to crush that which isn't part of the blob.",
-    "//": "Buffed stats account for the pattern screamer using One Perfect Shot / Marksman's Eye.",
-    "material": [
-      "stone"
-    ],
-    "skill": "throw",
-    "ammo": [
-      "rock"
-    ],
-    "ammo_effects": [
-      "NO_PENETRATE_OBSTACLES"
-    ],
-    "ranged_damage": {
-      "damage_type": "bash",
-      "amount": 8
-    },
-    "clip_size": 1,
-    "weight": 540,
-    "volume": 210,
-    "to_hit": 5,
-    "loudness": 2,
-    "dispersion": 10,
-    "durability": 8
+    "id": "tk_smash",
+    "move_cost": 80,
+    "cooldown": 10,
+    "damage_max_instance": [ { "damage_type": "bash", "amount": 25, "armor_penetration": 10 } ],
+    "hit_dmg_u": "%1$s stares at you and a powerful force hurls you through the air!",
+    "hit_dmg_npc": "%1$s stares at <npcname> and a powerful force hurls them through the air!",
+    "miss_msg_u": "%s stares at you, and you feel a crushing pressure for a moment before the feeling vanishes!",
+    "miss_msg_npc": "%s stares at <npcname> but nothing happens!"
   }
 ]

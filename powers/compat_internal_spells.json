@@ -1,0 +1,830 @@
+[
+  {
+    "id": "biokin_climate_remove_sealed",
+    "type": "SPELL",
+    "name": "[Ψ]Temperature Adaptability Cancel Sealed System",
+    "description": "The part of Temperature Adaptability that cancels Sealed System.  It's a bug if you have it.",
+    "message": "",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "BIOKINETIC",
+    "flags": [
+      "NO_FAIL",
+      "SILENT",
+      "NO_HANDS",
+      "NO_LEGS"
+    ],
+    "effect": "lua",
+    "effect_str": "biokin_sealed_system",
+    "max_level": 1,
+    "skill": "metaphysics",
+    "base_energy_cost": 0,
+    "base_casting_time": 1,
+    "energy_source": "NONE",
+    "damage_type": "TRUE"
+  },
+  {
+    "id": "biokin_overcome_pain_1",
+    "type": "SPELL",
+    "name": "[Ψ]Overcome Pain #1",
+    "description": "Number #1 of Overcoming Pain subspells.  It's a bug if you have it.",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "BIOKINETIC",
+    "flags": [
+      "SILENT",
+      "NO_EXPLOSION_SFX",
+      "RANDOM_DURATION"
+    ],
+    "effect": "lua",
+    "effect_str": "effect_biokin_pkill_1",
+    "max_level": 20,
+    "min_damage": 0,
+    "min_duration": 600,
+    "max_duration": 7200,
+    "skill": "metaphysics",
+    "base_energy_cost": 0,
+    "base_casting_time": 1,
+    "energy_source": "NONE",
+    "damage_type": "TRUE"
+  },
+  {
+    "id": "biokin_overcome_pain_2",
+    "type": "SPELL",
+    "name": "[Ψ]Overcome Pain #2",
+    "description": "Number #2 of Overcoming Pain subspells.  It's a bug if you have it.",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "BIOKINETIC",
+    "flags": [
+      "SILENT",
+      "NO_EXPLOSION_SFX",
+      "RANDOM_DURATION"
+    ],
+    "effect": "lua",
+    "effect_str": "effect_biokin_pkill_2",
+    "max_level": 20,
+    "min_damage": 0,
+    "min_duration": 600,
+    "max_duration": 7200,
+    "skill": "metaphysics",
+    "base_energy_cost": 0,
+    "base_casting_time": 1,
+    "energy_source": "NONE",
+    "damage_type": "TRUE"
+  },
+  {
+    "id": "biokin_overcome_pain_3",
+    "type": "SPELL",
+    "name": "[Ψ]Overcome Pain #3",
+    "description": "Number #3 of Overcoming Pain subspells.  It's a bug if you have it.",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "BIOKINETIC",
+    "flags": [
+      "SILENT",
+      "NO_EXPLOSION_SFX",
+      "RANDOM_DURATION"
+    ],
+    "effect": "lua",
+    "effect_str": "effect_biokin_pkill_3",
+    "max_level": 20,
+    "min_damage": 0,
+    "min_duration": 600,
+    "max_duration": 7200,
+    "skill": "metaphysics",
+    "base_energy_cost": 0,
+    "base_casting_time": 1,
+    "energy_source": "NONE",
+    "damage_type": "TRUE"
+  },
+  {
+    "id": "biokin_overcome_pain_4",
+    "type": "SPELL",
+    "name": "[Ψ]Overcome Pain #4",
+    "description": "Number #4 of Overcoming Pain subspells.  It's a bug if you have it.",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "BIOKINETIC",
+    "flags": [
+      "SILENT",
+      "NO_EXPLOSION_SFX",
+      "RANDOM_DURATION"
+    ],
+    "effect": "lua",
+    "effect_str": "effect_biokin_pkill_4",
+    "max_level": 20,
+    "min_damage": 0,
+    "min_duration": 600,
+    "max_duration": 7200,
+    "skill": "metaphysics",
+    "base_energy_cost": 0,
+    "base_casting_time": 1,
+    "energy_source": "NONE",
+    "damage_type": "TRUE"
+  },
+  {
+    "id": "biokin_overcome_pain_5",
+    "type": "SPELL",
+    "name": "[Ψ]Overcome Pain #5",
+    "description": "Number #5 of Overcoming Pain subspells.  It's a bug if you have it.",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "BIOKINETIC",
+    "flags": [
+      "SILENT",
+      "NO_EXPLOSION_SFX",
+      "RANDOM_DURATION"
+    ],
+    "effect": "lua",
+    "effect_str": "effect_biokin_pkill_5",
+    "max_level": 20,
+    "min_damage": 0,
+    "min_duration": 600,
+    "max_duration": 7200,
+    "skill": "metaphysics",
+    "base_energy_cost": 0,
+    "base_casting_time": 1,
+    "energy_source": "NONE",
+    "damage_type": "TRUE"
+  },
+  {
+    "id": "biokin_overcome_pain_6",
+    "type": "SPELL",
+    "name": "[Ψ]Overcome Pain #6",
+    "description": "Number #6 of Overcoming Pain subspells.  It's a bug if you have it.",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "BIOKINETIC",
+    "flags": [
+      "SILENT",
+      "NO_EXPLOSION_SFX",
+      "RANDOM_DURATION"
+    ],
+    "effect": "lua",
+    "effect_str": "effect_biokin_pkill_6",
+    "max_level": 20,
+    "min_damage": 0,
+    "min_duration": 600,
+    "max_duration": 7200,
+    "skill": "metaphysics",
+    "base_energy_cost": 0,
+    "base_casting_time": 1,
+    "energy_source": "NONE",
+    "damage_type": "TRUE"
+  },
+  {
+    "id": "biokin_sealed_removee_climate",
+    "type": "SPELL",
+    "name": "[Ψ]Sealed System Cancel Temperature Adaptability",
+    "description": "The part of Sealed System that cancels Temperature Adaptability.  It's a bug if you have it.",
+    "message": "",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "BIOKINETIC",
+    "flags": [
+      "NO_FAIL",
+      "SILENT",
+      "NO_HANDS",
+      "NO_LEGS"
+    ],
+    "effect": "lua",
+    "effect_str": "biokin_climate_control",
+    "max_level": 1,
+    "skill": "metaphysics",
+    "base_energy_cost": 0,
+    "base_casting_time": 1,
+    "energy_source": "NONE",
+    "damage_type": "TRUE"
+  },
+  {
+    "id": "clair_night_vision_1",
+    "type": "SPELL",
+    "name": "[Ψ]Night Eyes #1",
+    "description": "Number #1 of Night Eyes subspells.  It's a bug if you have it.",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "CLAIRSENTIENT",
+    "flags": [
+      "SILENT",
+      "NO_EXPLOSION_SFX",
+      "RANDOM_DURATION"
+    ],
+    "effect": "lua",
+    "effect_str": "effect_clair_night_eyes_1",
+    "max_level": 1,
+    "min_damage": 0,
+    "min_duration": 600,
+    "max_duration": 7200,
+    "skill": "metaphysics",
+    "base_energy_cost": 0,
+    "base_casting_time": 1,
+    "energy_source": "NONE",
+    "damage_type": "TRUE"
+  },
+  {
+    "id": "clair_night_vision_2",
+    "type": "SPELL",
+    "name": "[Ψ]Night Eyes #2",
+    "description": "Number #1 of Night Eyes subspells.  It's a bug if you have it.",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "CLAIRSENTIENT",
+    "flags": [
+      "SILENT",
+      "NO_EXPLOSION_SFX",
+      "RANDOM_DURATION"
+    ],
+    "effect": "lua",
+    "effect_str": "effect_clair_night_eyes_2",
+    "max_level": 1,
+    "min_damage": 0,
+    "min_duration": 600,
+    "max_duration": 7200,
+    "skill": "metaphysics",
+    "base_energy_cost": 0,
+    "base_casting_time": 1,
+    "energy_source": "NONE",
+    "damage_type": "TRUE"
+  },
+  {
+    "id": "clair_night_vision_3",
+    "type": "SPELL",
+    "name": "[Ψ]Night Eyes #3",
+    "description": "Number #3 of Night Eyes subspells.  It's a bug if you have it.",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "CLAIRSENTIENT",
+    "flags": [
+      "SILENT",
+      "NO_EXPLOSION_SFX",
+      "RANDOM_DURATION"
+    ],
+    "effect": "lua",
+    "effect_str": "effect_clair_night_eyes_3",
+    "max_level": 1,
+    "min_damage": 0,
+    "min_duration": 600,
+    "max_duration": 7200,
+    "skill": "metaphysics",
+    "base_energy_cost": 0,
+    "base_casting_time": 1,
+    "energy_source": "NONE",
+    "damage_type": "TRUE"
+  },
+  {
+    "id": "clair_night_vision_4",
+    "type": "SPELL",
+    "name": "[Ψ]Night Eyes #4",
+    "description": "Number #4 of Night Eyes subspells.  It's a bug if you have it.",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "CLAIRSENTIENT",
+    "flags": [
+      "SILENT",
+      "NO_EXPLOSION_SFX",
+      "RANDOM_DURATION"
+    ],
+    "effect": "lua",
+    "effect_str": "effect_clair_night_eyes_4",
+    "max_level": 1,
+    "min_damage": 0,
+    "min_duration": 600,
+    "max_duration": 7200,
+    "skill": "metaphysics",
+    "base_energy_cost": 0,
+    "base_casting_time": 1,
+    "energy_source": "NONE",
+    "damage_type": "TRUE"
+  },
+  {
+    "id": "clair_night_vision_5",
+    "type": "SPELL",
+    "name": "[Ψ]Night Eyes #5",
+    "description": "Number #5 of Night Eyes subspells.  It's a bug if you have it.",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "CLAIRSENTIENT",
+    "flags": [
+      "SILENT",
+      "NO_EXPLOSION_SFX",
+      "RANDOM_DURATION"
+    ],
+    "effect": "lua",
+    "effect_str": "effect_clair_night_eyes_5",
+    "max_level": 1,
+    "min_damage": 0,
+    "min_duration": 600,
+    "max_duration": 7200,
+    "skill": "metaphysics",
+    "base_energy_cost": 0,
+    "base_casting_time": 1,
+    "energy_source": "NONE",
+    "damage_type": "TRUE"
+  },
+  {
+    "id": "clair_night_vision_6",
+    "type": "SPELL",
+    "name": "[Ψ]Night Eyes #6",
+    "description": "Number #6 of Night Eyes subspells.  It's a bug if you have it.",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "CLAIRSENTIENT",
+    "flags": [
+      "SILENT",
+      "NO_EXPLOSION_SFX",
+      "RANDOM_DURATION"
+    ],
+    "effect": "lua",
+    "effect_str": "effect_clair_night_eyes_6",
+    "max_level": 1,
+    "min_damage": 0,
+    "min_duration": 600,
+    "max_duration": 7200,
+    "skill": "metaphysics",
+    "base_energy_cost": 0,
+    "base_casting_time": 1,
+    "energy_source": "NONE",
+    "damage_type": "TRUE"
+  },
+  {
+    "id": "clair_night_vision_7",
+    "type": "SPELL",
+    "name": "[Ψ]Night Eyes #7",
+    "description": "Number #7 of Night Eyes subspells.  It's a bug if you have it.",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "CLAIRSENTIENT",
+    "flags": [
+      "SILENT",
+      "NO_EXPLOSION_SFX",
+      "RANDOM_DURATION"
+    ],
+    "effect": "lua",
+    "effect_str": "effect_clair_night_eyes_7",
+    "max_level": 1,
+    "min_damage": 0,
+    "min_duration": 600,
+    "max_duration": 7200,
+    "skill": "metaphysics",
+    "base_energy_cost": 0,
+    "base_casting_time": 1,
+    "energy_source": "NONE",
+    "damage_type": "TRUE"
+  },
+  {
+    "id": "clair_night_vision_8",
+    "type": "SPELL",
+    "name": "[Ψ]Night Eyes #8",
+    "description": "Number #8 of Night Eyes subspells.  It's a bug if you have it.",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "CLAIRSENTIENT",
+    "flags": [
+      "SILENT",
+      "NO_EXPLOSION_SFX",
+      "RANDOM_DURATION"
+    ],
+    "effect": "lua",
+    "effect_str": "effect_clair_night_eyes_8",
+    "max_level": 1,
+    "min_damage": 0,
+    "min_duration": 600,
+    "max_duration": 7200,
+    "skill": "metaphysics",
+    "base_energy_cost": 0,
+    "base_casting_time": 1,
+    "energy_source": "NONE",
+    "damage_type": "TRUE"
+  },
+  {
+    "id": "clair_potion_clairvoyance",
+    "type": "SPELL",
+    "name": "[Ψ]Gray Potion Clairvoyance",
+    "description": "The clairvoyance effect from the elixir.  If you have it it's a bug.",
+    "valid_targets": [
+      "hostile"
+    ],
+    "flags": [
+      "CONCENTRATE",
+      "SILENT",
+      "NO_HANDS",
+      "NO_LEGS",
+      "IGNORE_WALLS",
+      "NO_EXPLOSION_SFX"
+    ],
+    "effect": "map",
+    "difficulty": 4,
+    "max_level": 1,
+    "min_aoe": 20,
+    "max_aoe": 20,
+    "min_duration": 200,
+    "max_duration": 200,
+    "skill": "metaphysics",
+    "base_energy_cost": 0,
+    "base_casting_time": 1,
+    "energy_source": "NONE",
+    "damage_type": "TRUE"
+  },
+  {
+    "id": "eater_drain_fatigue",
+    "type": "SPELL",
+    "name": "[Ψ]Eater Drain Fatigue",
+    "description": "Eater's spell to drain fatigue.  It's a bug if you have it.",
+    "valid_targets": [
+      "self"
+    ],
+    "flags": [
+      "NO_PROJECTILE",
+      "NO_EXPLOSION_SFX"
+    ],
+    "effect": "lua",
+    "effect_str": "FATIGUE",
+    "max_level": 1,
+    "min_damage": -2,
+    "min_range": 30,
+    "skill": "metaphysics",
+    "base_energy_cost": 0,
+    "base_casting_time": 1,
+    "energy_source": "NONE",
+    "damage_type": "TRUE"
+  },
+  {
+    "id": "grenade_inferno_explosion",
+    "type": "SPELL",
+    "name": "[Ψ]Inferno Grenade Explosion",
+    "description": "The explosion created by an inferno grenade.  If you cast this yourself you're 100% going to die.",
+    "valid_targets": [
+      "hostile",
+      "ground"
+    ],
+    "skill": "metaphysics",
+    "flags": [
+      "LOUD",
+      "NO_PROJECTILE",
+      "IGNITE_FLAMMABLE",
+      "RANDOM_DAMAGE",
+      "NO_HANDS",
+      "RANDOM_AOE",
+      "NO_LEGS"
+    ],
+    "effect": "target_attack",
+    "damage_type": "FIRE",
+    "difficulty": 1,
+    "max_level": 1,
+    "min_damage": 50,
+    "max_damage": 150,
+    "min_range": 0,
+    "min_aoe": 6,
+    "max_aoe": 9,
+    "base_energy_cost": 0,
+    "base_casting_time": 1,
+    "energy_source": "NONE"
+  },
+  {
+    "id": "pyro_aura_attack",
+    "type": "SPELL",
+    "name": "Pyrokinetic aura stabbing",
+    "description": "Do fire damage to a monster that you attack.",
+    "valid_targets": [
+      "hostile"
+    ],
+    "flags": [
+      "RANDOM_DAMAGE",
+      "IGNITE_FLAMMABLE"
+    ],
+    "effect": "target_attack",
+    "damage_type": "FIRE",
+    "min_damage": 5,
+    "max_damage": 15,
+    "min_range": 1,
+    "max_range": 1,
+    "skill": "metaphysics",
+    "max_level": 1,
+    "base_energy_cost": 0,
+    "base_casting_time": 1,
+    "energy_source": "NONE"
+  },
+  {
+    "id": "pyro_aura_attacked",
+    "type": "SPELL",
+    "name": "Pyrokinetic aura thorns",
+    "description": "Do fire damage to a monster that attacked you.",
+    "valid_targets": [
+      "hostile"
+    ],
+    "flags": [
+      "RANDOM_DAMAGE",
+      "IGNITE_FLAMMABLE"
+    ],
+    "effect": "target_attack",
+    "damage_type": "FIRE",
+    "min_damage": 5,
+    "max_damage": 30,
+    "min_range": 1,
+    "max_range": 1,
+    "skill": "metaphysics",
+    "max_level": 1,
+    "base_energy_cost": 0,
+    "base_casting_time": 1,
+    "energy_source": "NONE"
+  },
+  {
+    "id": "pyro_quell_flames_1",
+    "type": "SPELL",
+    "name": "[Ψ]Quell Heat 1",
+    "description": "The part of Quell Fire that removes heat.  If you have it, you debugged it in.",
+    "valid_targets": [
+      "ground"
+    ],
+    "spell_class": "PYROKINETIC",
+    "flags": [
+      "CONCENTRATE",
+      "SILENT",
+      "NO_HANDS",
+      "NO_LEGS",
+      "IGNORE_WALLS",
+      "NO_EXPLOSION_SFX"
+    ],
+    "effect": "lua",
+    "effect_str": "fd_hot_air2",
+    "max_level": 1,
+    "min_aoe": 0,
+    "skill": "metaphysics",
+    "base_energy_cost": 0,
+    "base_casting_time": 1,
+    "energy_source": "NONE",
+    "damage_type": "TRUE"
+  },
+  {
+    "id": "pyro_quell_flames_2",
+    "type": "SPELL",
+    "name": "[Ψ]Quell Heat 2",
+    "description": "The part of Quell Fire that removes heat.  If you have it, you debugged it in.",
+    "valid_targets": [
+      "ground"
+    ],
+    "spell_class": "PYROKINETIC",
+    "flags": [
+      "CONCENTRATE",
+      "SILENT",
+      "NO_HANDS",
+      "NO_LEGS",
+      "IGNORE_WALLS",
+      "NO_EXPLOSION_SFX"
+    ],
+    "effect": "lua",
+    "effect_str": "fd_hot_air3",
+    "max_level": 1,
+    "min_aoe": 0,
+    "skill": "metaphysics",
+    "base_energy_cost": 0,
+    "base_casting_time": 1,
+    "energy_source": "NONE",
+    "damage_type": "TRUE"
+  },
+  {
+    "id": "pyro_quell_flames_3",
+    "type": "SPELL",
+    "name": "[Ψ]Quell Heat 3",
+    "description": "The part of Quell Fire that removes heat.  If you have it, you debugged it in.",
+    "valid_targets": [
+      "ground"
+    ],
+    "spell_class": "PYROKINETIC",
+    "flags": [
+      "CONCENTRATE",
+      "SILENT",
+      "NO_HANDS",
+      "NO_LEGS",
+      "IGNORE_WALLS",
+      "NO_EXPLOSION_SFX"
+    ],
+    "effect": "lua",
+    "effect_str": "fd_hot_air4",
+    "max_level": 1,
+    "min_aoe": 0,
+    "skill": "metaphysics",
+    "base_energy_cost": 0,
+    "base_casting_time": 1,
+    "energy_source": "NONE",
+    "damage_type": "TRUE"
+  },
+  {
+    "id": "tele_explosion_damage",
+    "type": "SPELL",
+    "name": "Wrecking Ball Enemy damage",
+    "description": "Damages enemies when you use Wrecking Ball on the ground.  If you have this you debugged it in.",
+    "valid_targets": [
+      "ally",
+      "hostile",
+      "item",
+      "ground"
+    ],
+    "spell_class": "TELEKINETIC",
+    "flags": [
+      "LOUD",
+      "RANDOM_DAMAGE",
+      "IGNORE_WALLS"
+    ],
+    "effect": "target_attack",
+    "damage_type": "BASH",
+    "max_level": 1,
+    "min_damage": 22,
+    "max_damage": 100,
+    "min_aoe": 2,
+    "max_aoe": 30,
+    "skill": "metaphysics",
+    "base_energy_cost": 0,
+    "base_casting_time": 1,
+    "energy_source": "NONE"
+  },
+  {
+    "id": "tele_mindhammer_bash",
+    "type": "SPELL",
+    "name": "Mindhammer Ground damage",
+    "description": "Damages ground when you use Mindhammer.  If you have this you debugged it in.",
+    "valid_targets": [
+      "ground"
+    ],
+    "spell_class": "TELEKINETIC",
+    "flags": [
+      "RANDOM_DAMAGE",
+      "IGNORE_WALLS",
+      "NO_PROJECTILE"
+    ],
+    "effect": "bash",
+    "damage_type": "BASH",
+    "max_level": 1,
+    "min_damage": 18,
+    "max_damage": 73,
+    "skill": "metaphysics",
+    "base_energy_cost": 0,
+    "base_casting_time": 1,
+    "energy_source": "NONE"
+  },
+  {
+    "id": "telekinetic_strength_remove_previous",
+    "type": "SPELL",
+    "name": "[Ψ]Enhance Strength Remove Previous",
+    "description": "The check to make sure you can't stack multiple Enhance Strengths.  It's a bug if you have it.",
+    "valid_targets": [
+      "self"
+    ],
+    "flags": [
+      "SILENT",
+      "NO_HANDS",
+      "NO_LEGS",
+      "NO_EXPLOSION_SFX"
+    ],
+    "effect": "lua",
+    "effect_str": "EOC_TELEKIN_REMOVE_ENHANCE_STRENGTH",
+    "skill": "metaphysics",
+    "max_level": 1,
+    "base_energy_cost": 0,
+    "base_casting_time": 1,
+    "energy_source": "NONE",
+    "damage_type": "TRUE"
+  },
+  {
+    "id": "telekinetic_wavepush",
+    "type": "SPELL",
+    "name": "[Ψ]Telekinetic wave Push",
+    "description": "Part of Wave of Force.  If you see this it's a bug.",
+    "message": "",
+    "valid_targets": [
+      "ally",
+      "hostile",
+      "item"
+    ],
+    "spell_class": "TELEKINETIC",
+    "skill": "metaphysics",
+    "flags": [
+      "CONCENTRATE",
+      "RANDOM_DAMAGE",
+      "NO_HANDS",
+      "NO_LEGS",
+      "RANDOM_TARGET",
+      "NO_EXPLOSION_SFX"
+    ],
+    "effect": "directed_push",
+    "difficulty": 1,
+    "damage_type": "BASH",
+    "max_level": 1,
+    "min_damage": 2,
+    "max_damage": 6,
+    "min_range": 1,
+    "max_range": 1,
+    "energy_source": "STAMINA",
+    "base_energy_cost": 1000,
+    "final_energy_cost": 50,
+    "energy_increment": -158.333333,
+    "base_casting_time": 50,
+    "final_casting_time": 10,
+    "casting_time_increment": -6.666667
+  },
+  {
+    "id": "telepathic_concentration_end",
+    "type": "SPELL",
+    "name": "[Ψ]Concentration Trance (Remove)",
+    "description": "End your focused trance, returning to normal.",
+    "message": "You stop concentrating.",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "TELEPATH",
+    "skill": "metaphysics",
+    "flags": [
+      "NO_FAIL",
+      "SILENT",
+      "NO_HANDS",
+      "NO_LEGS"
+    ],
+    "effect": "lua",
+    "effect_str": "effect_telepathic_learning_bonus",
+    "max_level": 1,
+    "energy_source": "STAMINA",
+    "base_energy_cost": 0,
+    "base_casting_time": 30,
+    "damage_type": "TRUE"
+  },
+  {
+    "id": "vita_no_sleep_dep",
+    "type": "SPELL",
+    "name": "[Ψ]Wakeful Rest Remove Sleep Deprivation",
+    "description": "The second part of the Wakeful Rest power, to remove sleep deprivation.",
+    "valid_targets": [
+      "self"
+    ],
+    "flags": [
+      "SILENT",
+      "NO_HANDS",
+      "NO_LEGS"
+    ],
+    "effect": "lua",
+    "effect_str": "EOC_VITAKIN_SLEEP",
+    "skill": "metaphysics",
+    "max_level": 1,
+    "base_energy_cost": 0,
+    "base_casting_time": 1,
+    "energy_source": "NONE",
+    "damage_type": "TRUE"
+  },
+  {
+    "id": "vita_pain_split",
+    "type": "SPELL",
+    "name": "[Ψ]Damage Balancing",
+    "description": "By rerouting blood and stem cells from undamaged areas, you can lessen your most grievous wounds at the cost of weakness elsewhere.  You may also use this to control an asthma attack.",
+    "message": "With a moment's concentration, your worst injuries heal, but you still don't feel well.",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "VITAKINETIC",
+    "skill": "metaphysics",
+    "flags": [
+      "CONCENTRATE",
+      "SILENT",
+      "NO_HANDS",
+      "NO_LEGS",
+      "NO_EXPLOSION_SFX"
+    ],
+    "effect": "pain_split",
+    "extra_effects": [
+      {
+        "id": "psionic_drained_difficulty_five",
+        "hit_self": true
+      }
+    ],
+    "difficulty": 5,
+    "max_level": 1,
+    "energy_source": "STAMINA",
+    "base_energy_cost": 4500,
+    "final_energy_cost": 1250,
+    "energy_increment": -175,
+    "base_casting_time": 200,
+    "final_casting_time": 75,
+    "casting_time_increment": -12,
+    "learn_spells": {
+      "vita_healing_trance": 12,
+      "vita_sleeping_trance": 14,
+      "vita_blood_purge": 15
+    },
+    "damage_type": "TRUE"
+  }
+]

@@ -796,5 +796,101 @@
     "reading_speed_multiplier": 0.66,
     "valid": false,
     "player_display": false
+  },
+  {
+    "type": "mutation",
+    "id": "CLAIR_NIGHT_EYES_1",
+    "name": {
+      "str": "Night Eyes"
+    },
+    "points": 0,
+    "description": "You can sense your surroundings in the dark.",
+    "valid": false,
+    "player_display": false,
+    "night_vision_range": 3
+  },
+  {
+    "type": "mutation",
+    "id": "CLAIR_NIGHT_EYES_2",
+    "name": {
+      "str": "Night Eyes"
+    },
+    "points": 0,
+    "description": "You can sense your surroundings in the dark.",
+    "valid": false,
+    "player_display": false,
+    "night_vision_range": 5
+  },
+  {
+    "type": "mutation",
+    "id": "CLAIR_NIGHT_EYES_3",
+    "name": {
+      "str": "Night Eyes"
+    },
+    "points": 0,
+    "description": "You can sense your surroundings in the dark.",
+    "valid": false,
+    "player_display": false,
+    "night_vision_range": 7
+  },
+  {
+    "type": "mutation",
+    "id": "CLAIR_NIGHT_EYES_4",
+    "name": {
+      "str": "Night Eyes"
+    },
+    "points": 0,
+    "description": "You can sense your surroundings in the dark.",
+    "valid": false,
+    "player_display": false,
+    "night_vision_range": 9
+  },
+  {
+    "type": "mutation",
+    "id": "CLAIR_NIGHT_EYES_5",
+    "name": {
+      "str": "Night Eyes"
+    },
+    "points": 0,
+    "description": "You can sense your surroundings in the dark.",
+    "valid": false,
+    "player_display": false,
+    "night_vision_range": 11
+  },
+  {
+    "type": "mutation",
+    "id": "CLAIR_NIGHT_EYES_6",
+    "name": {
+      "str": "Night Eyes"
+    },
+    "points": 0,
+    "description": "You can sense your surroundings in the dark.",
+    "valid": false,
+    "player_display": false,
+    "night_vision_range": 13
+  },
+  {
+    "type": "mutation",
+    "id": "CLAIR_NIGHT_EYES_7",
+    "name": {
+      "str": "Night Eyes"
+    },
+    "points": 0,
+    "description": "You can sense your surroundings in the dark.",
+    "valid": false,
+    "player_display": false,
+    "night_vision_range": 15
+  },
+  {
+    "type": "mutation",
+    "id": "CLAIR_NIGHT_EYES_8",
+    "name": {
+      "str": "Night Eyes"
+    },
+    "points": 0,
+    "description": "You can sense your surroundings in the dark.",
+    "valid": false,
+    "player_display": false,
+    "night_vision_range": 17
   }
 ]
