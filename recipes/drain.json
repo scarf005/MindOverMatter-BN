@@ -1,0 +1,45 @@
+[
+  {
+    "type": "recipe",
+    "description": "Through practice, you've learned how to calm and focus yourself during meditation.  If you meditated properly, you could channel the unnatural drain of psionic channeling into mundane tiredness, though it may take some time to meditate all of your drain away.",
+    "category": "CC_PSIONIC",
+    "subcategory": "CSC_PSIONIC_OTHER",
+    "difficulty": 4,
+    "time": "15 m",
+    "autolearn": true,
+    "skill_used": "metaphysics",
+    "flags": [
+      "BLIND_EASY"
+    ],
+    "result": "mom_recipe_no_result"
+  },
+  {
+    "type": "recipe",
+    "description": "That report indicated there was a way to channel all of the unnatural fatigue from long-term psionic use into a focusing object.  All you need is a drained matrix crystal and time.",
+    "category": "CC_PSIONIC",
+    "subcategory": "CSC_PSIONIC_OTHER",
+    "skill_used": "metaphysics",
+    "difficulty": 7,
+    "time": "4 h",
+    "book_learn": [
+      [
+        "phavian_report_psionic_drain",
+        5
+      ]
+    ],
+    "components": [
+      [
+        [
+          "matrix_crystal_drained",
+          1
+        ]
+      ]
+    ],
+    "flags": [
+      "SECRET",
+      "BLIND_HARD"
+    ],
+    "result": "matrix_crystal_drained_dust",
+    "result_mult": 10
+  }
+]

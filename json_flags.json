@@ -76,7 +76,7 @@
   },
   {
     "id": "ENERVATE_IMMUNE",
-    "type": "monster_flag",
+    "type": "json_flag",
     "//": "Immune to cellular breakdown"
   },
   {
@@ -90,22 +90,22 @@
   },
   {
     "id": "PHOTOKIN_MONSTER_IMMUNE",
-    "type": "monster_flag",
+    "type": "json_flag",
     "//": "Immune to photokinetic damage"
   },
   {
     "id": "TELEKIN_IMMUNE",
-    "type": "monster_flag",
+    "type": "json_flag",
     "//": "Immune to telekinetic damage"
   },
   {
     "id": "HIVE_MIND",
-    "type": "monster_flag",
+    "type": "json_flag",
     "//": "This monster is part of a hive mind"
   },
   {
     "id": "TELEPORT_IMMUNE",
-    "type": "monster_flag",
+    "type": "json_flag",
     "//": "Immune to forcible teleportation"
   },
   {

@@ -7,13 +7,23 @@
     "specific_heat_liquid": 0.82,
     "specific_heat_solid": 0.45,
     "latent_heat": 273,
-    "soft": true,
     "chip_resist": 6,
-    "resist": { "bash": 3, "cut": 4, "acid": 4, "heat": 0, "bullet": 6, "electric": 2 },
-    "breathability": "SECOND_SKIN",
-    "dmg_adj": [ { "ctxt": "adjective", "str": "damaged" }, "strained", "fractured", "eradicated" ],
+    "dmg_adj": [
+      {
+        "str": "damaged"
+      },
+      "strained",
+      "fractured",
+      "eradicated"
+    ],
     "bash_dmg_verb": "rippled",
-    "cut_dmg_verb": "pierced"
+    "cut_dmg_verb": "pierced",
+    "bash_resist": 3,
+    "cut_resist": 4,
+    "acid_resist": 4,
+    "elec_resist": 2,
+    "fire_resist": 0,
+    "bullet_resist": 6
   },
   {
     "type": "material",
@@ -24,16 +34,44 @@
     "specific_heat_solid": 0.52,
     "latent_heat": 5200,
     "chip_resist": 100,
-    "resist": { "bash": 5, "cut": 5, "acid": 100, "heat": 10, "bullet": 2, "electric": 100 },
-    "dmg_adj": [ "marked", "chipped", "cracked", "shattered" ],
+    "dmg_adj": [
+      "marked",
+      "chipped",
+      "cracked",
+      "shattered"
+    ],
     "bash_dmg_verb": "chipped",
-    "cut_dmg_verb": "scratched"
+    "cut_dmg_verb": "scratched",
+    "bash_resist": 5,
+    "cut_resist": 5,
+    "acid_resist": 100,
+    "elec_resist": 100,
+    "fire_resist": 10,
+    "bullet_resist": 2
   },
   {
     "type": "material",
     "id": "light",
     "name": "Light",
-    "copy-from": "sunlight"
+    "bash_resist": 1,
+    "cut_resist": 1,
+    "acid_resist": 1,
+    "elec_resist": 1,
+    "fire_resist": 1,
+    "chip_resist": 1,
+    "dmg_adj": [
+      "scratched",
+      "cut",
+      "damaged",
+      "mangled"
+    ],
+    "density": 1,
+    "specific_heat_liquid": 1,
+    "specific_heat_solid": 1,
+    "latent_heat": 1,
+    "bullet_resist": 1,
+    "bash_dmg_verb": "damaged",
+    "cut_dmg_verb": "cut"
   },
   {
     "type": "material",
@@ -44,15 +82,21 @@
     "specific_heat_liquid": 1,
     "specific_heat_solid": 0.108,
     "latent_heat": 800,
-    "freezing_point": -460,
-    "conductive": false,
     "chip_resist": 10,
-    "breathability": "POOR",
-    "dmg_adj": [ "bothered", "annoyed", "irritated", "destroyed" ],
+    "dmg_adj": [
+      "bothered",
+      "annoyed",
+      "irritated",
+      "destroyed"
+    ],
     "bash_dmg_verb": "ripples",
     "cut_dmg_verb": "passed through",
-    "soft": true,
-    "resist": { "bash": 8, "cut": 0, "acid": 8, "heat": 4, "bullet": 4 }
+    "bash_resist": 8,
+    "cut_resist": 0,
+    "acid_resist": 8,
+    "elec_resist": 1,
+    "fire_resist": 4,
+    "bullet_resist": 4
   },
   {
     "type": "material",
@@ -64,12 +108,19 @@
     "specific_heat_solid": 0.45,
     "latent_heat": 273,
     "chip_resist": 20,
-    "sheet_thickness": 1.2,
-    "breathability": "AVERAGE",
-    "dmg_adj": [ "ripped", "torn", "shredded", "tattered" ],
+    "dmg_adj": [
+      "ripped",
+      "torn",
+      "shredded",
+      "tattered"
+    ],
     "bash_dmg_verb": "ripped",
     "cut_dmg_verb": "cut",
-    "soft": true,
-    "resist": { "bash": 1.5, "cut": 2, "acid": 6, "heat": 2, "bullet": 5 }
+    "bash_resist": 1.5,
+    "cut_resist": 2,
+    "acid_resist": 6,
+    "elec_resist": 1,
+    "fire_resist": 2,
+    "bullet_resist": 5
   }
 ]

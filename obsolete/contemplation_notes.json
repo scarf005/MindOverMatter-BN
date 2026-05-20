@@ -1,0 +1,79 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "biokin_recipe_note",
+    "category": "books",
+    "symbol": ",",
+    "color": "white",
+    "name": {
+      "str": "extremely important note"
+    },
+    "description": "A scrap of paper.  A series of formulae are written on it.",
+    "price": 0,
+    "price_postapoc": 0,
+    "looks_like": "survnote",
+    "material": [
+      "paper"
+    ],
+    "flags": [
+      "TRADER_AVOID"
+    ],
+    "weight": "3 g",
+    "volume": "10 ml",
+    "use_action": "MOM_IUSE_BIOKIN_RECIPE_NOTE"
+  },
+  {
+    "type": "GENERIC",
+    "id": "clair_recipe_note",
+    "name": {
+      "str": "extremely important note"
+    },
+    "copy-from": "biokin_recipe_note",
+    "use_action": "MOM_IUSE_CLAIR_RECIPE_NOTE"
+  },
+  {
+    "type": "GENERIC",
+    "id": "pyrokin_recipe_note",
+    "name": {
+      "str": "extremely important note"
+    },
+    "copy-from": "biokin_recipe_note",
+    "use_action": "MOM_IUSE_PYROKIN_RECIPE_NOTE"
+  },
+  {
+    "type": "GENERIC",
+    "id": "telekin_recipe_note",
+    "name": {
+      "str": "extremely important note"
+    },
+    "copy-from": "biokin_recipe_note",
+    "use_action": "MOM_IUSE_TELEKIN_RECIPE_NOTE"
+  },
+  {
+    "type": "GENERIC",
+    "id": "telepath_recipe_note",
+    "name": {
+      "str": "extremely important note"
+    },
+    "copy-from": "biokin_recipe_note",
+    "use_action": "MOM_IUSE_TELEPATH_RECIPE_NOTE"
+  },
+  {
+    "type": "GENERIC",
+    "id": "teleport_recipe_note",
+    "name": {
+      "str": "extremely important note"
+    },
+    "copy-from": "biokin_recipe_note",
+    "use_action": "MOM_IUSE_TELEPORT_RECIPE_NOTE"
+  },
+  {
+    "type": "GENERIC",
+    "id": "vitakin_recipe_note",
+    "name": {
+      "str": "extremely important note"
+    },
+    "copy-from": "biokin_recipe_note",
+    "use_action": "MOM_IUSE_VITAKIN_RECIPE_NOTE"
+  }
+]

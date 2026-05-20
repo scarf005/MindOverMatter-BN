@@ -2,457 +2,2281 @@
   {
     "id": "mon_bat",
     "type": "MONSTER",
-    "copy-from": "mon_bat",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_bat"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_bear_cub",
     "type": "MONSTER",
-    "copy-from": "mon_bear_cub",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_bear_cub"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_bear",
     "type": "MONSTER",
-    "copy-from": "mon_bear",
-    "extend": { "flags": [ "CANPLAY", "PET_MOUNTABLE" ] }
+    "name": {
+      "str": "mon_bear"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_beaver",
     "type": "MONSTER",
-    "copy-from": "mon_beaver",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_beaver"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_black_rat",
     "type": "MONSTER",
-    "copy-from": "mon_black_rat",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_black_rat"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_boar_wild_piglet",
     "type": "MONSTER",
-    "copy-from": "mon_boar_wild_piglet",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_boar_wild_piglet"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_boar_wild",
     "type": "MONSTER",
-    "copy-from": "mon_boar_wild",
-    "extend": { "flags": [ "CANPLAY", "PET_MOUNTABLE" ] }
+    "name": {
+      "str": "mon_boar_wild"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_bobcat",
     "type": "MONSTER",
-    "copy-from": "mon_bobcat",
-    "extend": { "flags": [ "CANPLAY", "PET_MOUNTABLE" ] }
+    "name": {
+      "str": "mon_bobcat"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_chipmunk",
     "type": "MONSTER",
-    "copy-from": "mon_chipmunk",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_chipmunk"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_deer_fawn",
     "type": "MONSTER",
-    "copy-from": "mon_deer_fawn",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_deer_fawn"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_deer",
     "type": "MONSTER",
-    "copy-from": "mon_deer",
-    "extend": { "flags": [ "CANPLAY", "PET_MOUNTABLE" ] }
+    "name": {
+      "str": "mon_deer"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_fox_gray",
     "type": "MONSTER",
-    "copy-from": "mon_fox_gray",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_fox_gray"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_fox_red",
     "type": "MONSTER",
-    "copy-from": "mon_fox_red",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_fox_red"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_groundhog",
     "type": "MONSTER",
-    "copy-from": "mon_groundhog",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_groundhog"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_hare",
     "type": "MONSTER",
-    "copy-from": "mon_hare",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_hare"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_lemming",
     "type": "MONSTER",
-    "copy-from": "mon_lemming",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_lemming"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_mink",
     "type": "MONSTER",
-    "copy-from": "mon_mink",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_mink"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_moose",
     "type": "MONSTER",
-    "copy-from": "mon_moose",
-    "extend": { "flags": [ "CANPLAY", "PET_MOUNTABLE" ] }
+    "name": {
+      "str": "mon_moose"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_muskrat",
     "type": "MONSTER",
-    "copy-from": "mon_muskrat",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_muskrat"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_opossum",
     "type": "MONSTER",
-    "copy-from": "mon_opossum",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_opossum"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_otter",
     "type": "MONSTER",
-    "copy-from": "mon_otter",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_otter"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_raccoon",
     "type": "MONSTER",
-    "copy-from": "mon_raccoon",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_raccoon"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_sewer_rat",
     "type": "MONSTER",
-    "copy-from": "mon_sewer_rat",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_sewer_rat"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_squirrel",
     "type": "MONSTER",
-    "copy-from": "mon_squirrel",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_squirrel"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_squirrel_red",
     "type": "MONSTER",
-    "copy-from": "mon_squirrel_red",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_squirrel_red"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_weasel",
     "type": "MONSTER",
-    "copy-from": "mon_weasel",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_weasel"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_wolf",
     "type": "MONSTER",
-    "copy-from": "mon_wolf",
-    "extend": { "flags": [ "CANPLAY", "PET_MOUNTABLE" ] }
+    "name": {
+      "str": "mon_wolf"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_wolf_pup",
     "type": "MONSTER",
-    "copy-from": "mon_wolf_pup",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_wolf_pup"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_reindeer",
     "type": "MONSTER",
-    "copy-from": "mon_reindeer",
-    "extend": { "flags": [ "CANPLAY", "PET_MOUNTABLE" ] }
+    "name": {
+      "str": "mon_reindeer"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_coyote_mutant_shark",
     "type": "MONSTER",
-    "copy-from": "mon_coyote_mutant_shark",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_coyote_mutant_shark"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_tusked_moose_calf",
     "type": "MONSTER",
-    "copy-from": "mon_tusked_moose_calf",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_tusked_moose_calf"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_tusked_moose",
     "type": "MONSTER",
-    "copy-from": "mon_tusked_moose",
-    "extend": { "flags": [ "CANPLAY", "PET_MOUNTABLE" ] }
+    "name": {
+      "str": "mon_tusked_moose"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_moose_calf",
     "type": "MONSTER",
-    "copy-from": "mon_moose_calf",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_moose_calf"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_reindeer_fawn",
     "type": "MONSTER",
-    "copy-from": "mon_reindeer_fawn",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_reindeer_fawn"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_crow",
     "type": "MONSTER",
-    "copy-from": "mon_crow",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_crow"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_raven",
     "type": "MONSTER",
-    "copy-from": "mon_raven",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_raven"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_bluejay",
     "type": "MONSTER",
-    "copy-from": "mon_bluejay",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_bluejay"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_cardinal",
     "type": "MONSTER",
-    "copy-from": "mon_cardinal",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_cardinal"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_robin",
     "type": "MONSTER",
-    "copy-from": "mon_robin",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_robin"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_sparrow",
     "type": "MONSTER",
-    "copy-from": "mon_sparrow",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_sparrow"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_duck",
     "type": "MONSTER",
-    "copy-from": "mon_duck",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_duck"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_goose_canadian",
     "type": "MONSTER",
-    "copy-from": "mon_goose_canadian",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_goose_canadian"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_turkey",
     "type": "MONSTER",
-    "copy-from": "mon_turkey",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_turkey"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_pheasant",
     "type": "MONSTER",
-    "copy-from": "mon_pheasant",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_pheasant"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_hummingbird",
     "type": "MONSTER",
-    "copy-from": "mon_hummingbird",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_hummingbird"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_woodpecker",
     "type": "MONSTER",
-    "copy-from": "mon_woodpecker",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_woodpecker"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_coot",
     "type": "MONSTER",
-    "copy-from": "mon_coot",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_coot"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_cormorant",
     "type": "MONSTER",
-    "copy-from": "mon_coot",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_cormorant"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_moorhen",
     "type": "MONSTER",
-    "copy-from": "mon_coot",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_moorhen"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_grebe",
     "type": "MONSTER",
-    "copy-from": "mon_coot",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_grebe"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_pattern_bigfrog",
     "type": "MONSTER",
-    "copy-from": "mon_pattern_bigfrog",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_pattern_bigfrog"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_pattern_giganfrog",
     "type": "MONSTER",
-    "copy-from": "mon_pattern_giganfrog",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_pattern_giganfrog"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_strange_bigfrog",
     "type": "MONSTER",
-    "copy-from": "mon_strange_bigfrog",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_strange_bigfrog"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_strange_giganfrog",
     "type": "MONSTER",
-    "copy-from": "mon_strange_giganfrog",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_strange_giganfrog"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_foul_bigfrog",
     "type": "MONSTER",
-    "copy-from": "mon_foul_bigfrog",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_foul_bigfrog"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_foul_giganfrog",
     "type": "MONSTER",
-    "copy-from": "mon_foul_giganfrog",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_foul_giganfrog"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_odd_bigfrog",
     "type": "MONSTER",
-    "copy-from": "mon_odd_bigfrog",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_odd_bigfrog"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_odd_giganfrog",
     "type": "MONSTER",
-    "copy-from": "mon_odd_giganfrog",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_odd_giganfrog"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_leo_frog",
     "type": "MONSTER",
-    "copy-from": "mon_leo_frog",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_leo_frog"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_pattern_frog",
     "type": "MONSTER",
-    "copy-from": "mon_pattern_frog",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_pattern_frog"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_bullfrog_frog",
     "type": "MONSTER",
-    "copy-from": "mon_bullfrog_frog",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_bullfrog_frog"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_strange_frog",
     "type": "MONSTER",
-    "copy-from": "mon_strange_frog",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_strange_frog"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_fowler_toad",
     "type": "MONSTER",
-    "copy-from": "mon_fowler_toad",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_fowler_toad"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_foul_toad",
     "type": "MONSTER",
-    "copy-from": "mon_foul_toad",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_foul_toad"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_freedom_toad",
     "type": "MONSTER",
-    "copy-from": "mon_freedom_toad",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_freedom_toad"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_odd_toad",
     "type": "MONSTER",
-    "copy-from": "mon_odd_toad",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_odd_toad"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_peeper_frog",
     "type": "MONSTER",
-    "copy-from": "mon_peeper_frog",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_peeper_frog"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_vocal_frog",
     "type": "MONSTER",
-    "copy-from": "mon_vocal_frog",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_vocal_frog"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_gray_frog",
     "type": "MONSTER",
-    "copy-from": "mon_gray_frog",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_gray_frog"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_shift_frog",
     "type": "MONSTER",
-    "copy-from": "mon_shift_frog",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_shift_frog"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_rattlesnake_s",
     "type": "MONSTER",
-    "copy-from": "mon_rattlesnake_s",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_rattlesnake_s"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_rattlesnake_big_s",
     "type": "MONSTER",
-    "copy-from": "mon_rattlesnake_big_s",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_rattlesnake_big_s"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_rattlesnake",
     "type": "MONSTER",
-    "copy-from": "mon_rattlesnake",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_rattlesnake"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_rattlesnake_big",
     "type": "MONSTER",
-    "copy-from": "mon_rattlesnake_big",
-    "extend": { "flags": [ "CANPLAY" ] }
+    "name": {
+      "str": "mon_rattlesnake_big"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_rattlesnake_giant",
     "type": "MONSTER",
-    "copy-from": "mon_rattlesnake_giant",
-    "extend": { "flags": [ "CANPLAY", "PET_MOUNTABLE" ] }
+    "name": {
+      "str": "mon_rattlesnake_giant"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   },
   {
     "id": "mon_rattlesnake_mega",
     "type": "MONSTER",
-    "copy-from": "mon_rattlesnake_mega",
-    "extend": { "flags": [ "CANPLAY", "PET_MOUNTABLE" ] }
+    "name": {
+      "str": "mon_rattlesnake_mega"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   }
 ]

@@ -12,27 +12,15 @@
         2
       ]
     ],
-    "mutation_conflicts": [
-      "COMPOUND_EYES",
-      "CEPH_VISION",
-      "CEPH_EYES",
-      "EYEBULGE",
-      "EYESTALKS1",
-      "EYESTALKS2"
-    ],
     "enchantments": [
       "ench_bio_dangersight_eyes"
     ],
-    "act_cost": "40 J",
-    "react_cost": "15 J",
-    "time": 1,
-    "flags": [
-      "BIONIC_TOGGLED"
-    ]
+    "act_cost": 40,
+    "react_cost": 15,
+    "time": 1
   },
   {
     "id": "bio_dangersight_eyes_standard",
-    "copy-from": "bio_dangersight_eyes_non_fifth_sun",
     "type": "bionic",
     "name": {
       "str": "Ohuicatlachiyaliztimeh"
@@ -41,17 +29,12 @@
   },
   {
     "id": "bio_power_storage_fifth_sun",
-    "copy-from": "bio_power_storage_mkII",
     "type": "bionic",
     "name": {
       "str": "Ikpitikayotecontli System"
     },
-    "capacity": "600 kJ",
-    "dupes_allowed": true,
-    "description": "A Compact Bionics Module that increases your power capacity by 600 kJ.",
-    "flags": [
-      "BIONIC_NPC_USABLE"
-    ]
+    "capacity": 600000,
+    "description": "A Compact Bionics Module that increases your power capacity by 600 kJ."
   },
   {
     "id": "bio_metabolics_fifth_sun",
@@ -70,12 +53,7 @@
       "metabolism"
     ],
     "fuel_efficiency": 0.3,
-    "time": 1,
-    "flags": [
-      "BIONIC_POWER_SOURCE",
-      "BIONIC_TOGGLED",
-      "BIONIC_NPC_USABLE"
-    ]
+    "time": 1
   },
   {
     "id": "bio_physical_buffs_fifth_sun",
@@ -110,24 +88,12 @@
         10
       ]
     ],
-    "mutation_conflicts": [
-      "LARGE",
-      "LARGE_OK",
-      "HUGE_OK",
-      "HUGE",
-      "SMALL",
-      "SMALL2",
-      "SMALL_OK"
-    ],
     "enchantments": [
       "ench_bio_physical_buffs"
     ],
-    "act_cost": "50 J",
-    "react_cost": "50 J",
-    "time": 1,
-    "flags": [
-      "BIONIC_TOGGLED"
-    ]
+    "act_cost": 50,
+    "react_cost": 50,
+    "time": 1
   },
   {
     "id": "bio_cameleoflage_fifth_sun",
@@ -178,14 +144,11 @@
         1
       ]
     ],
-    "act_cost": "400 J",
-    "react_cost": "400 J",
+    "act_cost": 400,
+    "react_cost": 400,
     "time": 1,
     "enchantments": [
-      "ench_bio_cameleoflage_fifth_sun"
-    ],
-    "flags": [
-      "BIONIC_TOGGLED"
+      "mom_inline_enchantment_1"
     ]
   }
 ]
