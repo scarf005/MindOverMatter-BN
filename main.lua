@@ -765,7 +765,7 @@ local teleport_potion_comedown = function(character)
   if has_effect(character, "effect_teleport_potion_comedown") and math.random(3) == 1 then
     add_effect(character, "effect_portal_storm_teleport", turns(20))
     add_msg("Reality suddenly warps around you and you are somewhere else!")
-    call(function() game.teleport_creature_random(character, 2, 12, true) end)
+    call(function() game.teleport_creature_random(character, { min_distance = 2, max_distance = 12, safe = true }) end)
   end
 end
 
