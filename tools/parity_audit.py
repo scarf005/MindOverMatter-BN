@@ -7,6 +7,8 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+DDA_ROOT = Path('/home/scarf/repo/Cataclysm-DDA/data/mods/MindOverMatter')
+BN_ROOT = Path('/home/scarf/repo/cata/Cataclysm-BN-worktrees/feat-mind-over-matter-port')
 RESIDUAL = re.compile(
     r'effect_on_condition|effect_on_conditions|jmath_function|run_eoc|run_eocs|completion_eoc|'
     r'do_turn_eoc|activated_eocs|deactivated_eocs|test_eoc|queue_eocs|ondamage_eocs|"eoc"\s*:|"math"\s*:|'
@@ -14,12 +16,26 @@ RESIDUAL = re.compile(
 )
 PLAYER_POWER_DIRS = { 'powers' }
 EXEMPT_ZERO_LEVEL_PREFIXES = ( 'nether_attunement_', )
+SKIPPED_DDA_TYPES = { 'effect_on_condition', 'jmath_function', 'proficiency', 'proficiency_category', 'practice', 'damage_info_order', 'monster_flag' }
+NON_APPLICABLE_BASE_MONSTERS = {
+    'mon_archunk_weak', 'mon_brute_pupa', 'mon_brute_pupa_decoy', 'mon_carrion_grub',
+    'mon_feral_cop_fungal_infected', 'mon_feral_human_axe_fungal_corpse', 'mon_feral_human_axe_fungal_infected',
+    'mon_feral_human_crowbar_fungal_corpse', 'mon_feral_human_crowbar_fungal_infected',
+    'mon_feral_human_pipe_fungal_corpse', 'mon_feral_human_pipe_fungal_infected', 'mon_frog_mega',
+    'mon_frog_mother', 'mon_fungal_raptor', 'mon_fungal_wretch', 'mon_fungaloid_shambler',
+    'mon_hulk_pupa', 'mon_hulk_pupa_decoy', 'mon_nether_fish', 'mon_nether_spearfisher',
+    'mon_shrapnel_swarm', 'mon_skeleton_brute_fungus', 'mon_skeleton_fungus', 'mon_structural_spur',
+    'mon_zombie_medical_pupa', 'mon_zombie_medical_regenerating', 'mon_zombie_pupa_medical_decoy',
+    'mon_zombie_regenerating',
+}
 REQUIRED_LUA_SNIPPETS = [
     'teleport_potion_comedown',
     'practice_focus_cost',
     'matrix_spell_adjustment',
     'awakening_reducer',
     'telepathic_stole_recently',
+    'apply_clair_night_eyes',
+    'on_book_skill_read',
 ]
 REQUIRED_IDS = {
     'GENERIC': { 'telekin_ritual_summon_strength_item' },
@@ -28,6 +44,10 @@ REQUIRED_IDS = {
         'pyrokin_call_flame_long_term',
         *{ f'telekin_ritual_summon_lifting_jack_{i}' for i in range( 1, 21 ) },
     },
+    'enchantment': { 'enchant_clair_speed_read' },
+    'monster_attack': { 'tk_smash' },
+    'construction': { 'ap_standing_pyrokinetic_lamp' },
+    'construction_group': { 'place_standing_pyrokinetic_lamp' },
 }
 
 
@@ -41,6 +61,25 @@ def objects(path: Path):
     return data if isinstance(data, list) else [data]
 
 
+def collect_ids(root: Path):
+    by_type: dict[str, set[str]] = {}
+    for path in root.rglob('*.json'):
+        if '.git' in path.parts:
+            continue
+        try:
+            objs = objects(path)
+        except Exception:
+            continue
+        for obj in objs:
+            if not isinstance(obj, dict):
+                continue
+            typ = obj.get('type')
+            oid = obj.get('id') or obj.get('abstract')
+            if isinstance(oid, str) and isinstance(typ, str):
+                by_type.setdefault(typ, set()).add(oid)
+    return by_type
+
+
 def main() -> int:
     errors: list[str] = []
     for path in ROOT.rglob('*'):
@@ -50,7 +89,10 @@ def main() -> int:
         if path.name not in {'TODO.md', 'parity_audit.py'} and RESIDUAL.search(text):
             errors.append(f'residual forbidden EoC/jmath/math token in {path.relative_to(ROOT)}')
 
-    by_type: dict[str, set[str]] = {}
+    by_type = collect_ids(ROOT)
+    dda_by_type = collect_ids(DDA_ROOT)
+    bn_base_monsters = collect_ids(BN_ROOT / 'data/json').get('MONSTER', set())
+
     for path in ROOT.rglob('*.json'):
         if '.git' in path.parts:
             continue
@@ -59,8 +101,6 @@ def main() -> int:
                 continue
             typ = obj.get('type')
             oid = obj.get('id') or obj.get('abstract')
-            if isinstance(oid, str) and isinstance(typ, str):
-                by_type.setdefault(typ, set()).add(oid)
             if typ == 'SPELL' and path.relative_to(ROOT).parts[:1] == ('powers',):
                 spell_id = str(oid)
                 if obj.get('max_level') == 0 and not spell_id.startswith(EXEMPT_ZERO_LEVEL_PREFIXES):
@@ -70,6 +110,19 @@ def main() -> int:
         present = by_type.get(typ, set())
         for oid in sorted(ids - present):
             errors.append(f'missing required {typ} id: {oid}')
+
+    for typ, dda_ids in sorted(dda_by_type.items()):
+        if typ in SKIPPED_DDA_TYPES:
+            continue
+        present = by_type.get(typ, set())
+        for oid in sorted(dda_ids - present):
+            if typ == 'MONSTER' and oid in NON_APPLICABLE_BASE_MONSTERS and oid not in bn_base_monsters:
+                continue
+            errors.append(f'missing DDA {typ} id without verified replacement: {oid}')
+
+    unexpected = sorted(oid for oid in NON_APPLICABLE_BASE_MONSTERS if oid in bn_base_monsters)
+    for oid in unexpected:
+        errors.append(f'non-applicable monster now exists in BN base and needs MoM override: {oid}')
 
     main_lua = (ROOT / 'main.lua').read_text(encoding='utf-8')
     for snippet in REQUIRED_LUA_SNIPPETS:
