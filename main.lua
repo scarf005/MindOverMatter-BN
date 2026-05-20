@@ -42,7 +42,7 @@ local mod_stamina = function(creature, amount)
   if creature then call(function() creature:mod_stamina(amount) end) end
 end
 local mod_vitamin = function(creature, id, amount)
-  if creature then call(function() creature:vitamin_mod(vitamin(id), amount, false) end) end
+  if creature then call(function() creature:vitamin_mod({ vitamin = vitamin(id), amount = amount, capped = false }) end) end
 end
 local set_vitamin = function(creature, id, amount)
   if creature then call(function() creature:vitamin_set(vitamin(id), amount) end) end
