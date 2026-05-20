@@ -280,6 +280,14 @@ handlers.on_craft_completed = function(params)
   return nil
 end
 
+handlers.on_book_skill_read = function(params)
+  local learner = params and params.learner
+  if not learner or not has_trait(learner, "CLAIR_SPEED_READ") then return nil end
+  local bonus = math.max(params.min_experience or 1, params.max_experience or 1)
+  call(function() learner:practice(skill(params.skill_id), bonus, params.book_level or 10, false) end)
+  return nil
+end
+
 handlers.on_game_started = function(params)
   local character = avatar()
   if has_trait(character, "BIOKINETIC") then teach_note_recipes(character, note_recipes.MOM_IUSE_BIOKIN_RECIPE_NOTE) end
