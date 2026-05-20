@@ -42,6 +42,12 @@ Goal: reach DDA Mind Over Matter feature parity in the XDG fork at `~/.local/sha
 - [x] Audit missing source IDs reported by parity script and either restore compatible JSON data or document exact Lua/JSON replacement.
 - [x] Restore non-gameplay docs/test data where safe: `NewPowerGuide.md`, `test_data.json` equivalents.
 
+## Final parity audit status
+
+- `tools/parity_audit.py` now compares DDA source IDs against the BN fork and fails on any unverified missing non-EoC/non-jmath ID.
+- Current unverified missing DDA IDs: 0.
+- Current DDA monster override IDs skipped as non-applicable: 28, all because the corresponding base monsters do not exist in BN base data.
+
 ## Required residual scan
 
 ```sh
