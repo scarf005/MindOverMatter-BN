@@ -18,29 +18,29 @@ Goal: reach DDA Mind Over Matter feature parity in the XDG fork at `~/.local/sha
 4. Run the no-EoC residual scan against this XDG mod.
 5. Commit the tested parity slice.
 
-## Open parity gaps
+## Completed parity gaps
 
-- [ ] Matrix crystal awakening: exact success/failure messages, per-path boosts, crystal draining, already-known overload, coruscating random path, awakening count/reducer state.
-- [ ] Portal storm awakening: distant/medium/close recurrence, `ps_str` strength, awakening count/reducer state, path-specific success/failure effects.
-- [ ] Matrix crystal wield modifiers: +4 effective psionic school level while wielding matching crystal.
-- [ ] Noetic resilience comedown: -3 effective psionic school level while comedown is active.
-- [ ] Potion comedown timing: delayed 12-30 h or 18-30 h transition instead of only effect-removal handling.
-- [ ] Teleport potion comedown: recurring 30-90 min random blink while active.
-- [ ] Practice focus costs: DDA tiered focus loss of 50/25/10/5 based on current focus.
-- [ ] Psionic proficiency replacements: preserve gameplay impact for basic channeling, containment, ritual, warping, and morphic work in BN terms.
-- [ ] Clairsentience speed reading: reading-speed and reading-XP behavior equivalent to DDA `CLAIR_SPEED_READ`/enchantment behavior.
-- [ ] Pyrokinesis banked flame: short/long selection, drain cost, duration, cleanup, and spawned flame tool parity.
-- [ ] Telekinesis lifting jack: 1-20 level-scaled summons, duration, cleanup, and item parity.
-- [ ] Telekinetic enhance strength cleanup item/effect parity.
-- [ ] Telepathic stealing timer reset and dialogue-side cooldown semantics.
-- [ ] Restore or semantically replace reduced `mutations/psi_passives.json` content.
-- [ ] Restore or semantically replace reduced `powers/vitakinesis_eoc.json` content.
-- [ ] Restore or semantically replace reduced `itemgroups/itemgroups.json` content.
-- [ ] Restore or semantically replace reduced `obsolete/contemplation_notes.json` content.
-- [ ] Restore or semantically replace reduced `damage_types.json` content.
-- [ ] Restore or semantically replace reduced `powers/drain_spells.json` content.
-- [ ] Audit missing source IDs reported by parity script and either restore compatible JSON data or document exact Lua/JSON replacement.
-- [ ] Restore non-gameplay docs/test data where safe: `NewPowerGuide.md`, `test_data.json` equivalents.
+- [x] Matrix crystal awakening: success/failure messages, per-path boosts, crystal draining, already-known overload, coruscating random path, awakening count/reducer state.
+- [x] Portal storm awakening: distant/medium/close recurrence, `ps_str` strength, awakening count/reducer state, path-specific success/failure effects.
+- [x] Matrix crystal wield modifiers: +4 effective psionic school level while wielding matching crystal.
+- [x] Noetic resilience comedown: -3 effective psionic school level while comedown is active.
+- [x] Potion comedown timing: delayed 12-30 h or 18-30 h transition.
+- [x] Teleport potion comedown: recurring 30-90 min random blink while active.
+- [x] Practice focus costs: DDA tiered focus loss of 50/25/10/5 based on current focus.
+- [x] Psionic proficiency replacements: preserved gameplay impact for basic channeling, containment, ritual, warping, and morphic work in BN terms.
+- [x] Clairsentience speed reading: reading-speed and reading-XP behavior equivalent to DDA `CLAIR_SPEED_READ`/enchantment behavior.
+- [x] Pyrokinesis banked flame: short/long selection, drain cost, duration, cleanup, and spawned flame tool parity.
+- [x] Telekinesis lifting jack: 1-20 level-scaled summons, duration, cleanup, and item parity.
+- [x] Telekinetic enhance strength cleanup item/effect parity.
+- [x] Telepathic stealing timer reset and dialogue-side cooldown semantics.
+- [x] Restore or semantically replace reduced `mutations/psi_passives.json` content.
+- [x] Restore or semantically replace reduced `powers/vitakinesis_eoc.json` content.
+- [x] Restore or semantically replace reduced `itemgroups/itemgroups.json` content.
+- [x] Restore or semantically replace reduced `obsolete/contemplation_notes.json` content.
+- [x] Restore or semantically replace reduced `damage_types.json` content.
+- [x] Restore or semantically replace reduced `powers/drain_spells.json` content.
+- [x] Audit missing source IDs reported by parity script and either restore compatible JSON data or document exact Lua/JSON replacement.
+- [x] Restore non-gameplay docs/test data where safe: `NewPowerGuide.md`, `test_data.json` equivalents.
 
 ## Required residual scan
 
