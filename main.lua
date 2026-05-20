@@ -307,6 +307,22 @@ handlers.on_creature_damaged = function(params)
   if has_effect(target, "effect_photokin_invisibility") then remove_effect(target, "effect_photokin_invisibility") end
   if has_effect(source, "effect_mom_artifact_electrical_zap_attack") then add_effect(target, "effect_stunned", turns(1)) end
   if has_effect(target, "effect_vita_return_from_death") then add_effect(target, "effect_vita_return_from_death_damage_tracker", minutes(1)) end
+  if params and params.damage and params.damage > 0 then
+    if params.damage_type == "psi_telekinetic_damage" then
+      if math.random(5) == 1 then add_effect(target, "downed", seconds(1)) end
+      if math.random(5) <= 2 then add_effect(target, "staggered", seconds(2)) end
+    elseif params.damage_type == "psi_telepathic_damage" then
+      if math.random(20) == 1 then add_effect(target, "downed", seconds(1)) end
+      if math.random(3) == 1 then add_effect(target, "stunned", seconds(1)) end
+      if math.random(3) <= 2 then add_effect(target, "psi_dazed", seconds(2)) end
+    elseif params.damage_type == "psi_photokinetic_damage" then
+      if math.random(4) == 1 then add_effect(target, "blind", seconds(2)) end
+    elseif params.damage_type == "psi_teleporter_teleporting_damage" then
+      add_effect(target, "effect_portal_storm_teleport", turns(5))
+    elseif params.damage_type == "psi_enervation_damage" then
+      mod_stamina(target, -250)
+    end
+  end
   return nil
 end
 

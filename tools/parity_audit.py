@@ -9,7 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 RESIDUAL = re.compile(
     r'effect_on_condition|effect_on_conditions|jmath_function|run_eoc|run_eocs|completion_eoc|'
-    r'do_turn_eoc|activated_eocs|deactivated_eocs|test_eoc|queue_eocs|"eoc"\s*:|"math"\s*:|'
+    r'do_turn_eoc|activated_eocs|deactivated_eocs|test_eoc|queue_eocs|ondamage_eocs|"eoc"\s*:|"math"\s*:|'
     r'result_eoc|result_eocs'
 )
 PLAYER_POWER_DIRS = { 'powers' }

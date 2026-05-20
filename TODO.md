@@ -45,5 +45,5 @@ Goal: reach DDA Mind Over Matter feature parity in the XDG fork at `~/.local/sha
 ## Required residual scan
 
 ```sh
-rg -n 'effect_on_condition|effect_on_conditions|jmath_function|run_eoc|run_eocs|completion_eoc|do_turn_eoc|activated_eocs|deactivated_eocs|test_eoc|queue_eocs|"eoc"\s*:|"math"\s*:|result_eoc|result_eocs' ~/.local/share/cataclysm-bn/mods/MindOverMatter
+rg -n 'effect_on_condition|effect_on_conditions|jmath_function|run_eoc|run_eocs|completion_eoc|do_turn_eoc|activated_eocs|deactivated_eocs|test_eoc|queue_eocs|ondamage_eocs|"eoc"\s*:|"math"\s*:|result_eoc|result_eocs' ~/.local/share/cataclysm-bn/mods/MindOverMatter
 ```
