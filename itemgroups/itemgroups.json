@@ -813,5 +813,125 @@
         "prob": 1
       }
     ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "homebooks",
+    "items": [
+      {
+        "group": "dist_meditation_books_begin",
+        "prob": 8
+      },
+      {
+        "group": "dist_meditation_books_int",
+        "prob": 4
+      }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "SUS_book_nonf_pulp_newage",
+    "items": [
+      {
+        "group": "dist_meditation_books_begin",
+        "prob": 1
+      },
+      {
+        "group": "dist_meditation_books_int",
+        "prob": 1
+      }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "SUS_book_nonf_soft_psych",
+    "items": [
+      {
+        "group": "dist_meditation_books_begin",
+        "prob": 1
+      },
+      {
+        "group": "dist_meditation_books_int",
+        "prob": 1
+      }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "lab_bookshelves",
+    "items": [
+      {
+        "group": "dist_meditation_books_begin",
+        "prob": 6
+      },
+      {
+        "group": "dist_meditation_books_int",
+        "prob": 4
+      }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "mansion_books",
+    "items": [
+      {
+        "group": "dist_meditation_books_begin",
+        "prob": 10
+      },
+      {
+        "group": "dist_meditation_books_int",
+        "prob": 5
+      }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "science",
+    "items": [
+      {
+        "item": "manual_meditation_int",
+        "prob": 6
+      },
+      {
+        "item": "manual_meditation_int",
+        "prob": 3
+      },
+      {
+        "item": "manual_psionics_advan",
+        "prob": 3
+      }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "chem_lab",
+    "items": [
+      {
+        "item": "manual_psionics_advan",
+        "prob": 2
+      }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "textbooks_school",
+    "items": [
+      {
+        "item": "manual_meditation",
+        "prob": 5
+      },
+      {
+        "item": "manual_meditation",
+        "prob": 3
+      }
+    ]
   }
 ]
