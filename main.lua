@@ -431,6 +431,12 @@ local apply_lua_spell_semantics = function(caster, params)
     return true
   end
   if key == "EOC_TELEKINETIC_LIFTER" then advance_lifter(caster); return true end
+  if key == "EOC_TELEKIN_STRENGTH_INITIATE" then
+    consume_item(caster, "telekin_ritual_summon_strength_item", 1)
+    create_item(caster, "telekin_ritual_summon_strength_item", 1)
+    add_effect(caster, "effect_telekinetic_strength", minutes(10))
+    return true
+  end
   if key == "EOC_END_PSI_POWERS_MAINTAINED" or key == "EOC_END_PSI_POWERS_SPECIFIC" then
     for _, id in pairs(concentration_effects) do remove_effect(caster, id) end
     return true
