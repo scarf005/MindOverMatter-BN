@@ -9,6 +9,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DDA_ROOT = Path('/home/scarf/repo/Cataclysm-DDA/data/mods/MindOverMatter')
 BN_ROOT = Path('/home/scarf/repo/cata/Cataclysm-BN-worktrees/feat-mind-over-matter-port')
+ITEM_TYPES = {
+    'AMMO', 'ARMOR', 'BIONIC_ITEM', 'BOOK', 'COMESTIBLE', 'ENGINE', 'GENERIC', 'GUN', 'MAGAZINE',
+    'PET_ARMOR', 'TOOL', 'TOOL_ARMOR', 'VAR_VEH_PART', 'WHEEL', 'vehicle_part',
+}
 RESIDUAL = re.compile(
     r'effect_on_condition|effect_on_conditions|jmath_function|run_eoc|run_eocs|completion_eoc|'
     r'do_turn_eoc|activated_eocs|deactivated_eocs|test_eoc|queue_eocs|ondamage_eocs|"eoc"\s*:|"math"\s*:|'
@@ -103,6 +107,65 @@ def collect_ids(root: Path):
     return by_type
 
 
+def merge_ids(*sources: dict[str, set[str]]) -> dict[str, set[str]]:
+    merged: dict[str, set[str]] = {}
+    for source in sources:
+        for typ, ids in source.items():
+            merged.setdefault(typ, set()).update(ids)
+    return merged
+
+
+def ids_for_types(by_type: dict[str, set[str]], types: set[str]) -> set[str]:
+    result: set[str] = set()
+    for typ in types:
+        result.update(by_type.get(typ, set()))
+    return result
+
+
+def literal_refs(text: str, patterns: list[str]) -> set[str]:
+    refs: set[str] = set()
+    for pattern in patterns:
+        refs.update(re.findall(pattern, text))
+    return refs
+
+
+def validate_lua_references(main_lua: str, all_ids: dict[str, set[str]]) -> list[str]:
+    checks = {
+        'effect_type': (
+            all_ids.get('effect_type', set()),
+            [
+                r'add_effect\([^\n]*?,\s*"([^"]+)"',
+                r'remove_effect\([^\n]*?,\s*"([^"]+)"',
+                r'has_effect\([^\n]*?,\s*"([^"]+)"',
+                r'[A-Z_]+\s*=\s*"(effect_[^"]+)"',
+                r'[A-Z_]+\s*=\s*"(eff_[^"]+)"',
+            ],
+        ),
+        'json_flag': (all_ids.get('json_flag', set()), [r'has_item_with_flag\([^\n]*?,\s*"([^"]+)"']),
+        'item': (ids_for_types(all_ids, ITEM_TYPES), [r'create_item\([^\n]*?,\s*"([^"]+)"', r'consume_item\([^\n]*?,\s*"([^"]+)"']),
+        'MONSTER': (all_ids.get('MONSTER', set()), [r'spawn_monster\(\s*"([^"]+)"']),
+        'mutation': (
+            all_ids.get('mutation', set()),
+            [
+                r'set_trait\(\s*\w+,\s*"([^"]+)"',
+                r'unset_trait\(\s*\w+,\s*"([^"]+)"',
+                r'has_trait\(\s*\w+,\s*"([^"]+)"',
+            ],
+        ),
+        'recipe': (all_ids.get('recipe', set()), [r'learn_recipe\([^\n]*?,\s*"([^"]+)"']),
+        'SPELL': (all_ids.get('SPELL', set()), [r'set_spell_level\([^\n]*?,\s*"([^"]+)"', r'add_char_spell_exp\([^\n]*?,\s*"([^"]+)"']),
+        'skill': (all_ids.get('skill', set()), [r'skill\(\s*"([^"]+)"\s*\)']),
+        'vitamin': (all_ids.get('vitamin', set()), [r'mod_vitamin\([^\n]*?,\s*"([^"]+)"', r'set_vitamin\([^\n]*?,\s*"([^"]+)"']),
+    }
+    errors: list[str] = []
+    for label, (known, patterns) in checks.items():
+        for ref in sorted(literal_refs(main_lua, patterns) - known):
+            if ref.endswith('_'):
+                continue
+            errors.append(f'Lua references unknown {label} id: {ref}')
+    return errors
+
+
 def main() -> int:
     errors: list[str] = []
     for path in ROOT.rglob('*'):
@@ -114,7 +177,9 @@ def main() -> int:
 
     by_type = collect_ids(ROOT)
     dda_by_type = collect_ids(DDA_ROOT)
-    bn_base_monsters = collect_ids(BN_ROOT / 'data/json').get('MONSTER', set())
+    bn_base_by_type = collect_ids(BN_ROOT / 'data/json')
+    all_ids = merge_ids(bn_base_by_type, by_type)
+    bn_base_monsters = bn_base_by_type.get('MONSTER', set())
 
     for path in ROOT.rglob('*.json'):
         if '.git' in path.parts:
@@ -148,6 +213,8 @@ def main() -> int:
         errors.append(f'non-applicable monster now exists in BN base and needs MoM override: {oid}')
 
     main_lua = (ROOT / 'main.lua').read_text(encoding='utf-8')
+    errors.extend(validate_lua_references(main_lua, all_ids))
+
     for snippet in REQUIRED_LUA_SNIPPETS:
         if snippet not in main_lua:
             errors.append(f'missing Lua parity marker: {snippet}')

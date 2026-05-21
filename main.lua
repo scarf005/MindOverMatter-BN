@@ -391,7 +391,7 @@ handlers.on_game_started = function(params)
     set_spell_level(character, "pyrokinetic_flamethrower_knack", 6)
     set_spell_level(character, "pyrokinetic_aura_knack", 5)
     set_spell_level(character, "pyrokinetic_blast_knack", 5)
-    learn_recipe(character, "psi_centering_meditation_drain_reduce_heart_of_fire")
+    learn_recipe(character, "psi_centering_meditation_drain_reduce")
   end
   return nil
 end
