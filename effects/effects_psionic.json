@@ -2418,6 +2418,118 @@
   },
   {
     "type": "effect_type",
+    "id": "effect_vita_return_from_death_damage_tracker",
+    "name": [ "Resuscitation Shock" ],
+    "desc": [ "Your vital force is tracking recent trauma." ],
+    "rating": "bad",
+    "max_duration": 600
+  },
+  {
+    "type": "effect_type",
+    "id": "effect_psi_lost_concentration",
+    "name": [ "Lost Concentration" ],
+    "desc": [ "Your psionic concentration was disrupted." ],
+    "rating": "bad",
+    "max_duration": 600
+  },
+  {
+    "type": "effect_type",
+    "id": "eff_mind_seeing_bonus_20",
+    "name": [ "Mind Sense" ],
+    "desc": [ "You are unusually aware of nearby minds." ],
+    "rating": "good",
+    "max_duration": 36000
+  },
+  {
+    "type": "effect_type",
+    "id": "eff_mind_seeing_bonus_30",
+    "name": [ "Mind Sense" ],
+    "desc": [ "You are acutely aware of nearby minds." ],
+    "rating": "good",
+    "max_duration": 36000
+  },
+  {
+    "type": "effect_type",
+    "id": "effect_biokin_concentration",
+    "name": [ "Biokinetic Concentration" ],
+    "desc": [ "You are maintaining biokinetic focus." ],
+    "rating": "good",
+    "max_duration": 36000
+  },
+  {
+    "type": "effect_type",
+    "id": "effect_clair_concentration",
+    "name": [ "Clairsentient Concentration" ],
+    "desc": [ "You are maintaining clairsentient focus." ],
+    "rating": "good",
+    "max_duration": 36000
+  },
+  {
+    "type": "effect_type",
+    "id": "effect_electrokin_concentration",
+    "name": [ "Electrokinetic Concentration" ],
+    "desc": [ "You are maintaining electrokinetic focus." ],
+    "rating": "good",
+    "max_duration": 36000
+  },
+  {
+    "type": "effect_type",
+    "id": "effect_photokin_concentration",
+    "name": [ "Photokinetic Concentration" ],
+    "desc": [ "You are maintaining photokinetic focus." ],
+    "rating": "good",
+    "max_duration": 36000
+  },
+  {
+    "type": "effect_type",
+    "id": "effect_pyrokin_concentration",
+    "name": [ "Pyrokinetic Concentration" ],
+    "desc": [ "You are maintaining pyrokinetic focus." ],
+    "rating": "good",
+    "max_duration": 36000
+  },
+  {
+    "type": "effect_type",
+    "id": "effect_vitakin_concentration",
+    "name": [ "Vitakinetic Concentration" ],
+    "desc": [ "You are maintaining vitakinetic focus." ],
+    "rating": "good",
+    "max_duration": 36000
+  },
+  {
+    "type": "effect_type",
+    "id": "effect_pyrokinetic_light",
+    "name": [ "Pyrokinetic Light" ],
+    "desc": [ "A controlled flame lights your surroundings." ],
+    "rating": "good",
+    "max_duration": 36000
+  },
+  {
+    "type": "effect_type",
+    "id": "effect_telekin_concentration",
+    "name": [ "Telekinetic Concentration" ],
+    "desc": [ "You are maintaining telekinetic focus." ],
+    "rating": "good",
+    "max_duration": 36000
+  },
+  {
+    "type": "effect_type",
+    "id": "effect_telepath_concentration",
+    "name": [ "Telepathic Concentration" ],
+    "desc": [ "You are maintaining telepathic focus." ],
+    "rating": "good",
+    "max_duration": 36000
+  },
+  {
+    "type": "effect_type",
+    "id": "effect_teleport_concentration",
+    "name": [ "Teleportation Concentration" ],
+    "desc": [ "You are maintaining teleportation focus." ],
+    "rating": "good",
+    "max_duration": 36000
+  },
+  {
+    "type": "effect_type",
     "id": "effect_vita_health_conjunctivitis_bacterial_protection",
     "//": "Hidden effect, prevents bacterial conjunctivitis from becoming conjunctivitis",
     "name": [

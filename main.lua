@@ -41,6 +41,9 @@ end
 local mod_stamina = function(creature, amount)
   if creature then call(function() creature:mod_stamina(amount) end) end
 end
+local mod_fatigue = function(creature, amount)
+  if creature then call(function() creature:mod_fatigue(amount) end) end
+end
 local mod_vitamin = function(creature, id, amount)
   if creature then call(function() creature:vitamin_mod({ vitamin = vitamin(id), amount = amount, capped = false }) end) end
 end
@@ -398,12 +401,12 @@ handlers.on_creature_damaged = function(params)
   local target = params and params.target
   if has_effect(source, "effect_photokin_invisibility") then remove_effect(source, "effect_photokin_invisibility") end
   if has_effect(target, "effect_photokin_invisibility") then remove_effect(target, "effect_photokin_invisibility") end
-  if has_effect(source, "effect_mom_artifact_electrical_zap_attack") then add_effect(target, "effect_stunned", turns(1)) end
+  if has_effect(source, "effect_mom_artifact_electrical_zap_attack") then add_effect(target, "stunned", turns(1)) end
   if has_effect(target, "effect_vita_return_from_death") then add_effect(target, "effect_vita_return_from_death_damage_tracker", minutes(1)) end
   if params and params.damage and params.damage > 0 then
     if params.damage_type == "psi_telekinetic_damage" then
       if math.random(5) == 1 then add_effect(target, "downed", seconds(1)) end
-      if math.random(5) <= 2 then add_effect(target, "staggered", seconds(2)) end
+      if math.random(5) <= 2 then add_effect(target, "psi_dazed", seconds(2)) end
     elseif params.damage_type == "psi_telepathic_damage" then
       if math.random(20) == 1 then add_effect(target, "downed", seconds(1)) end
       if math.random(3) == 1 then add_effect(target, "stunned", seconds(1)) end
@@ -538,6 +541,28 @@ local apply_lua_spell_semantics = function(caster, params)
     for _, id in pairs(concentration_effects) do remove_effect(caster, id) end
     return true
   end
+  if key == "EOC_TELEKINETIC_FAR_HAND_SELECTOR" then add_effect(target_creature(params), "psi_dazed", turns(2)); add_msg("A telekinetic pull yanks the target toward you."); return true end
+  if key == "EOC_TELEKINETIC_FORCE_SHOVE_SELECTOR" then add_effect(target_creature(params), "downed", turns(1)); add_msg("Telekinetic force shoves the target away."); return true end
+  if key == "EOC_TELEKIN_WAVE_TARGETS" then add_effect(target_creature(params), "psi_dazed", turns(2)); add_effect(target_creature(params), "downed", turns(1)); return true end
+  if key == "EOC_TELEKIN_REMOVE_ENHANCE_STRENGTH" then remove_effect(caster, "effect_telekinetic_strength"); consume_item(caster, "telekin_ritual_summon_strength_item", 1); return true end
+  if key == "EOC_TELEPORT_BLINK_INITIATE" then call(function() game.teleport_creature_random(caster, { min_distance = 2, max_distance = 12, safe = true }) end); return true end
+  if key == "EOC_TELEPORT_FARSTEP_INITIATE" then call(function() game.teleport_creature_random(caster, { min_distance = 12, max_distance = 80, safe = true }) end); return true end
+  if key == "EOC_TELEPORT_SPACIAL_VORTEX" then add_effect(target_creature(params), "stunned", turns(2)); add_msg("Space twists violently around the target."); return true end
+  if key == "EOC_TELEPORTER_OUBLIETTE_HANDLING" then add_effect(target_creature(params), "effect_psi_neutralized", minutes(5)); add_msg("Space folds around the target and tries to cast it away."); return true end
+  if key == "EOC_TELEPORT_GATEWAY_SELECTOR" then add_msg("A controlled gateway opens for a moment."); return true end
+  if key == "EOC_VITAKIN_STOP_BLEEDING_EOC" then remove_effect(caster, "bleed"); add_effect(caster, "effect_vitakin_slow_bleeding", minutes(10)); return true end
+  if key == "EOC_VITAKIN_STOP_INFECTION_SWITCH" then remove_effect(caster, "infected"); add_effect(caster, "recover", hours(12)); return true end
+  if key == "EOC_VITAKIN_BANISH_ILLNESS_SELECTOR" then remove_effect(caster, "asthma"); remove_effect(caster, "poison"); remove_effect(caster, "badpoison"); remove_effect(caster, "foodpoison"); add_effect(caster, "effect_asthma_disease_absorbed", hours(12)); return true end
+  if key == "silent_one_polymorph_to_hostile" or key == "mon_nether_silent_one_aggressive" then add_msg("The silent one turns openly hostile."); return true end
+  if key == "nether_banish_monster" or key == "nether_banish_monster_greater" then add_effect(target_creature(params), "effect_psi_neutralized", minutes(5)); return true end
+  if key == "pigeon_aura" then add_effect(caster, "effect_telekin_concentration", minutes(5)); return true end
+  if key == "GROUP_SPAWN_PSI_RAPTOR" then spawn_monster("mon_spawn_raptor_teke_push", params and params.target, 3); return true end
+  if key == "telelixir_random" then call(function() game.teleport_creature_random(caster, { min_distance = 2, max_distance = 20, safe = false }) end); return true end
+  if key == "mon_photokin_image" or key == "mon_photokin_army_image" then spawn_monster(key, params and params.target, 2); return true end
+  if key == "mon_pyrokin_hotair_2" or key == "mon_pyrokin_hotair_3" or key == "mon_pyrokin_hotair_4" then spawn_monster(key, params and params.target, 1); return true end
+  if key == "pure_translocate_power" then call(function() game.teleport_creature_random(caster, { min_distance = 6, max_distance = 60, safe = true }) end); return true end
+  if key == "MoM_AEA_DIM" or key == "dim" then add_effect(caster, "blind", turns(2)); return true end
+  if key == "MoM_AEA_ILLUSIONARY_ARMY" then spawn_monster("mon_photokin_army_image", params and params.target, 3); return true end
   if key == "biokin_sealed_system" then remove_effect(caster, "effect_biokin_breathe_skin"); return true end
   if key == "biokin_climate_control" then remove_effect(caster, "effect_biokin_climate_control"); return true end
   if key == "effect_telepathic_learning_bonus" then remove_effect(caster, "effect_telepathic_learning_bonus"); return true end
@@ -569,7 +594,7 @@ local apply_lua_spell_semantics = function(caster, params)
     return true
   end
   if key == "EOC_TELEPORTER_TRIFFID_SUMMON_ALLIES" then spawn_monster("mon_triffid_young", params and params.target, 3); return true end
-  if key == "EOC_ELECTROKIN_MONSTER_PARALYSIS" then add_effect(target_creature(params), "effect_stunned", turns(3)); return true end
+  if key == "EOC_ELECTROKIN_MONSTER_PARALYSIS" then add_effect(target_creature(params), "stunned", turns(3)); return true end
   if key == "EOC_ELECTRONKINETIC_MONSTER_POWER_DRAINING" then add_effect(target_creature(params), "effect_nether_attunement_electrokinetic_power_drain", minutes(5)); return true end
   if key == "EOC_TELEPORT_OUBLIETTE_MONSTER" then add_effect(target_creature(params), "effect_psi_neutralized", minutes(5)); add_msg("Space folds around the target and tries to cast it away."); return true end
   if key == "EOC_TRIFFID_CLEAR_DISCERN_WEAKNESS" then add_effect(target_creature(params), "effect_clair_weak_point", minutes(5)); return true end
@@ -589,7 +614,7 @@ local apply_lua_spell_semantics = function(caster, params)
     return true
   end
   if key == "EOC_MoM_AEA_NETHER_ATTUNEMENT" then add_effect(caster, "effect_nether_attunement_power_surge", minutes(10)); return true end
-  if key == "EOC_MoM_AEA_AREA_PARALYSIS" then add_effect(target_creature(params), "effect_stunned", turns(5)); return true end
+  if key == "EOC_MoM_AEA_AREA_PARALYSIS" then add_effect(target_creature(params), "stunned", turns(5)); return true end
   if key == "EOC_MoM_AEA_INTENSIFY_NEARBY_FLAMES" then add_effect(caster, "effect_pyrokinetic_aura_damage", minutes(5)); return true end
   if key == "EOC_NETHER_EFFECT_APPLY_TELEPORT_MISJUMP" then add_effect(caster, "effect_teleport_mishap_tindrift_warning", minutes(5)); return true end
   if key == "EOC_MOM_ABJURATION_STONE_SPELL_EFFECTS" then add_effect(target_creature(params) or caster, "effect_psi_neutralized", minutes(10)); return true end

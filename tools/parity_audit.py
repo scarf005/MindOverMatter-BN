@@ -37,12 +37,35 @@ REQUIRED_LUA_SNIPPETS = [
     'apply_clair_night_eyes',
     'on_book_skill_read',
 ]
+HANDLED_LUA_SPELL_PATTERNS = [
+    re.compile(r'.*_knack$'),
+    re.compile(r'^effect_biokin_pkill_[1-6]$'),
+    re.compile(r'^effect_clair_night_eyes_[1-8]$'),
+    re.compile(r'^fd_hot_air[2-4]$'),
+    re.compile(r'^EOC_.*_MATRIX_AWAKENING$'),
+]
+
 REQUIRED_IDS = {
     'GENERIC': { 'telekin_ritual_summon_strength_item' },
     'SPELL': {
         'pyrokin_call_flame_short_term',
         'pyrokin_call_flame_long_term',
         *{ f'telekin_ritual_summon_lifting_jack_{i}' for i in range( 1, 21 ) },
+    },
+    'effect_type': {
+        'effect_biokin_concentration',
+        'effect_clair_concentration',
+        'effect_electrokin_concentration',
+        'effect_photokin_concentration',
+        'effect_pyrokin_concentration',
+        'effect_telekin_concentration',
+        'effect_telepath_concentration',
+        'effect_teleport_concentration',
+        'effect_vitakin_concentration',
+        'effect_psi_lost_concentration',
+        'effect_vita_return_from_death_damage_tracker',
+        'eff_mind_seeing_bonus_20',
+        'eff_mind_seeing_bonus_30',
     },
     'enchantment': { 'enchant_clair_speed_read' },
     'monster_attack': { 'tk_smash' },
@@ -128,6 +151,21 @@ def main() -> int:
     for snippet in REQUIRED_LUA_SNIPPETS:
         if snippet not in main_lua:
             errors.append(f'missing Lua parity marker: {snippet}')
+
+    for path in ROOT.rglob('*.json'):
+        if '.git' in path.parts:
+            continue
+        for obj in objects(path):
+            if not isinstance(obj, dict) or obj.get('type') != 'SPELL' or obj.get('effect') != 'lua':
+                continue
+            spell_id = obj.get('id')
+            effect_id = obj.get('effect_str')
+            keys = [key for key in (effect_id, spell_id) if isinstance(key, str)]
+            if any(key in main_lua for key in keys):
+                continue
+            if any(pattern.match(key) for key in keys for pattern in HANDLED_LUA_SPELL_PATTERNS):
+                continue
+            errors.append(f'lua spell lacks explicit semantic coverage: {path.relative_to(ROOT)}:{spell_id}:{effect_id}')
 
     if errors:
         print('\n'.join(errors))
