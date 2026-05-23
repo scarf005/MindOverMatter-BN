@@ -1,0 +1,8 @@
+[
+  {
+    "type": "enchantment",
+    "id": "enchant_clair_speed_read",
+    "condition": "ALWAYS",
+    "has": "WORN"
+  }
+]

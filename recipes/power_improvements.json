@@ -1,9 +1,6 @@
 [
   {
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
-    "name": "contemplation: lifting field",
-    "id": "improve_telekinesis_lifting_field",
     "description": "WARNING: DO NOT USE IF YOUR LIFTING FIELD CONTAINS ANYTHING.\n\nContemplate your powers and improve your ability to carry objects for long periods of time.\n\nWARNING: DO NOT USE IF YOUR LIFTING FIELD CONTAINS ANYTHING.",
     "category": "CC_PSIONIC",
     "subcategory": "CSC_PSIONIC_OTHER",
@@ -11,8 +8,19 @@
     "difficulty": 0,
     "time": "1 h",
     "autolearn": false,
-    "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
-    "flags": [ "SECRET", "BLIND_HARD" ],
-    "result_eocs": [ "EOC_TELEKINETIC_LIFTER" ]
+    "tools": [
+      [
+        [
+          "matrix_crystal_drained",
+          -1
+        ]
+      ]
+    ],
+    "flags": [
+      "SECRET",
+      "BLIND_HARD"
+    ],
+    "result": "mom_telekinetic_lifting_field_training",
+    "id": "improve_telekinesis_lifting_field"
   }
 ]

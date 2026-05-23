@@ -1,0 +1,198 @@
+[
+  {
+    "type": "item_action",
+    "id": "MOM_IUSE_BIOKIN_POTION",
+    "name": {
+      "str": "Use psionic item"
+    }
+  },
+  {
+    "type": "item_action",
+    "id": "MOM_IUSE_CLAIR_POTION",
+    "name": {
+      "str": "Use psionic item"
+    }
+  },
+  {
+    "type": "item_action",
+    "id": "MOM_IUSE_PYROKIN_POTION",
+    "name": {
+      "str": "Use psionic item"
+    }
+  },
+  {
+    "type": "item_action",
+    "id": "MOM_IUSE_TELEKIN_POTION",
+    "name": {
+      "str": "Use psionic item"
+    }
+  },
+  {
+    "type": "item_action",
+    "id": "MOM_IUSE_TELEPATH_POTION",
+    "name": {
+      "str": "Use psionic item"
+    }
+  },
+  {
+    "type": "item_action",
+    "id": "MOM_IUSE_TELEPORT_POTION",
+    "name": {
+      "str": "Use psionic item"
+    }
+  },
+  {
+    "type": "item_action",
+    "id": "MOM_IUSE_VITAKIN_POTION",
+    "name": {
+      "str": "Use psionic item"
+    }
+  },
+  {
+    "type": "item_action",
+    "id": "MOM_IUSE_DRAIN_RESIST_POTION",
+    "name": {
+      "str": "Use psionic item"
+    }
+  },
+  {
+    "type": "item_action",
+    "id": "MOM_IUSE_INSTABILITY_CREAM",
+    "name": {
+      "str": "Use psionic item"
+    }
+  },
+  {
+    "type": "item_action",
+    "id": "MOM_IUSE_ZENER_DECK",
+    "name": {
+      "str": "Use psionic item"
+    }
+  },
+  {
+    "type": "item_action",
+    "id": "MOM_IUSE_FORCE_FIELD_GENERATOR",
+    "name": {
+      "str": "Use psionic item"
+    }
+  },
+  {
+    "type": "item_action",
+    "id": "MOM_IUSE_CHAOS_STONE",
+    "name": {
+      "str": "Use psionic item"
+    }
+  },
+  {
+    "type": "item_action",
+    "id": "MOM_IUSE_BIOKIN_MATRIX",
+    "name": {
+      "str": "Use psionic item"
+    }
+  },
+  {
+    "type": "item_action",
+    "id": "MOM_IUSE_CLAIR_MATRIX",
+    "name": {
+      "str": "Use psionic item"
+    }
+  },
+  {
+    "type": "item_action",
+    "id": "MOM_IUSE_PYROKIN_MATRIX",
+    "name": {
+      "str": "Use psionic item"
+    }
+  },
+  {
+    "type": "item_action",
+    "id": "MOM_IUSE_TELEKIN_MATRIX",
+    "name": {
+      "str": "Use psionic item"
+    }
+  },
+  {
+    "type": "item_action",
+    "id": "MOM_IUSE_TEEP_MATRIX",
+    "name": {
+      "str": "Use psionic item"
+    }
+  },
+  {
+    "type": "item_action",
+    "id": "MOM_IUSE_TELEPORT_MATRIX",
+    "name": {
+      "str": "Use psionic item"
+    }
+  },
+  {
+    "type": "item_action",
+    "id": "MOM_IUSE_VITAKIN_MATRIX",
+    "name": {
+      "str": "Use psionic item"
+    }
+  },
+  {
+    "type": "item_action",
+    "id": "MOM_IUSE_DRAINED_MATRIX",
+    "name": {
+      "str": "Use psionic item"
+    }
+  },
+  {
+    "type": "item_action",
+    "id": "MOM_IUSE_CORUSCATING_MATRIX",
+    "name": {
+      "str": "Use psionic item"
+    }
+  },
+  {
+    "type": "item_action",
+    "id": "MOM_IUSE_BIOKIN_RECIPE_NOTE",
+    "name": {
+      "str": "Use psionic item"
+    }
+  },
+  {
+    "type": "item_action",
+    "id": "MOM_IUSE_CLAIR_RECIPE_NOTE",
+    "name": {
+      "str": "Use psionic item"
+    }
+  },
+  {
+    "type": "item_action",
+    "id": "MOM_IUSE_PYROKIN_RECIPE_NOTE",
+    "name": {
+      "str": "Use psionic item"
+    }
+  },
+  {
+    "type": "item_action",
+    "id": "MOM_IUSE_TELEKIN_RECIPE_NOTE",
+    "name": {
+      "str": "Use psionic item"
+    }
+  },
+  {
+    "type": "item_action",
+    "id": "MOM_IUSE_TELEPATH_RECIPE_NOTE",
+    "name": {
+      "str": "Use psionic item"
+    }
+  },
+  {
+    "type": "item_action",
+    "id": "MOM_IUSE_TELEPORT_RECIPE_NOTE",
+    "name": {
+      "str": "Use psionic item"
+    }
+  },
+  {
+    "type": "item_action",
+    "id": "MOM_IUSE_VITAKIN_RECIPE_NOTE",
+    "name": {
+      "str": "Use psionic item"
+    }
+  }
+]

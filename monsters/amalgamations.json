@@ -1,0 +1,154 @@
+[
+  {
+    "type": "MONSTER",
+    "id": "mon_amalgamation_photokinetic_flashbanger",
+    "symbol": "\u00e4",
+    "name": {
+      "str": "radiant amalgamation"
+    },
+    "description": "A four-legged creature with bulbous body and a small head with a fanged maw, with three multi-jointed limbs waving above it in the air.  The limbs emit a soft glow, occasionally brightening into a eye-searing flare.",
+    "luminance": 5,
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_amalgamation_photokinetic_irradiator",
+    "symbol": "A",
+    "name": {
+      "str": "phosphorescent amalgamation"
+    },
+    "description": "A large creature with a sleek body running on seven multi-jointed legs, with four large mandibles dominating what you are forced by necessity to call its face.  It glows with an eerie blue light that gives you an uneasy feeling.",
+    "volume": 100000,
+    "weight": 100000,
+    "hp": 150,
+    "melee_skill": 5,
+    "luminance": 30,
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "color": "white",
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_amalgamation_telekinetic_shielder",
+    "symbol": "\u00e4",
+    "name": {
+      "str": "guardian amalgamation"
+    },
+    "description": "A four-legged creature with a crab-like shell, with two eyes on stubby stalks and a small mouth filled with sharp fangs.  Three additional limbs with bulbous growths on their ends wave around, seemingly randomly except when they point briefly at one of the walking dead.",
+    "speed": 100,
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_amalgamation_telepathic_distractor",
+    "symbol": "\u00e4",
+    "name": {
+      "str": "whispering amalgamation"
+    },
+    "description": "A smooth, round body skittering around on seven jointed legs, this abomination does not seem to have any sensory organs at all.  When you look at it, you hear faint whispers in the back of your mind.",
+    "vision_day": 5,
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_amalgamation_vitakinetic_debuffer",
+    "symbol": "\u00e4",
+    "name": {
+      "str": "enervating amalgamation"
+    },
+    "description": "An elongated body moving irregularly on five legs, with two flexible tentacles waving in the air as it moves.  It seems to have no head, with a ring of black spots on top that might be sensory organs.  Its skin is perfectly smooth and greyish-white, without a single spot or blemish.",
+    "speed": 95,
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  }
+]

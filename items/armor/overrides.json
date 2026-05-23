@@ -1,0 +1,35 @@
+[
+  {
+    "id": "dimensional_anchor",
+    "type": "TOOL",
+    "category": "clothing",
+    "name": {
+      "str": "5-point anchor"
+    },
+    "description": "No description.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "id": "dimensional_anchor_on",
+    "type": "TOOL",
+    "category": "clothing",
+    "name": {
+      "str": "5-point anchor (on)",
+      "str_pl": "5-point anchors (on)"
+    },
+    "description": "No description.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  }
+]

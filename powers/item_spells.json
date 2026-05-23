@@ -1,21 +1,104 @@
 [
   {
-    "id": "grenade_inferno_explosion",
+    "id": "grenade_anti_psi_explosion",
     "type": "SPELL",
-    "name": "[Ψ]Inferno Grenade Explosion",
-    "description": "The explosion created by an inferno grenade.  If you cast this yourself you're 100% going to die.",
-    "valid_targets": [ "hostile", "ground" ],
+    "name": {
+      "str": "[\u03a8]Null Grenade Explosion",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "The wave of anti-psi created by a null grenade.  If you cast this yourself you're 100% going to have some problems.",
+      "//~": "NO_I18N"
+    },
+    "valid_targets": [
+      "hostile",
+      "ally",
+      "self",
+      "ground"
+    ],
     "skill": "metaphysics",
-    "flags": [ "LOUD", "NO_PROJECTILE", "IGNITE_FLAMMABLE", "RANDOM_DAMAGE", "NO_HANDS", "RANDOM_AOE", "NO_LEGS" ],
-    "effect": "attack",
-    "shape": "blast",
-    "damage_type": "heat",
+    "effect": "target_attack",
+    "effect_str": "effect_psi_neutralized",
     "difficulty": 1,
     "max_level": 1,
-    "min_damage": 50,
-    "max_damage": 150,
-    "min_range": 0,
-    "min_aoe": 6,
-    "max_aoe": 9
+    "min_duration": 1200,
+    "max_duration": 2500,
+    "min_aoe": 5,
+    "max_aoe": 5,
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "id": "pure_translocate_power",
+    "type": "SPELL",
+    "name": {
+      "str": "Item Translocate",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "A translocate power for items.  It's a bug if you have it directly.",
+      "//~": "NO_I18N"
+    },
+    "message": "",
+    "valid_targets": [
+      "self"
+    ],
+    "effect": "lua",
+    "damage_type": "bash",
+    "energy_source": "NONE",
+    "effect_str": "pure_translocate_power"
+  },
+  {
+    "id": "mom_abjuration_stone_effects",
+    "type": "SPELL",
+    "name": {
+      "str": "Abjuration Stone Banishment",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Part of the Abjuration Stone that banishes Nether monsters.  It's a bug if you have it.",
+      "//~": "NO_I18N"
+    },
+    "valid_targets": [
+      "hostile",
+      "ally"
+    ],
+    "extra_effects": [
+      {
+        "id": "mom_abjuration_stone_effects_psi_disruption",
+        "hit_self": true
+      }
+    ],
+    "effect": "lua",
+    "effect_str": "EOC_MOM_ABJURATION_STONE_SPELL_EFFECTS",
+    "min_aoe": 15,
+    "max_aoe": 25,
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "id": "mom_abjuration_stone_effects_psi_disruption",
+    "type": "SPELL",
+    "name": {
+      "str": "Abjuration Stone Psi Disruption",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Part of the Abjuration Stone that disrupts psi powers.  It's a bug if you have it.",
+      "//~": "NO_I18N"
+    },
+    "valid_targets": [
+      "self",
+      "hostile",
+      "ally"
+    ],
+    "effect": "target_attack",
+    "effect_str": "effect_psi_neutralized",
+    "min_duration": 600,
+    "max_duration": 1800,
+    "min_aoe": 20,
+    "max_aoe": 25,
+    "damage_type": "bash",
+    "energy_source": "NONE"
   }
 ]

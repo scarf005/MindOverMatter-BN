@@ -1,0 +1,96 @@
+[
+  {
+    "id": "mon_mi_go_biokinetic",
+    "type": "MONSTER",
+    "name": {
+      "str": "mi-go juggernaut"
+    },
+    "description": "This creature resembles the smaller mi-go like a grizzly bear resembles a human.  Its enormous, thick body is covered in an iridescent segmented carapace, like a scarab crossed with an isopod.  It boasts several pairs of deadly looking claws and other appendages, and it moves with a strange, slow grace, like an otherworldly dancer.  Sometimes, it moves so quickly that its movements are only a blur.",
+    "looks_like": "mon_mi_go_myrmidon",
+    "bodytype": "migo",
+    "species": [
+      "MIGO"
+    ],
+    "default_faction": "zombie",
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "id": "mon_mi_go_photokinetic",
+    "type": "MONSTER",
+    "name": {
+      "str": "mi-go lightbringer"
+    },
+    "description": "An alien creature of uncertain origin.  Its shapeless pink body bears numerous sets of paired appendages of unknown function, and a pair of ribbed, membranous wings which seem to be quite useless.  Its odd, vaguely pyramid-shaped head bristles with numerous wavering antennae, and it moves with an uncanny fluidity on its many legs.",
+    "looks_like": "mon_mi_go_slaver",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "id": "mon_mi_go_telepath",
+    "type": "MONSTER",
+    "name": {
+      "str": "mi-go mindrender"
+    },
+    "description": "An alien creature of uncertain origin.  Its shapeless pink body bears numerous sets of paired appendages of unknown function, and a pair of ribbed, membranous wings which seem to be quite useless.  Its odd, vaguely pyramid-shaped head bristles with numerous wavering antennae, and it moves with an uncanny fluidity on its many legs.",
+    "looks_like": "mon_mi_go_slaver",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  }
+]

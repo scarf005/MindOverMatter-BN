@@ -1,0 +1,58 @@
+[
+  {
+    "id": "LIXA_spit_light",
+    "type": "GUN",
+    "ranged_damage": {
+      "damage_type": "psi_photokinetic_damage",
+      "amount": 4
+    },
+    "name": {
+      "str": "LIXA_spit_light"
+    },
+    "description": "No description.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g",
+    "ammo": "NULL",
+    "dispersion": 0,
+    "durability": 1,
+    "clip_size": 1,
+    "reload": 100,
+    "skill": "rifle"
+  },
+  {
+    "id": "LIXA_vector_volley",
+    "type": "GUN",
+    "ranged_damage": [
+      {
+        "damage_type": "pure",
+        "amount": 8
+      },
+      {
+        "damage_type": "psi_teleporter_teleporting_damage",
+        "amount": 1
+      }
+    ],
+    "name": {
+      "str": "LIXA_vector_volley"
+    },
+    "description": "No description.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g",
+    "ammo": "NULL",
+    "dispersion": 0,
+    "durability": 1,
+    "clip_size": 1,
+    "reload": 100,
+    "skill": "rifle"
+  }
+]

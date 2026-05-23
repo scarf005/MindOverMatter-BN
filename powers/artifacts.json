@@ -1,0 +1,1279 @@
+[
+  {
+    "type": "SPELL",
+    "id": "MoM_AEA_BIOKINETIC_AWAKENING",
+    "name": {
+      "str": "MoM Artifact Biokinetic Awakening",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Causes the artifact to awaken you as a biokinetic.",
+      "//~": "NO_I18N"
+    },
+    "valid_targets": [
+      "self"
+    ],
+    "skill": "metaphysics",
+    "effect": "lua",
+    "effect_str": "EOC_BIOKIN_MATRIX_AWAKENING",
+    "base_casting_time": 100,
+    "message": "",
+    "extra_effects": [
+      {
+        "id": "mom_aea_artifact_calorie_hit",
+        "hit_self": true
+      }
+    ],
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "type": "SPELL",
+    "id": "MoM_AEA_EXTRA_CALORIE_COST",
+    "name": {
+      "str": "MoM Artifact Extra calories",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Causes the artifact to take even more calories than usual.",
+      "//~": "NO_I18N"
+    },
+    "valid_targets": [
+      "self"
+    ],
+    "skill": "metaphysics",
+    "effect": "noise",
+    "base_casting_time": 100,
+    "message": "",
+    "extra_effects": [
+      {
+        "id": "mom_aea_artifact_calorie_hit",
+        "hit_self": true
+      },
+      {
+        "id": "mom_aea_artifact_calorie_hit",
+        "hit_self": true
+      }
+    ],
+    "damage_type": "bash",
+    "energy_source": "NONE",
+    "effect_str": "MoM_AEA_EXTRA_CALORIE_COST"
+  },
+  {
+    "type": "SPELL",
+    "id": "MoM_AEA_NETHER_ATTUNEMENT",
+    "name": {
+      "str": "MoM Artifact Nether Attunement",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Causes the artifact to give you a whack of Nether Attunement.",
+      "//~": "NO_I18N"
+    },
+    "valid_targets": [
+      "self"
+    ],
+    "skill": "metaphysics",
+    "effect": "lua",
+    "effect_str": "EOC_MoM_AEA_NETHER_ATTUNEMENT",
+    "base_casting_time": 100,
+    "message": "",
+    "extra_effects": [
+      {
+        "id": "mom_aea_artifact_calorie_hit",
+        "hit_self": true
+      }
+    ],
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "type": "SPELL",
+    "id": "MoM_AEA_ATTENTION",
+    "name": {
+      "str": "MoM Artifact Attention"
+    },
+    "description": "You're not quite sure what you did, but something is watching you for it.",
+    "valid_targets": [
+      "self"
+    ],
+    "skill": "metaphysics",
+    "effect": "target_attack",
+    "effect_str": "attention",
+    "base_casting_time": 100,
+    "min_duration": 360000,
+    "max_duration": 1080000,
+    "message": "You feel like your action has attracted attention.",
+    "extra_effects": [
+      {
+        "id": "mom_aea_artifact_calorie_hit",
+        "hit_self": true
+      }
+    ],
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "type": "SPELL",
+    "id": "MoM_AEA_ADRENALINE",
+    "name": {
+      "str": "MoM Artifact Adrenaline",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Causes a surge of adrenaline to flow throughout your body.",
+      "//~": "NO_I18N"
+    },
+    "valid_targets": [
+      "self"
+    ],
+    "skill": "metaphysics",
+    "effect": "target_attack",
+    "effect_str": "adrenaline",
+    "base_casting_time": 100,
+    "min_duration": 120000,
+    "max_duration": 150000,
+    "message": "You're filled with a roaring energy!",
+    "extra_effects": [
+      {
+        "id": "mom_aea_artifact_calorie_hit",
+        "hit_self": true
+      }
+    ],
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "type": "SPELL",
+    "id": "MoM_AEA_REMOVE_PAIN",
+    "name": {
+      "str": "MoM Artifact Remove Pain",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Nice, that doesn't hurt as much.",
+      "//~": "NO_I18N"
+    },
+    "valid_targets": [
+      "self"
+    ],
+    "skill": "metaphysics",
+    "effect": "recover_energy",
+    "effect_str": "PAIN",
+    "base_casting_time": 100,
+    "min_damage": 5,
+    "max_damage": 15,
+    "message": "It doesn't hurt as much anymore!",
+    "extra_effects": [
+      {
+        "id": "mom_aea_artifact_calorie_hit",
+        "hit_self": true
+      },
+      {
+        "id": "mom_aea_artifact_add_future_pain",
+        "hit_self": true
+      }
+    ],
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "type": "SPELL",
+    "id": "MoM_AEA_VOMIT",
+    "name": {
+      "str": "Artifact Vomit",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Causes the caster to vomit.",
+      "//~": "NO_I18N"
+    },
+    "valid_targets": [
+      "self"
+    ],
+    "skill": "metaphysics",
+    "effect": "vomit",
+    "base_casting_time": 100,
+    "message": "A wave of nausea passes through you!",
+    "extra_effects": [
+      {
+        "id": "mom_aea_artifact_calorie_hit",
+        "hit_self": true
+      }
+    ],
+    "damage_type": "bash",
+    "energy_source": "NONE",
+    "effect_str": "MoM_AEA_VOMIT"
+  },
+  {
+    "id": "MoM_AEA_STAMINA_EMPTY",
+    "type": "SPELL",
+    "name": {
+      "str": "Artifact Stamina Empty",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Does a variable amount of stamina damage.",
+      "//~": "NO_I18N"
+    },
+    "message": "Your body feels like jelly.",
+    "skill": "metaphysics",
+    "effect": "recover_energy",
+    "effect_str": "STAMINA",
+    "min_damage": -1500,
+    "max_damage": -5500,
+    "base_casting_time": 100,
+    "valid_targets": [
+      "self"
+    ],
+    "extra_effects": [
+      {
+        "id": "mom_aea_artifact_calorie_hit",
+        "hit_self": true
+      }
+    ],
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "id": "MoM_AEA_SPEED_BURST",
+    "type": "SPELL",
+    "name": {
+      "str": "MoM AEA Add Extra Speed",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Add a speed boost.",
+      "//~": "NO_I18N"
+    },
+    "message": "The movements of everything nearby slow to a crawl.",
+    "valid_targets": [
+      "self"
+    ],
+    "skill": "metaphysics",
+    "spell_class": "NONE",
+    "effect": "target_attack",
+    "effect_str": "effect_mom_artifact_speed_boost",
+    "min_duration": 1000,
+    "max_duration": 3000,
+    "extra_effects": [
+      {
+        "id": "mom_aea_artifact_calorie_hit",
+        "hit_self": true
+      }
+    ],
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "type": "SPELL",
+    "id": "MoM_AEA_STAMINA_BURST",
+    "name": {
+      "str": "MoM AEA Stamina Restore",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Add a variable amount of stamina.",
+      "//~": "NO_I18N"
+    },
+    "message": "Your body is filled with vigor.",
+    "valid_targets": [
+      "self"
+    ],
+    "skill": "metaphysics",
+    "effect": "recover_energy",
+    "effect_str": "STAMINA",
+    "min_damage": 1500,
+    "max_damage": 5500,
+    "base_casting_time": 100,
+    "extra_effects": [
+      {
+        "id": "mom_aea_artifact_calorie_hit",
+        "hit_self": true
+      }
+    ],
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "type": "SPELL",
+    "id": "MoM_AEA_MUTATE",
+    "name": {
+      "str": "Artifact Mutate"
+    },
+    "description": "Mutates you randomly.",
+    "valid_targets": [
+      "self"
+    ],
+    "skill": "metaphysics",
+    "effect": "lua",
+    "effect_str": "EOC_random_artifact_mutate",
+    "message": "",
+    "extra_effects": [
+      {
+        "id": "mom_aea_artifact_calorie_hit",
+        "hit_self": true
+      }
+    ],
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "id": "MoM_AEA_PHYSICAL_ENHANCEMENT",
+    "type": "SPELL",
+    "name": {
+      "str": "MoM AEA Add Physical Boost",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Add a Strength/Dexterity boost.",
+      "//~": "NO_I18N"
+    },
+    "message": "You feel more capable.",
+    "valid_targets": [
+      "self"
+    ],
+    "skill": "metaphysics",
+    "spell_class": "NONE",
+    "effect": "target_attack",
+    "effect_str": "effect_mom_artifact_physical_boost",
+    "min_duration": 18000,
+    "max_duration": 72000,
+    "extra_effects": [
+      {
+        "id": "mom_aea_artifact_calorie_hit",
+        "hit_self": true
+      }
+    ],
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "id": "MoM_AEA_HARDEN_SKIN",
+    "type": "SPELL",
+    "name": {
+      "str": "MoM AEA Add Hardened skin",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Add a slight armor boost.",
+      "//~": "NO_I18N"
+    },
+    "message": "Your skin itches.",
+    "valid_targets": [
+      "self"
+    ],
+    "skill": "metaphysics",
+    "spell_class": "NONE",
+    "effect": "target_attack",
+    "effect_str": "effect_mom_artifact_hardened_skin",
+    "min_duration": 18000,
+    "max_duration": 72000,
+    "extra_effects": [
+      {
+        "id": "mom_aea_artifact_calorie_hit",
+        "hit_self": true
+      }
+    ],
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "id": "MoM_AEA_EXTRA_MOVEMENT_EXERTION",
+    "type": "SPELL",
+    "name": {
+      "str": "MoM AEA Extra Movement Exertion",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Make it harder to move, briefly.",
+      "//~": "NO_I18N"
+    },
+    "message": "Walking seems harder.",
+    "valid_targets": [
+      "self"
+    ],
+    "skill": "metaphysics",
+    "spell_class": "NONE",
+    "effect": "target_attack",
+    "effect_str": "effect_mom_artifact_movement_exertion",
+    "min_duration": 36000,
+    "max_duration": 144000,
+    "extra_effects": [
+      {
+        "id": "mom_aea_artifact_calorie_hit",
+        "hit_self": true
+      }
+    ],
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "type": "SPELL",
+    "id": "MoM_AEA_MAP",
+    "name": {
+      "str": "MoM Artifact Map",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Reveals an area around you on the overmap.",
+      "//~": "NO_I18N"
+    },
+    "message": "You have a vision of the surrounding area\u2026",
+    "valid_targets": [
+      "self"
+    ],
+    "skill": "metaphysics",
+    "spell_class": "NONE",
+    "effect": "map",
+    "min_aoe": 20,
+    "max_aoe": 20,
+    "base_casting_time": 100,
+    "extra_effects": [
+      {
+        "id": "mom_aea_artifact_calorie_hit",
+        "hit_self": true
+      }
+    ],
+    "damage_type": "bash",
+    "energy_source": "NONE",
+    "effect_str": "MoM_AEA_MAP"
+  },
+  {
+    "type": "SPELL",
+    "id": "MoM_AEA_CLAIRVOYANCE",
+    "name": {
+      "str": "Artifact Local Clairvoyance",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Reveals an area around you on the local map.",
+      "//~": "NO_I18N"
+    },
+    "message": "You have a vision of the nearby area\u2026",
+    "valid_targets": [
+      "self"
+    ],
+    "skill": "metaphysics",
+    "spell_class": "NONE",
+    "effect": "target_attack",
+    "min_aoe": 10,
+    "max_aoe": 10,
+    "base_casting_time": 100,
+    "min_field_intensity": 1,
+    "max_field_intensity": 1,
+    "extra_effects": [
+      {
+        "id": "mom_aea_artifact_calorie_hit",
+        "hit_self": true
+      }
+    ],
+    "damage_type": "bash",
+    "energy_source": "NONE",
+    "effect_str": "MoM_AEA_CLAIRVOYANCE"
+  },
+  {
+    "type": "SPELL",
+    "id": "MoM_AEA_ASTRAL_PROJECTION",
+    "name": {
+      "str": "MoM Artifact Astral Projection",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Causes the artifact cast you forth from your body as a spirit.",
+      "//~": "NO_I18N"
+    },
+    "valid_targets": [
+      "self"
+    ],
+    "skill": "metaphysics",
+    "effect": "lua",
+    "effect_str": "EOC_CLAIR_ASTRAL_PROJECTION_INITIATE",
+    "base_casting_time": 100,
+    "message": "",
+    "extra_effects": [
+      {
+        "id": "mom_aea_artifact_calorie_hit",
+        "hit_self": true
+      }
+    ],
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "id": "MoM_AEA_PERCEPTION_ENHANCEMENT",
+    "type": "SPELL",
+    "name": {
+      "str": "MoM AEA Add Perception Boost",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Add a Perception boost.",
+      "//~": "NO_I18N"
+    },
+    "message": "",
+    "valid_targets": [
+      "self"
+    ],
+    "skill": "metaphysics",
+    "spell_class": "NONE",
+    "effect": "target_attack",
+    "effect_str": "effect_mom_artifact_perception_boost",
+    "min_duration": 18000,
+    "max_duration": 72000,
+    "extra_effects": [
+      {
+        "id": "mom_aea_artifact_calorie_hit",
+        "hit_self": true
+      }
+    ],
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "id": "MoM_AEA_ZAPPED",
+    "type": "SPELL",
+    "name": {
+      "str": "MoM AEA Zap Self",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Zaps the user of the artifact.",
+      "//~": "NO_I18N"
+    },
+    "message": "A jolt passes through your body!",
+    "valid_targets": [
+      "self"
+    ],
+    "skill": "metaphysics",
+    "spell_class": "NONE",
+    "effect": "target_attack",
+    "effect_str": "zapped",
+    "min_duration": 200,
+    "max_duration": 800,
+    "extra_effects": [
+      {
+        "id": "mom_aea_artifact_calorie_hit",
+        "hit_self": true
+      }
+    ],
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "id": "MoM_AEA_APPLIANCE_RECHARGE",
+    "//": "currently doesn't work",
+    "type": "SPELL",
+    "name": {
+      "str": "MoM AEA Appliance Recharge",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Recharges nearby vehicles and power grids.",
+      "//~": "NO_I18N"
+    },
+    "message": "Sparks crackle over the nearby ground.",
+    "valid_targets": [
+      "ground"
+    ],
+    "skill": "metaphysics",
+    "spell_class": "NONE",
+    "effect": "lua",
+    "min_damage": 250,
+    "max_damage": 5000,
+    "min_aoe": 2,
+    "max_aoe": 6,
+    "extra_effects": [
+      {
+        "id": "mom_aea_artifact_calorie_hit",
+        "hit_self": true
+      }
+    ],
+    "damage_type": "bash",
+    "energy_source": "NONE",
+    "effect_str": "MoM_AEA_APPLIANCE_RECHARGE"
+  },
+  {
+    "id": "MoM_AEA_FIELD_OF_LIGHTNING",
+    "type": "SPELL",
+    "name": {
+      "str": "MoM AEA Field of Lightning",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Spawns a bunch of electricity around you.",
+      "//~": "NO_I18N"
+    },
+    "message": "The air erupts with lightning!",
+    "valid_targets": [
+      "ground"
+    ],
+    "skill": "metaphysics",
+    "spell_class": "NONE",
+    "effect": "target_attack",
+    "min_aoe": 4,
+    "max_aoe": 10,
+    "min_field_intensity": 3,
+    "max_field_intensity": 7,
+    "extra_effects": [
+      {
+        "id": "mom_aea_artifact_calorie_hit",
+        "hit_self": true
+      },
+      {
+        "id": "mom_aea_artifact_electricity_immune",
+        "hit_self": true
+      }
+    ],
+    "damage_type": "bash",
+    "energy_source": "NONE",
+    "effect_str": "MoM_AEA_FIELD_OF_LIGHTNING"
+  },
+  {
+    "id": "MoM_AEA_AREA_PARALYSIS",
+    "type": "SPELL",
+    "name": {
+      "str": "MoM AEA Area Paralysis",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Paralyzes all nearby targets.",
+      "//~": "NO_I18N"
+    },
+    "message": "The air crackles.",
+    "valid_targets": [
+      "hostile",
+      "ally"
+    ],
+    "skill": "metaphysics",
+    "spell_class": "NONE",
+    "effect": "lua",
+    "effect_str": "EOC_MoM_AEA_AREA_PARALYSIS",
+    "min_duration": 1000,
+    "max_duration": 3200,
+    "min_aoe": 4,
+    "max_aoe": 12,
+    "extra_effects": [
+      {
+        "id": "mom_aea_artifact_calorie_hit",
+        "hit_self": true
+      }
+    ],
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "id": "MoM_AEA_ROBOT_KILL",
+    "type": "SPELL",
+    "name": {
+      "str": "MoM AEA Robot Kill",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Blows up all nearby robots.",
+      "//~": "NO_I18N"
+    },
+    "message": "The air crackles.",
+    "valid_targets": [
+      "hostile",
+      "ground",
+      "ally"
+    ],
+    "spell_class": "NONE",
+    "skill": "metaphysics",
+    "effect": "target_attack",
+    "damage_type": "bash",
+    "min_damage": 150,
+    "max_damage": 150,
+    "min_aoe": 4,
+    "max_aoe": 12,
+    "extra_effects": [
+      {
+        "id": "mom_aea_artifact_calorie_hit",
+        "hit_self": true
+      }
+    ],
+    "energy_source": "NONE",
+    "effect_str": "MoM_AEA_ROBOT_KILL"
+  },
+  {
+    "id": "MoM_AEA_ELECTRICAL_ZAP_ATTACK",
+    "type": "SPELL",
+    "name": {
+      "str": "MoM AEA Electrical Zap Attack",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Charges the character so their next attack does a ton of extra electrical damage.",
+      "//~": "NO_I18N"
+    },
+    "message": "Your hair stands on end.",
+    "valid_targets": [
+      "self"
+    ],
+    "skill": "metaphysics",
+    "spell_class": "NONE",
+    "effect": "target_attack",
+    "effect_str": "effect_mom_artifact_perception_boost",
+    "min_duration": 151698,
+    "max_duration": 290512,
+    "extra_effects": [
+      {
+        "id": "mom_aea_artifact_calorie_hit",
+        "hit_self": true
+      }
+    ],
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "id": "MoM_AEA_ILLUMINATION_BURST",
+    "type": "SPELL",
+    "name": {
+      "str": "MoM AEA Illumination Burst",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Blinds everyone in the light radius.",
+      "//~": "NO_I18N"
+    },
+    "message": "The crystal blazes with light!",
+    "valid_targets": [
+      "ally",
+      "hostile"
+    ],
+    "skill": "metaphysics",
+    "spell_class": "NONE",
+    "effect": "target_attack",
+    "effect_str": "blind",
+    "min_aoe": 45,
+    "max_aoe": 50,
+    "min_duration": 3685,
+    "max_duration": 6842,
+    "extra_effects": [
+      {
+        "id": "mom_aea_artifact_calorie_hit",
+        "hit_self": true
+      },
+      {
+        "id": "mom_aea_artifact_illumination_on_self",
+        "hit_self": true
+      }
+    ],
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "type": "SPELL",
+    "id": "MoM_AEA_DIM",
+    "name": {
+      "str": "MoM AEA Dim",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Darkens the sky.",
+      "//~": "NO_I18N"
+    },
+    "valid_targets": [
+      "self"
+    ],
+    "skill": "metaphysics",
+    "effect": "lua",
+    "effect_str": "dim",
+    "min_duration": 29482,
+    "max_duration": 98511,
+    "message": "The sky starts to dim.",
+    "extra_effects": [
+      {
+        "id": "mom_aea_artifact_calorie_hit",
+        "hit_self": true
+      }
+    ],
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "type": "SPELL",
+    "id": "MoM_AEA_ILLUSIONARY_ARMY",
+    "name": {
+      "str": "MoM AEA Summon Duplicates",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Summons illusionary duplicates of the user.",
+      "//~": "NO_I18N"
+    },
+    "valid_targets": [
+      "ground"
+    ],
+    "effect": "lua",
+    "effect_str": "mon_photokin_army_image",
+    "base_casting_time": 100,
+    "message": "Perfect duplicates of you appear nearby.",
+    "min_damage": 3,
+    "max_damage": 6,
+    "min_aoe": 5,
+    "max_aoe": 10,
+    "//": "duration is only because the shadow needs to disappear upon death",
+    "min_duration": 61234,
+    "max_duration": 124851,
+    "extra_effects": [
+      {
+        "id": "mom_aea_artifact_calorie_hit",
+        "hit_self": true
+      }
+    ],
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "id": "MoM_AEA_ILLUMINATE_TARGETS",
+    "type": "SPELL",
+    "name": {
+      "str": "MoM AEA Illuminate Targets",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Makes everyone hit by the effect glow slightly.",
+      "//~": "NO_I18N"
+    },
+    "message": "The crystal glows softly!",
+    "valid_targets": [
+      "ally",
+      "hostile"
+    ],
+    "skill": "metaphysics",
+    "spell_class": "NONE",
+    "effect": "target_attack",
+    "effect_str": "effect_mom_artifact_lambent_illumination",
+    "min_aoe": 25,
+    "max_aoe": 30,
+    "min_duration": 18532,
+    "max_duration": 77512,
+    "extra_effects": [
+      {
+        "id": "mom_aea_artifact_calorie_hit",
+        "hit_self": true
+      }
+    ],
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "id": "MoM_AEA_STUN_ROBOT",
+    "type": "SPELL",
+    "name": {
+      "str": "MoM AEA Stun Robot",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Stuns all robots hit by the effect.",
+      "//~": "NO_I18N"
+    },
+    "message": "The crystal's light rapidly pulses.",
+    "valid_targets": [
+      "ally",
+      "hostile"
+    ],
+    "skill": "metaphysics",
+    "spell_class": "NONE",
+    "effect": "target_attack",
+    "effect_str": "sensor_stun",
+    "min_aoe": 10,
+    "max_aoe": 10,
+    "min_duration": 9085,
+    "max_duration": 24850,
+    "extra_effects": [
+      {
+        "id": "mom_aea_artifact_calorie_hit",
+        "hit_self": true
+      }
+    ],
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "id": "MoM_AEA_HOT_AIR_BURST",
+    "type": "SPELL",
+    "name": {
+      "str": "MoM AEA Heat Emit",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Causes a hot air around you.",
+      "//~": "NO_I18N"
+    },
+    "message": "The crystal grows very warm for a moment.",
+    "valid_targets": [
+      "self"
+    ],
+    "skill": "metaphysics",
+    "effect": "target_attack",
+    "effect_str": "emit_pyrokinetic_summon_heat_4",
+    "extra_effects": [
+      {
+        "id": "mom_aea_artifact_calorie_hit",
+        "hit_self": true
+      }
+    ],
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "id": "MoM_AEA_INTENSIFY_NEARBY_FLAMES",
+    "type": "SPELL",
+    "name": {
+      "str": "MoM AEA Intensify Nearby Flames",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Causes all nearby flames to increase in intensity.",
+      "//~": "NO_I18N"
+    },
+    "message": "The crystal pulses heat for moment.",
+    "valid_targets": [
+      "self"
+    ],
+    "skill": "metaphysics",
+    "effect": "lua",
+    "effect_str": "EOC_MoM_AEA_INTENSIFY_NEARBY_FLAMES",
+    "extra_effects": [
+      {
+        "id": "mom_aea_artifact_calorie_hit",
+        "hit_self": true
+      }
+    ],
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "type": "SPELL",
+    "id": "MoM_AEA_BURNING_CLOAK",
+    "name": {
+      "str": "MoM AEA Burning Cloak",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Causes heated air around you that damages enemies.",
+      "//~": "NO_I18N"
+    },
+    "valid_targets": [
+      "self"
+    ],
+    "skill": "metaphysics",
+    "effect": "target_attack",
+    "effect_str": "effect_mom_artifact_burning_cloak",
+    "base_casting_time": 100,
+    "min_duration": 180000,
+    "max_duration": 650000,
+    "message": "The air around you wavers like summer heat!",
+    "extra_effects": [
+      {
+        "id": "mom_aea_artifact_calorie_hit",
+        "hit_self": true
+      }
+    ],
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "type": "SPELL",
+    "id": "MoM_AEA_FIRE_IMMUNITY",
+    "name": {
+      "str": "MoM AEA Fire Immunity",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Makes you totally immune to fire and heat.",
+      "//~": "NO_I18N"
+    },
+    "valid_targets": [
+      "self"
+    ],
+    "skill": "metaphysics",
+    "effect": "target_attack",
+    "effect_str": "effect_pyrokinetic_flame_immunity",
+    "base_casting_time": 100,
+    "min_duration": 15000,
+    "max_duration": 98900,
+    "message": "The air around suddenly cools off.",
+    "extra_effects": [
+      {
+        "id": "mom_aea_artifact_calorie_hit",
+        "hit_self": true
+      }
+    ],
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "id": "MoM_AEA_FIERY_BURST_EXPLOSION",
+    "type": "SPELL",
+    "name": {
+      "str": "MoM AEA Fiery Burst Explosion",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Causes a blast of flame all around you.",
+      "//~": "NO_I18N"
+    },
+    "message": "The crystal grows searing hot for a moment!",
+    "valid_targets": [
+      "hostile",
+      "ground",
+      "ally"
+    ],
+    "skill": "metaphysics",
+    "effect": "target_attack",
+    "damage_type": "bash",
+    "min_damage": 80,
+    "max_damage": 250,
+    "min_aoe": 10,
+    "max_aoe": 20,
+    "extra_effects": [
+      {
+        "id": "pyrokinetic_aoe_blast_immunity",
+        "hit_self": true
+      },
+      {
+        "id": "mom_aea_artifact_calorie_hit",
+        "hit_self": true
+      }
+    ],
+    "min_field_intensity": 2,
+    "max_field_intensity": 2,
+    "energy_source": "NONE",
+    "effect_str": "MoM_AEA_FIERY_BURST_EXPLOSION"
+  },
+  {
+    "type": "SPELL",
+    "id": "MoM_AEA_BLINK",
+    "name": {
+      "str": "MoM AEA Artifact Blink",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Causes you to teleport to a random nearby point",
+      "//~": "NO_I18N"
+    },
+    "valid_targets": [
+      "none"
+    ],
+    "effect": "target_attack",
+    "min_aoe": 1,
+    "max_aoe": 5,
+    "aoe_increment": 0.25,
+    "min_range": 10,
+    "base_casting_time": 50,
+    "damage_type": "bash",
+    "energy_source": "NONE",
+    "effect_str": "MoM_AEA_BLINK"
+  },
+  {
+    "type": "SPELL",
+    "id": "MoM_AEA_AOE_SLOW",
+    "name": {
+      "str": "MoM AEA Artifact AoE Slow",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Causes you to slow nearby enemies",
+      "//~": "NO_I18N"
+    },
+    "valid_targets": [
+      "hostile",
+      "ally"
+    ],
+    "effect": "target_attack",
+    "effect_str": "effect_mom_artifact_slow",
+    "min_aoe": 6,
+    "max_aoe": 12,
+    "base_casting_time": 50,
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "type": "SPELL",
+    "id": "MoM_AEA_DISTANT_TELEPORT",
+    "name": {
+      "str": "MoM AEA Artifact Distant Teleport",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Causes you to teleport far away",
+      "//~": "NO_I18N"
+    },
+    "valid_targets": [
+      "self"
+    ],
+    "effect": "lua",
+    "effect_str": "EOC_NETHER_EFFECT_APPLY_TELEPORT_MISJUMP",
+    "base_casting_time": 50,
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "type": "SPELL",
+    "id": "MoM_AEA_REALITY_TEMPORARY_TEAR",
+    "name": {
+      "str": "MoM AEA Artifact Temporary Reality Tear",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Causes you to open a temporary tear in reality.",
+      "//~": "NO_I18N"
+    },
+    "valid_targets": [
+      "ground",
+      "hostile",
+      "ally",
+      "self"
+    ],
+    "effect": "target_attack",
+    "min_range": 10,
+    "max_range": 10,
+    "base_casting_time": 50,
+    "min_field_intensity": 2,
+    "max_field_intensity": 2,
+    "damage_type": "bash",
+    "energy_source": "NONE",
+    "effect_str": "MoM_AEA_REALITY_TEMPORARY_TEAR"
+  },
+  {
+    "type": "SPELL",
+    "id": "MoM_AEA_MAJOR_HEAL",
+    "name": {
+      "str": "MoM AEA Artifact Heal",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Will heal injuries all over your body.",
+      "//~": "NO_I18N"
+    },
+    "valid_targets": [
+      "self"
+    ],
+    "effect": "target_attack",
+    "base_casting_time": 100,
+    "min_damage": -5,
+    "max_damage": -10,
+    "message": "You feel healed.",
+    "damage_type": "bash",
+    "energy_source": "NONE",
+    "effect_str": "MoM_AEA_MAJOR_HEAL"
+  },
+  {
+    "type": "SPELL",
+    "id": "MoM_AEA_REMOVE_SLEEPINESS",
+    "name": {
+      "str": "MoM AEA Remove Sleepiness",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Removes Sleepiness, but not sleep deprivation.",
+      "//~": "NO_I18N"
+    },
+    "valid_targets": [
+      "self"
+    ],
+    "effect": "recover_energy",
+    "effect_str": "SLEEPINESS",
+    "base_casting_time": 100,
+    "min_damage": 50,
+    "max_damage": 300,
+    "message": "Your tiredness fall away.",
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "type": "SPELL",
+    "id": "MoM_AEA_AOE_DOT_AND_EFFECT",
+    "name": {
+      "str": "MoM AEA DoT and Debuff",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Puts a slow DoT and healing debuff on anyone in the area.",
+      "//~": "NO_I18N"
+    },
+    "valid_targets": [
+      "ally",
+      "hostile"
+    ],
+    "effect": "target_attack",
+    "effect_str": "effect_vitakin_hurt",
+    "damage_type": "bash",
+    "base_casting_time": 100,
+    "min_duration": 1000,
+    "max_duration": 6000,
+    "min_aoe": 4,
+    "max_aoe": 10,
+    "message": "A ripple in the air washes out from you.",
+    "energy_source": "NONE"
+  },
+  {
+    "type": "SPELL",
+    "id": "MoM_AEA_BLOOD_PURGE",
+    "name": {
+      "str": "MoM AEA Blood Purge",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Removes substances in blood, including beneficial ones.",
+      "//~": "NO_I18N"
+    },
+    "valid_targets": [
+      "self"
+    ],
+    "effect": "lua",
+    "effect_str": "EOC_MoM_AEA_BLOOD_PURGE",
+    "base_casting_time": 100,
+    "message": "You hear the roar of blood through your veins.",
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "type": "SPELL",
+    "id": "MoM_AEA_HEALTH_CHANGER",
+    "name": {
+      "str": "MoM AEA Health Changer",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Increases or Decreases your health.  Weighted towards increasing but could decrease it.",
+      "//~": "NO_I18N"
+    },
+    "valid_targets": [
+      "self"
+    ],
+    "effect": "lua",
+    "effect_str": "EOC_MoM_AEA_HEALTH_CHANGER",
+    "base_casting_time": 100,
+    "message": "You skin flushes.",
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "type": "SPELL",
+    "id": "MoM_AEA_REGENERATION",
+    "name": {
+      "str": "MoM AEA Regeneration",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Gives you Regeneration for a bit.",
+      "//~": "NO_I18N"
+    },
+    "valid_targets": [
+      "self"
+    ],
+    "effect": "target_attack",
+    "effect_str": "effect_mom_artifact_regeneration",
+    "base_casting_time": 100,
+    "min_duration": 720000,
+    "max_duration": 2880000,
+    "message": "Your skin crawls.",
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  }
+]

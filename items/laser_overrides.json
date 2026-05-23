@@ -1,0 +1,260 @@
+[
+  {
+    "id": "laser_rifle",
+    "copy-from": "rifle_energy",
+    "type": "GUN",
+    "name": {
+      "str": "A7 laser rifle"
+    },
+    "description": "A state-of-the-art laser rifle developed by the R&D outfit \"Aerial Labs\".  Initial performance rivaled Rivtech's finest, with rumors flying about corporate skulduggery.  Though the Cataclysm put that on the ash heap of history, this weapon can still do the same to your foes.",
+    "weight": "2950 g",
+    "volume": "3 L",
+    "price": "16 kUSD",
+    "price_postapoc": "75 USD",
+    "material": [
+      "steel",
+      "plastic"
+    ],
+    "color": "yellow",
+    "range": 30,
+    "ranged_damage": {
+      "damage_type": "psi_photokinetic_damage",
+      "amount": 25,
+      "armor_penetration": 4
+    },
+    "dispersion": 10,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi",
+        1
+      ],
+      [
+        "AUTO",
+        "auto",
+        4
+      ]
+    ],
+    "loudness": 12,
+    "ups_charges": 40,
+    "ammo_effects": [
+      "LASER",
+      "INCENDIARY"
+    ]
+  },
+  {
+    "id": "bio_laser_gun",
+    "weapon_category": [
+      "ENERGY_WEAPONS"
+    ],
+    "type": "GUN",
+    "name": {
+      "str": "laser finger"
+    },
+    "description": "this a pseudo item",
+    "volume": "1 L",
+    "price": "0 cent",
+    "material": [
+      "steel",
+      "plastic"
+    ],
+    "symbol": "(",
+    "looks_like": "v29",
+    "color": "magenta",
+    "skill": "pistol",
+    "range": 30,
+    "ranged_damage": {
+      "damage_type": "psi_photokinetic_damage",
+      "amount": 10,
+      "armor_penetration": 4
+    },
+    "dispersion": 10,
+    "durability": 10,
+    "loudness": 7,
+    "ammo_effects": [
+      "LASER",
+      "INCENDIARY"
+    ],
+    "flags": [
+      "NEVER_JAMS",
+      "NO_DROP",
+      "TRADER_AVOID",
+      "FIRESTARTER"
+    ],
+    "use_action": {
+      "type": "firestarter",
+      "moves": 200
+    }
+  },
+  {
+    "id": "v29",
+    "copy-from": "pistol_energy",
+    "type": "GUN",
+    "name": {
+      "str": "V29 laser pistol"
+    },
+    "description": "This V29 laser pistol was one of the first handheld laser weapons.  It is larger than most traditional handguns, but displays no recoil whatsoever.",
+    "weight": "680 g",
+    "volume": "1 L",
+    "price": "7200 USD",
+    "price_postapoc": "55 USD",
+    "material": [
+      "steel",
+      "plastic"
+    ],
+    "color": "magenta",
+    "range": 30,
+    "ranged_damage": {
+      "damage_type": "psi_photokinetic_damage",
+      "amount": 10,
+      "armor_penetration": 4
+    },
+    "dispersion": 180,
+    "loudness": 7,
+    "ups_charges": 20,
+    "ammo_effects": [
+      "LASER",
+      "INCENDIARY"
+    ]
+  },
+  {
+    "id": "v29_turret",
+    "type": "GUN",
+    "copy-from": "v29",
+    "name": {
+      "str": "mounted laser"
+    },
+    "ranged_damage": {
+      "damage_type": "psi_photokinetic_damage",
+      "amount": 10,
+      "armor_penetration": 4
+    }
+  },
+  {
+    "id": "recon_mech_laser_single",
+    "type": "GUN",
+    "copy-from": "recon_mech_laser",
+    "name": {
+      "str": "salvaged RMES marksman laser"
+    },
+    "ranged_damage": {
+      "damage_type": "psi_photokinetic_damage",
+      "amount": 30,
+      "armor_penetration": 4
+    }
+  },
+  {
+    "id": "recon_mech_laser",
+    "copy-from": "rifle_energy",
+    "type": "GUN",
+    "reload_noise_volume": 2,
+    "name": {
+      "str": "RMES marksman system"
+    },
+    "description": "This is the integral weapon system for the RMES exoskeleton mech-suit, a quiet and accurate marksman laser rifle.",
+    "weight": "12500 g",
+    "volume": "5500 ml",
+    "price": "95 kUSD",
+    "price_postapoc": "80 USD",
+    "to_hit": -2,
+    "bashing": 6,
+    "material": [
+      "superalloy",
+      "plastic"
+    ],
+    "color": "blue",
+    "range": 45,
+    "ranged_damage": {
+      "damage_type": "psi_photokinetic_damage",
+      "amount": 30,
+      "armor_penetration": 4
+    },
+    "dispersion": 15,
+    "loudness": 1,
+    "ups_charges": 100,
+    "ammo_effects": [
+      "LASER",
+      "PLASMA_BUBBLE",
+      "INCENDIARY"
+    ],
+    "extend": {
+      "flags": [
+        "NO_UNWIELD",
+        "NO_REPAIR",
+        "NO_SALVAGE",
+        "UNBREAKABLE_MELEE"
+      ]
+    }
+  },
+  {
+    "id": "gatling_mech_laser_single",
+    "type": "GUN",
+    "copy-from": "gatling_mech_laser",
+    "name": {
+      "str": "salvaged CMES laser cannon"
+    },
+    "ranged_damage": {
+      "damage_type": "psi_photokinetic_damage",
+      "amount": 20,
+      "armor_penetration": 4
+    }
+  },
+  {
+    "id": "gatling_mech_laser",
+    "copy-from": "gatling_energy",
+    "type": "GUN",
+    "reload_noise_volume": 20,
+    "name": {
+      "str": "CMES laser cannon"
+    },
+    "description": "This is the integral weapon system for the CMES exoskeleton mech-suit, a rotating-barrel active-cooled rapid-fire laser system, can spray death downrange with ease.",
+    "weight": "39500 g",
+    "volume": "11 L",
+    "price": "95 kUSD",
+    "price_postapoc": "80 USD",
+    "material": [
+      "superalloy",
+      "plastic"
+    ],
+    "color": "blue",
+    "range": 30,
+    "ranged_damage": {
+      "damage_type": "psi_photokinetic_damage",
+      "amount": 20,
+      "armor_penetration": 4
+    },
+    "dispersion": 100,
+    "loudness": 12,
+    "ups_charges": 50,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi",
+        1
+      ],
+      [
+        "BURST",
+        "burst",
+        5
+      ],
+      [
+        "AUTO",
+        "auto",
+        10
+      ]
+    ],
+    "ammo_effects": [
+      "LASER",
+      "PLASMA_BUBBLE",
+      "INCENDIARY"
+    ],
+    "extend": {
+      "flags": [
+        "NO_UNWIELD",
+        "NO_SALVAGE",
+        "NO_REPAIR",
+        "UNBREAKABLE_MELEE"
+      ]
+    }
+  }
+]

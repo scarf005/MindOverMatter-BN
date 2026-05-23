@@ -1,0 +1,93 @@
+[
+  {
+    "id": "mon_triffid_clairsentient",
+    "type": "MONSTER",
+    "name": {
+      "str": "triffid seedseer"
+    },
+    "description": "A creeping mobile plant, as tall as a moose.  It has a single bark-covered stalk supporting a flowery head with a paralyzing sting concealed within.  You have the distinct sense that it's watching you.",
+    "dodge": 7,
+    "//": "Extra bullet armor here is from clairsentient anticipation of bullet trajectories, not literal armor.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "id": "mon_triffid_pyrokinetic",
+    "type": "MONSTER",
+    "name": {
+      "str": "triffid flamebreaker"
+    },
+    "species": [
+      "PLANT_INFLAMMABLE"
+    ],
+    "description": "A creeping mobile plant, as tall as a moose.  It has a single bark-covered stalk supporting a flowery head with a paralyzing sting concealed within.  The air around it wavers slightly, like a summer haze.",
+    "default_faction": "zombie",
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "id": "mon_triffid_teleporter",
+    "type": "MONSTER",
+    "name": {
+      "str": "triffid riftcaller"
+    },
+    "description": "A creeping mobile plant, as tall as a moose.  It has a single bark-covered stalk supporting a flowery head with a paralyzing sting concealed within.  Occasionally it vanishes and reappears elsewhere.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  }
+]

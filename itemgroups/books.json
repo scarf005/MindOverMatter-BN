@@ -1,0 +1,53 @@
+[
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "dist_meditation_books_begin"
+  },
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "dist_meditation_books_int"
+  },
+  {
+    "type": "item_group",
+    "id": "homebooks"
+  },
+  {
+    "id": "SUS_book_nonf_pulp_newage",
+    "type": "item_group"
+  },
+  {
+    "id": "SUS_book_nonf_soft_psych",
+    "type": "item_group"
+  },
+  {
+    "type": "item_group",
+    "id": "lab_bookshelves"
+  },
+  {
+    "type": "item_group",
+    "id": "mansion_books"
+  },
+  {
+    "type": "item_group",
+    "id": "science"
+  },
+  {
+    "type": "item_group",
+    "id": "chem_lab"
+  },
+  {
+    "type": "item_group",
+    "id": "manuals_school"
+  },
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "dist_maps"
+  },
+  {
+    "id": "esoteric_books",
+    "type": "item_group"
+  }
+]

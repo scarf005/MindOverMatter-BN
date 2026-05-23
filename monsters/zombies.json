@@ -1,9 +1,311 @@
 [
   {
     "id": "mon_zombie_scientist_phavian",
-    "copy-from": "mon_zombie_scientist",
+    "looks_like": "mon_zombie_scientist",
     "type": "MONSTER",
-    "name": { "str": "zombie scientist" },
-    "death_drops": "mon_zombie_scientist_phavian_death_drops"
+    "name": {
+      "str": "zombie scientist"
+    },
+    "death_drops": "mon_zombie_scientist_phavian_death_drops",
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "id": "mon_zombie_blank",
+    "type": "MONSTER",
+    "name": {
+      "str": "zombie blank"
+    },
+    "description": "This zombie looks fairly ordinary, other than walking slightly more quickly than the standard shambling.  But there's something subtly wrong about it.  When you look directly at it, gray static flickers on the edge of your vision and you hear a very low droning hum.",
+    "species": [
+      "ZOMBIE",
+      "HUMAN",
+      "PSI_NULL"
+    ],
+    "symbol": "Z",
+    "color": "dark_gray_white",
+    "dodge": 1,
+    "vision_day": 30,
+    "vision_night": 5,
+    "//": "Heat armor is needed to make it immune to pyrokinesis.",
+    "default_faction": "zombie",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "harvest": "zombie"
+  },
+  {
+    "id": "mon_zombie_nullpsi",
+    "type": "MONSTER",
+    "name": {
+      "str": "zombie null"
+    },
+    "description": "This zombie's limbs are elongated and its torso is stretched, causing it to occasionally drop on all fours to skitter faster than a normal walk.  When you look directly at it, gray static flickers on the edge of your vision and you hear a very low droning hum.",
+    "species": [
+      "ZOMBIE",
+      "HUMAN",
+      "PSI_NULL"
+    ],
+    "symbol": "Z",
+    "color": "dark_gray_white",
+    "scents_tracked": [
+      "sc_human",
+      "sc_fetid"
+    ],
+    "melee_skill": 5,
+    "melee_dice": 2,
+    "melee_dice_sides": 4,
+    "dodge": 3,
+    "vision_day": 30,
+    "vision_night": 5,
+    "grab_strength": 40,
+    "//": "Heat armor is needed to make it immune to pyrokinesis.",
+    "default_faction": "zombie",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "harvest": "zombie"
+  },
+  {
+    "id": "mon_zombie_concentration_ender",
+    "type": "MONSTER",
+    "name": {
+      "str": "zombie breaker"
+    },
+    "description": "An enormous hump takes up most of this zombie's back, fusing its head directly into its torso.  It moves slowly but seems more aware than most of its kind, constantly looking around rather than staring blankly ahead.  When you look directly at it, you feel a cold chill at the base of your skull.",
+    "species": [
+      "ZOMBIE",
+      "HUMAN",
+      "PSI_NULL"
+    ],
+    "symbol": "Z",
+    "color": "dark_gray_white",
+    "scents_tracked": [
+      "sc_human",
+      "sc_fetid"
+    ],
+    "melee_skill": 4,
+    "dodge": 1,
+    "vision_day": 35,
+    "vision_night": 5,
+    "grab_strength": 30,
+    "//": "Heat armor is needed to make it immune to pyrokinesis.",
+    "default_faction": "zombie",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "harvest": "zombie"
+  },
+  {
+    "id": "mon_zombie_psi_void",
+    "type": "MONSTER",
+    "name": {
+      "str": "nether-void"
+    },
+    "description": "Thoughts of old creepy Internet memes arise unbidden as you see this zombie.  It's almost ten feet tall but incredibly thin, with spindly legs and with arms that hang down almost all the way to the ground.  Occasionally, it drops on all fours to clamber with uncanny speed over some bit of rubble.  When you look directly at it, gray static flickers on the edge of your vision and you hear a very low droning hum.",
+    "species": [
+      "ZOMBIE",
+      "HUMAN",
+      "PSI_NULL"
+    ],
+    "symbol": "Z",
+    "color": "dark_gray_white",
+    "scents_tracked": [
+      "sc_human",
+      "sc_fetid"
+    ],
+    "melee_skill": 5,
+    "melee_dice": 2,
+    "melee_dice_sides": 5,
+    "dodge": 5,
+    "attack_effs": [
+      {
+        "id": "effect_psi_neutralized",
+        "duration": 5
+      }
+    ],
+    "vision_day": 35,
+    "vision_night": 5,
+    "grab_strength": 50,
+    "//": "Heat armor is needed to make it immune to pyrokinesis.",
+    "default_faction": "zombie",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "harvest": "zombie"
+  },
+  {
+    "id": "mon_zombie_pupating_psi",
+    "type": "MONSTER",
+    "name": {
+      "str": "pupating blank"
+    },
+    "description": "This human corpse is wrapped in sticky black fibers that cover everything from the neck down.  Beneath the wrapping there is a strange rhythmic movement, grotesque to behold.  When you look directly at it, gray static flickers on the edge of your vision and you hear a very low droning hum.",
+    "species": [
+      "ZOMBIE",
+      "PSI_NULL"
+    ],
+    "color": "dark_gray_white",
+    "default_faction": "zombie",
+    "symbol": "Z",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "id": "mon_spawn_raptor_teke_push",
+    "looks_like": "mon_spawn_raptor",
+    "type": "MONSTER",
+    "name": {
+      "str": "forcewave flesh-raptor"
+    },
+    "description": "This small, winged predator darts through the air on three thinly-haired wings that look like stretched human hands.  A sheer, jagged spike juts out from the point where the wings meet.  It looks like nothing you've seen on Earth, and yet strangely like it is made of human parts.  As it darts through the air, nearby obstacles sometimes bend slightly away from it.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "id": "mon_spawn_raptor_pyro_hot_air",
+    "looks_like": "mon_spawn_raptor",
+    "type": "MONSTER",
+    "name": {
+      "str": "heatwave flesh-raptor"
+    },
+    "description": "This small, winged predator darts through the air on three thinly-haired wings that look like stretched human hands.  A sheer, jagged spike juts out from the point where the wings meet.  It looks like nothing you've seen on Earth, and yet strangely like it is made of human parts.  The air around it shimmers with heat haze.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "id": "mon_spawn_raptor_teleport_blink",
+    "looks_like": "mon_spawn_raptor",
+    "type": "MONSTER",
+    "name": {
+      "str": "blinking flesh-raptor"
+    },
+    "description": "This small, winged predator darts through the air on three thinly-haired wings that look like stretched human hands.  A sheer, jagged spike juts out from the point where the wings meet.  It looks like nothing you've seen on Earth, and yet strangely like it is made of human parts.  Occasionally, it vanishes and reappears elsewhere.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
   }
 ]

@@ -1,0 +1,658 @@
+[
+  {
+    "id": "pyrokin_call_flame_short_term",
+    "type": "SPELL",
+    "name": "[Ψ]Banked Flame",
+    "description": "Summon banked flames. Internal compatibility spell.",
+    "message": "Flames begin dancing in the air above your hand",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "PYROKINETIC",
+    "skill": "metaphysics",
+    "flags": [
+      "SILENT",
+      "NO_HANDS",
+      "NO_LEGS",
+      "NO_EXPLOSION_SFX"
+    ],
+    "effect": "spawn_item",
+    "effect_str": "pyrokinetic_fire_tool",
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_duration": 6000,
+    "max_duration": 6000,
+    "max_level": 30,
+    "base_energy_cost": 0,
+    "base_casting_time": 0,
+    "energy_source": "NONE"
+  },
+  {
+    "id": "pyrokin_call_flame_long_term",
+    "type": "SPELL",
+    "name": "[Ψ]Banked Flame",
+    "description": "Summon banked flames. Internal compatibility spell.",
+    "message": "Flames begin dancing in the air above your hand",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "PYROKINETIC",
+    "skill": "metaphysics",
+    "flags": [
+      "SILENT",
+      "NO_HANDS",
+      "NO_LEGS",
+      "NO_EXPLOSION_SFX"
+    ],
+    "effect": "spawn_item",
+    "effect_str": "pyrokinetic_fire_tool",
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_duration": 72000,
+    "max_duration": 72000,
+    "max_level": 30,
+    "base_energy_cost": 0,
+    "base_casting_time": 0,
+    "energy_source": "NONE"
+  },
+  {
+    "id": "telekin_ritual_summon_lifting_jack_1",
+    "type": "SPELL",
+    "name": "[Ψ]Summon Lifting Jack #1",
+    "description": "Summon a telekinetic lifting jack. Internal compatibility spell.",
+    "message": "",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "TELEKINETIC",
+    "skill": "metaphysics",
+    "flags": [
+      "CONCENTRATE",
+      "SILENT",
+      "NO_HANDS",
+      "NO_LEGS",
+      "NO_EXPLOSION_SFX",
+      "RANDOM_DURATION"
+    ],
+    "effect": "spawn_item",
+    "effect_str": "telekin_lifting_jack_1",
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_duration": 12000,
+    "max_duration": 120000,
+    "max_level": 30,
+    "base_energy_cost": 0,
+    "base_casting_time": 0,
+    "energy_source": "NONE"
+  },
+  {
+    "id": "telekin_ritual_summon_lifting_jack_2",
+    "type": "SPELL",
+    "name": "[Ψ]Summon Lifting Jack #2",
+    "description": "Summon a telekinetic lifting jack. Internal compatibility spell.",
+    "message": "",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "TELEKINETIC",
+    "skill": "metaphysics",
+    "flags": [
+      "CONCENTRATE",
+      "SILENT",
+      "NO_HANDS",
+      "NO_LEGS",
+      "NO_EXPLOSION_SFX",
+      "RANDOM_DURATION"
+    ],
+    "effect": "spawn_item",
+    "effect_str": "telekin_lifting_jack_2",
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_duration": 24000,
+    "max_duration": 240000,
+    "max_level": 30,
+    "base_energy_cost": 0,
+    "base_casting_time": 0,
+    "energy_source": "NONE"
+  },
+  {
+    "id": "telekin_ritual_summon_lifting_jack_3",
+    "type": "SPELL",
+    "name": "[Ψ]Summon Lifting Jack #3",
+    "description": "Summon a telekinetic lifting jack. Internal compatibility spell.",
+    "message": "",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "TELEKINETIC",
+    "skill": "metaphysics",
+    "flags": [
+      "CONCENTRATE",
+      "SILENT",
+      "NO_HANDS",
+      "NO_LEGS",
+      "NO_EXPLOSION_SFX",
+      "RANDOM_DURATION"
+    ],
+    "effect": "spawn_item",
+    "effect_str": "telekin_lifting_jack_3",
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_duration": 36000,
+    "max_duration": 360000,
+    "max_level": 30,
+    "base_energy_cost": 0,
+    "base_casting_time": 0,
+    "energy_source": "NONE"
+  },
+  {
+    "id": "telekin_ritual_summon_lifting_jack_4",
+    "type": "SPELL",
+    "name": "[Ψ]Summon Lifting Jack #4",
+    "description": "Summon a telekinetic lifting jack. Internal compatibility spell.",
+    "message": "",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "TELEKINETIC",
+    "skill": "metaphysics",
+    "flags": [
+      "CONCENTRATE",
+      "SILENT",
+      "NO_HANDS",
+      "NO_LEGS",
+      "NO_EXPLOSION_SFX",
+      "RANDOM_DURATION"
+    ],
+    "effect": "spawn_item",
+    "effect_str": "telekin_lifting_jack_4",
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_duration": 48000,
+    "max_duration": 480000,
+    "max_level": 30,
+    "base_energy_cost": 0,
+    "base_casting_time": 0,
+    "energy_source": "NONE"
+  },
+  {
+    "id": "telekin_ritual_summon_lifting_jack_5",
+    "type": "SPELL",
+    "name": "[Ψ]Summon Lifting Jack #5",
+    "description": "Summon a telekinetic lifting jack. Internal compatibility spell.",
+    "message": "",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "TELEKINETIC",
+    "skill": "metaphysics",
+    "flags": [
+      "CONCENTRATE",
+      "SILENT",
+      "NO_HANDS",
+      "NO_LEGS",
+      "NO_EXPLOSION_SFX",
+      "RANDOM_DURATION"
+    ],
+    "effect": "spawn_item",
+    "effect_str": "telekin_lifting_jack_5",
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_duration": 60000,
+    "max_duration": 600000,
+    "max_level": 30,
+    "base_energy_cost": 0,
+    "base_casting_time": 0,
+    "energy_source": "NONE"
+  },
+  {
+    "id": "telekin_ritual_summon_lifting_jack_6",
+    "type": "SPELL",
+    "name": "[Ψ]Summon Lifting Jack #6",
+    "description": "Summon a telekinetic lifting jack. Internal compatibility spell.",
+    "message": "",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "TELEKINETIC",
+    "skill": "metaphysics",
+    "flags": [
+      "CONCENTRATE",
+      "SILENT",
+      "NO_HANDS",
+      "NO_LEGS",
+      "NO_EXPLOSION_SFX",
+      "RANDOM_DURATION"
+    ],
+    "effect": "spawn_item",
+    "effect_str": "telekin_lifting_jack_6",
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_duration": 72000,
+    "max_duration": 720000,
+    "max_level": 30,
+    "base_energy_cost": 0,
+    "base_casting_time": 0,
+    "energy_source": "NONE"
+  },
+  {
+    "id": "telekin_ritual_summon_lifting_jack_7",
+    "type": "SPELL",
+    "name": "[Ψ]Summon Lifting Jack #7",
+    "description": "Summon a telekinetic lifting jack. Internal compatibility spell.",
+    "message": "",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "TELEKINETIC",
+    "skill": "metaphysics",
+    "flags": [
+      "CONCENTRATE",
+      "SILENT",
+      "NO_HANDS",
+      "NO_LEGS",
+      "NO_EXPLOSION_SFX",
+      "RANDOM_DURATION"
+    ],
+    "effect": "spawn_item",
+    "effect_str": "telekin_lifting_jack_7",
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_duration": 84000,
+    "max_duration": 840000,
+    "max_level": 30,
+    "base_energy_cost": 0,
+    "base_casting_time": 0,
+    "energy_source": "NONE"
+  },
+  {
+    "id": "telekin_ritual_summon_lifting_jack_8",
+    "type": "SPELL",
+    "name": "[Ψ]Summon Lifting Jack #8",
+    "description": "Summon a telekinetic lifting jack. Internal compatibility spell.",
+    "message": "",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "TELEKINETIC",
+    "skill": "metaphysics",
+    "flags": [
+      "CONCENTRATE",
+      "SILENT",
+      "NO_HANDS",
+      "NO_LEGS",
+      "NO_EXPLOSION_SFX",
+      "RANDOM_DURATION"
+    ],
+    "effect": "spawn_item",
+    "effect_str": "telekin_lifting_jack_8",
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_duration": 96000,
+    "max_duration": 960000,
+    "max_level": 30,
+    "base_energy_cost": 0,
+    "base_casting_time": 0,
+    "energy_source": "NONE"
+  },
+  {
+    "id": "telekin_ritual_summon_lifting_jack_9",
+    "type": "SPELL",
+    "name": "[Ψ]Summon Lifting Jack #9",
+    "description": "Summon a telekinetic lifting jack. Internal compatibility spell.",
+    "message": "",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "TELEKINETIC",
+    "skill": "metaphysics",
+    "flags": [
+      "CONCENTRATE",
+      "SILENT",
+      "NO_HANDS",
+      "NO_LEGS",
+      "NO_EXPLOSION_SFX",
+      "RANDOM_DURATION"
+    ],
+    "effect": "spawn_item",
+    "effect_str": "telekin_lifting_jack_9",
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_duration": 108000,
+    "max_duration": 1080000,
+    "max_level": 30,
+    "base_energy_cost": 0,
+    "base_casting_time": 0,
+    "energy_source": "NONE"
+  },
+  {
+    "id": "telekin_ritual_summon_lifting_jack_10",
+    "type": "SPELL",
+    "name": "[Ψ]Summon Lifting Jack #10",
+    "description": "Summon a telekinetic lifting jack. Internal compatibility spell.",
+    "message": "",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "TELEKINETIC",
+    "skill": "metaphysics",
+    "flags": [
+      "CONCENTRATE",
+      "SILENT",
+      "NO_HANDS",
+      "NO_LEGS",
+      "NO_EXPLOSION_SFX",
+      "RANDOM_DURATION"
+    ],
+    "effect": "spawn_item",
+    "effect_str": "telekin_lifting_jack_10",
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_duration": 120000,
+    "max_duration": 1200000,
+    "max_level": 30,
+    "base_energy_cost": 0,
+    "base_casting_time": 0,
+    "energy_source": "NONE"
+  },
+  {
+    "id": "telekin_ritual_summon_lifting_jack_11",
+    "type": "SPELL",
+    "name": "[Ψ]Summon Lifting Jack #11",
+    "description": "Summon a telekinetic lifting jack. Internal compatibility spell.",
+    "message": "",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "TELEKINETIC",
+    "skill": "metaphysics",
+    "flags": [
+      "CONCENTRATE",
+      "SILENT",
+      "NO_HANDS",
+      "NO_LEGS",
+      "NO_EXPLOSION_SFX",
+      "RANDOM_DURATION"
+    ],
+    "effect": "spawn_item",
+    "effect_str": "telekin_lifting_jack_11",
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_duration": 132000,
+    "max_duration": 1320000,
+    "max_level": 30,
+    "base_energy_cost": 0,
+    "base_casting_time": 0,
+    "energy_source": "NONE"
+  },
+  {
+    "id": "telekin_ritual_summon_lifting_jack_12",
+    "type": "SPELL",
+    "name": "[Ψ]Summon Lifting Jack #12",
+    "description": "Summon a telekinetic lifting jack. Internal compatibility spell.",
+    "message": "",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "TELEKINETIC",
+    "skill": "metaphysics",
+    "flags": [
+      "CONCENTRATE",
+      "SILENT",
+      "NO_HANDS",
+      "NO_LEGS",
+      "NO_EXPLOSION_SFX",
+      "RANDOM_DURATION"
+    ],
+    "effect": "spawn_item",
+    "effect_str": "telekin_lifting_jack_12",
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_duration": 144000,
+    "max_duration": 1440000,
+    "max_level": 30,
+    "base_energy_cost": 0,
+    "base_casting_time": 0,
+    "energy_source": "NONE"
+  },
+  {
+    "id": "telekin_ritual_summon_lifting_jack_13",
+    "type": "SPELL",
+    "name": "[Ψ]Summon Lifting Jack #13",
+    "description": "Summon a telekinetic lifting jack. Internal compatibility spell.",
+    "message": "",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "TELEKINETIC",
+    "skill": "metaphysics",
+    "flags": [
+      "CONCENTRATE",
+      "SILENT",
+      "NO_HANDS",
+      "NO_LEGS",
+      "NO_EXPLOSION_SFX",
+      "RANDOM_DURATION"
+    ],
+    "effect": "spawn_item",
+    "effect_str": "telekin_lifting_jack_13",
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_duration": 156000,
+    "max_duration": 1560000,
+    "max_level": 30,
+    "base_energy_cost": 0,
+    "base_casting_time": 0,
+    "energy_source": "NONE"
+  },
+  {
+    "id": "telekin_ritual_summon_lifting_jack_14",
+    "type": "SPELL",
+    "name": "[Ψ]Summon Lifting Jack #14",
+    "description": "Summon a telekinetic lifting jack. Internal compatibility spell.",
+    "message": "",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "TELEKINETIC",
+    "skill": "metaphysics",
+    "flags": [
+      "CONCENTRATE",
+      "SILENT",
+      "NO_HANDS",
+      "NO_LEGS",
+      "NO_EXPLOSION_SFX",
+      "RANDOM_DURATION"
+    ],
+    "effect": "spawn_item",
+    "effect_str": "telekin_lifting_jack_14",
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_duration": 168000,
+    "max_duration": 1680000,
+    "max_level": 30,
+    "base_energy_cost": 0,
+    "base_casting_time": 0,
+    "energy_source": "NONE"
+  },
+  {
+    "id": "telekin_ritual_summon_lifting_jack_15",
+    "type": "SPELL",
+    "name": "[Ψ]Summon Lifting Jack #15",
+    "description": "Summon a telekinetic lifting jack. Internal compatibility spell.",
+    "message": "",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "TELEKINETIC",
+    "skill": "metaphysics",
+    "flags": [
+      "CONCENTRATE",
+      "SILENT",
+      "NO_HANDS",
+      "NO_LEGS",
+      "NO_EXPLOSION_SFX",
+      "RANDOM_DURATION"
+    ],
+    "effect": "spawn_item",
+    "effect_str": "telekin_lifting_jack_15",
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_duration": 180000,
+    "max_duration": 1800000,
+    "max_level": 30,
+    "base_energy_cost": 0,
+    "base_casting_time": 0,
+    "energy_source": "NONE"
+  },
+  {
+    "id": "telekin_ritual_summon_lifting_jack_16",
+    "type": "SPELL",
+    "name": "[Ψ]Summon Lifting Jack #16",
+    "description": "Summon a telekinetic lifting jack. Internal compatibility spell.",
+    "message": "",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "TELEKINETIC",
+    "skill": "metaphysics",
+    "flags": [
+      "CONCENTRATE",
+      "SILENT",
+      "NO_HANDS",
+      "NO_LEGS",
+      "NO_EXPLOSION_SFX",
+      "RANDOM_DURATION"
+    ],
+    "effect": "spawn_item",
+    "effect_str": "telekin_lifting_jack_16",
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_duration": 192000,
+    "max_duration": 1920000,
+    "max_level": 30,
+    "base_energy_cost": 0,
+    "base_casting_time": 0,
+    "energy_source": "NONE"
+  },
+  {
+    "id": "telekin_ritual_summon_lifting_jack_17",
+    "type": "SPELL",
+    "name": "[Ψ]Summon Lifting Jack #17",
+    "description": "Summon a telekinetic lifting jack. Internal compatibility spell.",
+    "message": "",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "TELEKINETIC",
+    "skill": "metaphysics",
+    "flags": [
+      "CONCENTRATE",
+      "SILENT",
+      "NO_HANDS",
+      "NO_LEGS",
+      "NO_EXPLOSION_SFX",
+      "RANDOM_DURATION"
+    ],
+    "effect": "spawn_item",
+    "effect_str": "telekin_lifting_jack_17",
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_duration": 204000,
+    "max_duration": 2040000,
+    "max_level": 30,
+    "base_energy_cost": 0,
+    "base_casting_time": 0,
+    "energy_source": "NONE"
+  },
+  {
+    "id": "telekin_ritual_summon_lifting_jack_18",
+    "type": "SPELL",
+    "name": "[Ψ]Summon Lifting Jack #18",
+    "description": "Summon a telekinetic lifting jack. Internal compatibility spell.",
+    "message": "",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "TELEKINETIC",
+    "skill": "metaphysics",
+    "flags": [
+      "CONCENTRATE",
+      "SILENT",
+      "NO_HANDS",
+      "NO_LEGS",
+      "NO_EXPLOSION_SFX",
+      "RANDOM_DURATION"
+    ],
+    "effect": "spawn_item",
+    "effect_str": "telekin_lifting_jack_18",
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_duration": 216000,
+    "max_duration": 2160000,
+    "max_level": 30,
+    "base_energy_cost": 0,
+    "base_casting_time": 0,
+    "energy_source": "NONE"
+  },
+  {
+    "id": "telekin_ritual_summon_lifting_jack_19",
+    "type": "SPELL",
+    "name": "[Ψ]Summon Lifting Jack #19",
+    "description": "Summon a telekinetic lifting jack. Internal compatibility spell.",
+    "message": "",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "TELEKINETIC",
+    "skill": "metaphysics",
+    "flags": [
+      "CONCENTRATE",
+      "SILENT",
+      "NO_HANDS",
+      "NO_LEGS",
+      "NO_EXPLOSION_SFX",
+      "RANDOM_DURATION"
+    ],
+    "effect": "spawn_item",
+    "effect_str": "telekin_lifting_jack_19",
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_duration": 228000,
+    "max_duration": 2280000,
+    "max_level": 30,
+    "base_energy_cost": 0,
+    "base_casting_time": 0,
+    "energy_source": "NONE"
+  },
+  {
+    "id": "telekin_ritual_summon_lifting_jack_20",
+    "type": "SPELL",
+    "name": "[Ψ]Summon Lifting Jack #20",
+    "description": "Summon a telekinetic lifting jack. Internal compatibility spell.",
+    "message": "",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "TELEKINETIC",
+    "skill": "metaphysics",
+    "flags": [
+      "CONCENTRATE",
+      "SILENT",
+      "NO_HANDS",
+      "NO_LEGS",
+      "NO_EXPLOSION_SFX",
+      "RANDOM_DURATION"
+    ],
+    "effect": "spawn_item",
+    "effect_str": "telekin_lifting_jack_20",
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_duration": 240000,
+    "max_duration": 2400000,
+    "max_level": 30,
+    "base_energy_cost": 0,
+    "base_casting_time": 0,
+    "energy_source": "NONE"
+  }
+]

@@ -1,0 +1,147 @@
+[
+  {
+    "id": "light_battery_electronoetic",
+    "type": "MAGAZINE",
+    "category": "tool_magazine",
+    "name": {
+      "str": "light electronoetic battery",
+      "str_pl": "light electronoetic batteries"
+    },
+    "description": "A light battery but with the casing devoid of branding or symbols other than a plus and minus on opposite ends.  It's surprisingly heavy.",
+    "ascii_picture": "light_battery_cell",
+    "weight": 20,
+    "volume": 8,
+    "price": 31,
+    "price_postapoc": 2,
+    "material": [
+      "budget_steel",
+      "nether_crystal",
+      "plastic"
+    ],
+    "symbol": "=",
+    "color": "cyan",
+    "ammo_type": [
+      "battery"
+    ],
+    "//": "Capacity 3x normal",
+    "capacity": 48,
+    "looks_like": "battery"
+  },
+  {
+    "id": "light_battery_electronoetic_refined",
+    "type": "MAGAZINE",
+    "category": "tool_magazine",
+    "name": {
+      "str": "light refined electronoetic battery",
+      "str_pl": "light refined electronoetic batteries"
+    },
+    "//": "Capacity 8x normal",
+    "capacity": 128,
+    "description": "No description.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g",
+    "ammo_type": "psionic_charge_power"
+  },
+  {
+    "id": "medium_battery_electronoetic",
+    "type": "MAGAZINE",
+    "category": "tool_magazine",
+    "name": {
+      "str": "medium electronoetic battery",
+      "str_pl": "medium electronoetic batteries"
+    },
+    "description": "A medium battery but with the casing devoid of branding or symbols other than a plus and minus on opposite ends.  It's surprisingly heavy.",
+    "ascii_picture": "medium_battery_cell",
+    "weight": 100,
+    "volume": 17,
+    "price": 101,
+    "price_postapoc": 5,
+    "material": [
+      "budget_steel",
+      "nether_crystal",
+      "plastic"
+    ],
+    "symbol": "=",
+    "color": "cyan",
+    "ammo_type": [
+      "battery"
+    ],
+    "looks_like": "battery",
+    "//": "Capacity 3x normal",
+    "capacity": 168
+  },
+  {
+    "id": "medium_battery_electronoetic_refined",
+    "type": "MAGAZINE",
+    "category": "tool_magazine",
+    "name": {
+      "str": "medium refined electronoetic battery",
+      "str_pl": "medium refined electronoetic batteries"
+    },
+    "//": "Capacity 8x normal",
+    "capacity": 448,
+    "description": "No description.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g",
+    "ammo_type": "psionic_charge_power"
+  },
+  {
+    "id": "heavy_battery_electronoetic",
+    "type": "MAGAZINE",
+    "category": "tool_magazine",
+    "name": {
+      "str": "electronoetic tool battery",
+      "str_pl": "electronoetic tool batteries"
+    },
+    "description": "A battery cell, compatible with all kinds of industrial-grade equipment and portable tools, but with the casing devoid of branding or symbols other than a plus and minus on opposite ends.  It's surprisingly heavy.",
+    "ascii_picture": "heavy_battery_cell",
+    "weight": 400,
+    "volume": 382,
+    "//2": "113 * 75 * 62 mm",
+    "price": 22,
+    "price_postapoc": 35,
+    "material": [
+      "budget_steel",
+      "nether_crystal",
+      "plastic"
+    ],
+    "symbol": "=",
+    "color": "cyan",
+    "ammo_type": [
+      "battery"
+    ],
+    "//": "Capacity 3x normal",
+    "capacity": 777,
+    "looks_like": "battery"
+  },
+  {
+    "id": "heavy_battery_electronoetic_refined",
+    "type": "MAGAZINE",
+    "category": "tool_magazine",
+    "name": {
+      "str": "refined electronoetic tool battery",
+      "str_pl": "refined electronoetic tool batteries"
+    },
+    "//": "Capacity 8x normal",
+    "capacity": 2072,
+    "description": "No description.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g",
+    "ammo_type": "psionic_charge_power"
+  }
+]

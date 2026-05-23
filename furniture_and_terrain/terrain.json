@@ -8,7 +8,11 @@
     "color": "black",
     "move_cost": 0,
     "looks_like": "f_boulder_large",
-    "flags": [ "ALLOW_ON_OPEN_AIR", "PERMEABLE", "SHARP" ],
+    "flags": [
+      "ALLOW_ON_OPEN_AIR",
+      "PERMEABLE",
+      "SHARP"
+    ],
     "bash": {
       "str_min": 20,
       "str_max": 50,
@@ -18,15 +22,69 @@
       "sound_fail_vol": 10,
       "ter_set": "t_grass_alien",
       "items": [
-        { "item": "matrix_shard", "count": [ 4, 20 ] },
-        { "item": "matrix_crystal_biokin_dust", "count": [ 0, 3 ] },
-        { "item": "matrix_crystal_clair_dust", "count": [ 0, 3 ] },
-        { "item": "matrix_crystal_pyrokin_dust", "count": [ 0, 3 ] },
-        { "item": "matrix_crystal_telekin_dust", "count": [ 0, 3 ] },
-        { "item": "matrix_crystal_telepath_dust", "count": [ 0, 3 ] },
-        { "item": "matrix_crystal_teleport_dust", "count": [ 0, 3 ] },
-        { "item": "matrix_crystal_vitakin_dust", "count": [ 0, 3 ] },
-        { "item": "matrix_crystal_drained_dust", "count": [ 3, 6 ] }
+        {
+          "item": "matrix_shard",
+          "count": [
+            4,
+            20
+          ]
+        },
+        {
+          "item": "matrix_crystal_biokin_dust",
+          "count": [
+            0,
+            3
+          ]
+        },
+        {
+          "item": "matrix_crystal_clair_dust",
+          "count": [
+            0,
+            3
+          ]
+        },
+        {
+          "item": "matrix_crystal_pyrokin_dust",
+          "count": [
+            0,
+            3
+          ]
+        },
+        {
+          "item": "matrix_crystal_telekin_dust",
+          "count": [
+            0,
+            3
+          ]
+        },
+        {
+          "item": "matrix_crystal_telepath_dust",
+          "count": [
+            0,
+            3
+          ]
+        },
+        {
+          "item": "matrix_crystal_teleport_dust",
+          "count": [
+            0,
+            3
+          ]
+        },
+        {
+          "item": "matrix_crystal_vitakin_dust",
+          "count": [
+            0,
+            3
+          ]
+        },
+        {
+          "item": "matrix_crystal_drained_dust",
+          "count": [
+            3,
+            6
+          ]
+        }
       ]
     }
   },
@@ -39,7 +97,11 @@
     "symbol": " ",
     "color": "black",
     "move_cost": 2,
-    "flags": [ "TRANSPARENT", "FLAT", "ROAD" ]
+    "flags": [
+      "TRANSPARENT",
+      "FLAT",
+      "ROAD"
+    ]
   },
   {
     "type": "terrain",
@@ -50,9 +112,13 @@
     "looks_like": "t_nether_glass_floor",
     "color": "black",
     "move_cost": 6,
-    "emissions": [ "emit_cold_nether_water" ],
-    "flags": [ "TRANSPARENT", "LIQUID", "NO_SCENT", "SWIMMABLE", "MURKY" ],
-    "connect_groups": "WATER",
+    "flags": [
+      "TRANSPARENT",
+      "LIQUID",
+      "NO_SCENT",
+      "SWIMMABLE",
+      "MURKY"
+    ],
     "connects_to": "WATER"
   },
   {
@@ -64,9 +130,14 @@
     "looks_like": "t_nether_glass_floor",
     "color": "black",
     "move_cost": 10,
-    "emissions": [ "emit_cold_deep_nether_water" ],
-    "flags": [ "TRANSPARENT", "LIQUID", "NO_SCENT", "SWIMMABLE", "DEEP_WATER", "MURKY" ],
-    "connect_groups": "WATER",
+    "flags": [
+      "TRANSPARENT",
+      "LIQUID",
+      "NO_SCENT",
+      "SWIMMABLE",
+      "DEEP_WATER",
+      "MURKY"
+    ],
     "connects_to": "WATER"
   },
   {
@@ -77,8 +148,21 @@
     "symbol": ".",
     "color": "magenta",
     "move_cost": 2,
-    "flags": [ "TRANSPARENT", "DIGGABLE", "FLAT", "PLOWABLE", "ROUGH" ],
-    "bash": { "sound": "thump", "ter_set": "t_null", "str_min": 40, "str_max": 100, "str_min_supported": 100, "bash_below": true }
+    "flags": [
+      "TRANSPARENT",
+      "DIGGABLE",
+      "FLAT",
+      "PLOWABLE",
+      "ROUGH"
+    ],
+    "bash": {
+      "sound": "thump",
+      "ter_set": "t_null",
+      "str_min": 40,
+      "str_max": 100,
+      "str_min_supported": 100,
+      "bash_below": true
+    }
   },
   {
     "type": "terrain",
@@ -88,8 +172,21 @@
     "symbol": ".",
     "color": "dark_gray",
     "move_cost": 2,
-    "flags": [ "TRANSPARENT", "DIGGABLE", "FLAT", "PLOWABLE", "ROUGH" ],
-    "bash": { "sound": "thump", "ter_set": "t_null", "str_min": 40, "str_max": 100, "str_min_supported": 100, "bash_below": true }
+    "flags": [
+      "TRANSPARENT",
+      "DIGGABLE",
+      "FLAT",
+      "PLOWABLE",
+      "ROUGH"
+    ],
+    "bash": {
+      "sound": "thump",
+      "ter_set": "t_null",
+      "str_min": 40,
+      "str_max": 100,
+      "str_min_supported": 100,
+      "bash_below": true
+    }
   },
   {
     "type": "terrain",
@@ -100,8 +197,21 @@
     "symbol": ".",
     "color": "green",
     "move_cost": 2,
-    "flags": [ "TRANSPARENT", "FLAMMABLE", "DIGGABLE", "FLAT", "PLOWABLE" ],
-    "bash": { "sound": "thump", "ter_set": "t_null", "str_min": 40, "str_max": 100, "str_min_supported": 100, "bash_below": true }
+    "flags": [
+      "TRANSPARENT",
+      "FLAMMABLE",
+      "DIGGABLE",
+      "FLAT",
+      "PLOWABLE"
+    ],
+    "bash": {
+      "sound": "thump",
+      "ter_set": "t_null",
+      "str_min": 40,
+      "str_max": 100,
+      "str_min_supported": 100,
+      "bash_below": true
+    }
   },
   {
     "type": "terrain",
@@ -111,8 +221,22 @@
     "symbol": ".",
     "color": "white",
     "move_cost": 4,
-    "flags": [ "TRANSPARENT", "FLAMMABLE", "DIGGABLE", "FLAT", "PLOWABLE", "ROUGH" ],
-    "bash": { "sound": "thump", "ter_set": "t_null", "str_min": 40, "str_max": 100, "str_min_supported": 100, "bash_below": true }
+    "flags": [
+      "TRANSPARENT",
+      "FLAMMABLE",
+      "DIGGABLE",
+      "FLAT",
+      "PLOWABLE",
+      "ROUGH"
+    ],
+    "bash": {
+      "sound": "thump",
+      "ter_set": "t_null",
+      "str_min": 40,
+      "str_max": 100,
+      "str_min_supported": 100,
+      "bash_below": true
+    }
   },
   {
     "type": "terrain",
@@ -121,9 +245,21 @@
     "description": "An area of something that almost looks like moss.  It's a pale bluish color and clumps of it seem to be very slowly moving across the ground.",
     "symbol": ".",
     "color": "light_cyan",
-    "move_cost": 1,
-    "flags": [ "TRANSPARENT", "DIGGABLE", "FLAT", "PLOWABLE" ],
-    "bash": { "sound": "thump", "ter_set": "t_null", "str_min": 40, "str_max": 100, "str_min_supported": 100, "bash_below": true }
+    "move_cost": 2,
+    "flags": [
+      "TRANSPARENT",
+      "DIGGABLE",
+      "FLAT",
+      "PLOWABLE"
+    ],
+    "bash": {
+      "sound": "thump",
+      "ter_set": "t_null",
+      "str_min": 40,
+      "str_max": 100,
+      "str_min_supported": 100,
+      "bash_below": true
+    }
   },
   {
     "type": "terrain",
@@ -132,9 +268,23 @@
     "description": "An area of something that almost looks like moss.  It's close to an inch thick, a dark yellowish-red, and glistens wetly.",
     "symbol": ".",
     "color": "red",
-    "move_cost": 1,
-    "flags": [ "TRANSPARENT", "DIGGABLE", "FLAMMABLE", "FLAT", "PLOWABLE", "PAINFUL" ],
-    "bash": { "sound": "thump", "ter_set": "t_null", "str_min": 40, "str_max": 100, "str_min_supported": 100, "bash_below": true }
+    "move_cost": 2,
+    "flags": [
+      "TRANSPARENT",
+      "DIGGABLE",
+      "FLAMMABLE",
+      "FLAT",
+      "PLOWABLE",
+      "PAINFUL"
+    ],
+    "bash": {
+      "sound": "thump",
+      "ter_set": "t_null",
+      "str_min": 40,
+      "str_max": 100,
+      "str_min_supported": 100,
+      "bash_below": true
+    }
   },
   {
     "type": "terrain",
@@ -147,11 +297,33 @@
     "light_emitted": 10,
     "transforms_into": "t_tree_small_alien_1_harvested",
     "examine_action": "harvest_ter_nectar",
-    "harvest_by_season": [ { "seasons": [ "spring", "summer", "autumn", "winter" ], "id": "alien_tree_harv" } ],
+    "harvest_by_season": [
+      {
+        "seasons": [
+          "spring",
+          "summer",
+          "autumn",
+          "winter"
+        ],
+        "id": "alien_tree_harv"
+      }
+    ],
     "move_cost": 0,
     "coverage": 80,
-    "flags": [ "FLAMMABLE_ASH", "NOITEM", "SUPPORTS_ROOF", "TREE", "REDUCE_SCENT" ],
-    "bash": { "str_min": 40, "str_max": 180, "sound": "crunch!", "sound_fail": "poof!", "ter_set": "t_grass_alien_2" }
+    "flags": [
+      "FLAMMABLE_ASH",
+      "NOITEM",
+      "SUPPORTS_ROOF",
+      "TREE",
+      "REDUCE_SCENT"
+    ],
+    "bash": {
+      "str_min": 40,
+      "str_max": 180,
+      "sound": "crunch!",
+      "sound_fail": "poof!",
+      "ter_set": "t_grass_alien_2"
+    }
   },
   {
     "type": "terrain",
@@ -165,8 +337,21 @@
     "examine_action": "harvested_plant",
     "move_cost": 0,
     "coverage": 80,
-    "flags": [ "FLAMMABLE_ASH", "NOITEM", "SUPPORTS_ROOF", "TREE", "REDUCE_SCENT", "HARVESTED" ],
-    "bash": { "str_min": 40, "str_max": 180, "sound": "crunch!", "sound_fail": "poof!", "ter_set": "t_grass_alien_2" }
+    "flags": [
+      "FLAMMABLE_ASH",
+      "NOITEM",
+      "SUPPORTS_ROOF",
+      "TREE",
+      "REDUCE_SCENT",
+      "HARVESTED"
+    ],
+    "bash": {
+      "str_min": 40,
+      "str_max": 180,
+      "sound": "crunch!",
+      "sound_fail": "poof!",
+      "ter_set": "t_grass_alien_2"
+    }
   },
   {
     "type": "terrain",
@@ -178,8 +363,20 @@
     "color": "dark_gray",
     "move_cost": 0,
     "coverage": 80,
-    "flags": [ "FLAMMABLE_ASH", "NOITEM", "SUPPORTS_ROOF", "TREE", "REDUCE_SCENT" ],
-    "bash": { "str_min": 40, "str_max": 180, "sound": "crunch!", "sound_fail": "poof!", "ter_set": "t_moss_alien_2" }
+    "flags": [
+      "FLAMMABLE_ASH",
+      "NOITEM",
+      "SUPPORTS_ROOF",
+      "TREE",
+      "REDUCE_SCENT"
+    ],
+    "bash": {
+      "str_min": 40,
+      "str_max": 180,
+      "sound": "crunch!",
+      "sound_fail": "poof!",
+      "ter_set": "t_moss_alien_2"
+    }
   },
   {
     "type": "terrain",
@@ -191,7 +388,19 @@
     "color": "light_red",
     "move_cost": 0,
     "coverage": 80,
-    "flags": [ "FLAMMABLE_ASH", "NOITEM", "SUPPORTS_ROOF", "TREE", "REDUCE_SCENT" ],
-    "bash": { "str_min": 40, "str_max": 180, "sound": "crunch!", "sound_fail": "poof!", "ter_set": "t_grass_alien" }
+    "flags": [
+      "FLAMMABLE_ASH",
+      "NOITEM",
+      "SUPPORTS_ROOF",
+      "TREE",
+      "REDUCE_SCENT"
+    ],
+    "bash": {
+      "str_min": 40,
+      "str_max": 180,
+      "sound": "crunch!",
+      "sound_fail": "poof!",
+      "ter_set": "t_grass_alien"
+    }
   }
 ]

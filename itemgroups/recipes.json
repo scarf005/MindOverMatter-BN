@@ -1,0 +1,37 @@
+[
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "psionic_recipes_beginner"
+  },
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "psionic_recipes_advanced"
+  },
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "psionic_recipes_powers"
+  },
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "psionic_recipes_weapons"
+  },
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "psionic_recipes_armor"
+  },
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "psionic_recipes_tools"
+  },
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "psionic_recipes_medicine"
+  }
+]

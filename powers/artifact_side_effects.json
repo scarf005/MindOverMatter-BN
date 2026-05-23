@@ -1,0 +1,92 @@
+[
+  {
+    "type": "SPELL",
+    "id": "mom_aea_artifact_calorie_hit",
+    "name": {
+      "str": "Artifact Calorie hit",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Spends calories, the way psionic powers do, when using the artifact.",
+      "//~": "NO_I18N"
+    },
+    "valid_targets": [
+      "self"
+    ],
+    "effect": "lua",
+    "effect_str": "EOC_MOM_AEA_ARTIFACT_CALORIE_COST",
+    "message": "",
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "id": "mom_aea_artifact_add_future_pain",
+    "type": "SPELL",
+    "name": {
+      "str": "MoM AEA Add future Pain",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Increase the amount of pain you receive for a period of time.",
+      "//~": "NO_I18N"
+    },
+    "message": "",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "NONE",
+    "effect": "target_attack",
+    "effect_str": "effect_mom_artifact_increase_pain",
+    "min_duration": 18000,
+    "max_duration": 72000,
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "type": "SPELL",
+    "id": "mom_aea_artifact_electricity_immune",
+    "name": {
+      "str": "MoM Artifact Lightning Immune",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Makes you immune to electricity.",
+      "//~": "NO_I18N"
+    },
+    "valid_targets": [
+      "self"
+    ],
+    "skill": "metaphysics",
+    "effect": "target_attack",
+    "effect_str": "effect_mom_artifact_lightning_immune",
+    "base_casting_time": 100,
+    "min_duration": 1500,
+    "max_duration": 1500,
+    "message": "",
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "id": "mom_aea_artifact_illumination_on_self",
+    "type": "SPELL",
+    "name": {
+      "str": "MoM AEA Illumination On Self",
+      "//~": "NO_I18N"
+    },
+    "description": {
+      "str": "Add a short-duration illumination for the crystal's light.",
+      "//~": "NO_I18N"
+    },
+    "message": "",
+    "valid_targets": [
+      "self"
+    ],
+    "spell_class": "NONE",
+    "effect": "target_attack",
+    "effect_str": "effect_mom_artifact_illumination_on_self",
+    "min_duration": 200,
+    "max_duration": 300,
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  }
+]

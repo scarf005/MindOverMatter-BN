@@ -1,0 +1,92 @@
+[
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "psi_lab"
+  },
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "dist_matrix_tools"
+  },
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "dist_shield_belts"
+  },
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "dist_fire_shield_belts"
+  },
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "dist_pulse_rifles_heavy_prototype"
+  },
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "dist_psionic_shield_belts",
+    "groups": [
+      [
+        "dist_fire_shield_belts",
+        1
+      ],
+      [
+        "dist_shield_belts",
+        1
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "collection_force_field_and_note"
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "collection_mindsight_and_note"
+  },
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "dist_matrix_translocation_items"
+  },
+  {
+    "id": "dist_electronoetic_batteries",
+    "type": "item_group",
+    "subtype": "distribution"
+  },
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "psi_lab_no_recipes"
+  },
+  {
+    "id": "psi_testing_materials",
+    "type": "item_group",
+    "subtype": "distribution"
+  },
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "psi_lab_recipes_rare"
+  },
+  {
+    "id": "clairsentience_telepathy_matrix_technology",
+    "type": "item_group",
+    "subtype": "distribution"
+  },
+  {
+    "type": "item_group",
+    "id": "mutagenic_alpha_kit",
+    "subtype": "collection"
+  },
+  {
+    "id": "phavian_lab_security",
+    "type": "item_group",
+    "subtype": "distribution"
+  }
+]

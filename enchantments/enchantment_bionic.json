@@ -1,0 +1,12 @@
+[
+  {
+    "type": "enchantment",
+    "id": "ench_bio_dangersight_eyes",
+    "values": []
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_bio_physical_buffs",
+    "values": []
+  }
+]

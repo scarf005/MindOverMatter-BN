@@ -1,0 +1,1493 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_biokin_physical_enhance",
+    "name": {
+      "str": "contemplation: physical enhancement"
+    },
+    "description": "Contemplate your powers and improve your ability to enhance your physical strength and agility.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_biokin_overcome_pain",
+    "name": {
+      "str": "contemplation: overcome pain"
+    },
+    "description": "Contemplate your powers and improve your ability to resist pain.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_biokin_flexibility",
+    "name": {
+      "str": "contemplation: flexibility"
+    },
+    "description": "Contemplate your powers and improve your ability to move your body.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_biokin_armor_skin",
+    "name": {
+      "str": "contemplation: armor skin"
+    },
+    "description": "Contemplate your powers and improve your ability to harden your flesh.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_biokin_climate_control",
+    "name": {
+      "str": "contemplation: temperature adaptability"
+    },
+    "description": "Contemplate your powers and improve your ability to withstand temperature variations.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_biokin_reflex_enhance",
+    "name": {
+      "str": "contemplation: heightened reflexes"
+    },
+    "description": "Contemplate your powers and improve your ability to enhance your reflexes.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_biokin_sealed_system",
+    "name": {
+      "str": "contemplation: sealed system"
+    },
+    "description": "Contemplate your powers and improve your ability to hermetically seal your body.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_biokin_combat_dance",
+    "name": {
+      "str": "contemplation: combat dance"
+    },
+    "description": "Contemplate your powers and improve your combat prowess.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_clair_night_vision",
+    "name": {
+      "str": "contemplation: night eyes"
+    },
+    "description": "Contemplate your powers and improve your ability to enhance your mundane senses.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_clair_danger_sense",
+    "name": {
+      "str": "contemplation: danger sense"
+    },
+    "description": "Contemplate your powers and improve your sense of nearby danger.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_clair_speed_reading",
+    "name": {
+      "str": "contemplation: speed reading"
+    },
+    "description": "Contemplate your powers and improve your ability to comprehend books.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_clair_spot_weakness",
+    "name": {
+      "str": "contemplation: discern weakness"
+    },
+    "description": "Contemplate your powers and improve your sense of the vulnerabilities of your enemies.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_clair_dodge_power",
+    "name": {
+      "str": "contemplation: combat sense"
+    },
+    "description": "Contemplate your powers and improve your ability to see into the very near-term future.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_clair_ranged_enhance",
+    "name": {
+      "str": "contemplation: marksman's eye"
+    },
+    "description": "Contemplate your powers and improve your ability to aim ranged weapons with precision.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_clair_voyance",
+    "name": {
+      "str": "contemplation: clairvoyance"
+    },
+    "description": "Contemplate your powers and improve your ability to extend your senses beyond your body.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_clair_clear_sight",
+    "name": {
+      "str": "contemplation: clarity"
+    },
+    "description": "Contemplate your powers and improve your ability to remove all barriers from your senses.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_clair_see_map",
+    "name": {
+      "str": "contemplation: satellite view"
+    },
+    "description": "Contemplate your powers and improve your ability to extend your senses over a vast distance.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_pyrokinetic_flash",
+    "name": {
+      "str": "contemplation: brilliant flash"
+    },
+    "description": "Contemplate your powers and improve your ability to create light.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_pyrokinetic_eruption",
+    "name": {
+      "str": "contemplation: fountain of flames"
+    },
+    "description": "Contemplate your powers and improve your ability to summon flames.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_pyrokinetic_quell_flames",
+    "name": {
+      "str": "contemplation: quell fire"
+    },
+    "description": "Contemplate your powers and improve your ability to douse flames.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_pyrokinetic_call_flames",
+    "name": {
+      "str": "contemplation: banked flames"
+    },
+    "description": "Contemplate your powers and improve your ability to summon a controlled flame.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_pyrokinetic_cloak",
+    "name": {
+      "str": "contemplation: cloak of warmth"
+    },
+    "description": "Contemplate your powers and improve your control of nearby temperatures.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_pyrokinetic_flamethrower",
+    "name": {
+      "str": "contemplation: flamethrower"
+    },
+    "description": "Contemplate your powers and improve your ability to direct a spray of flame.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_pyrokinetic_aura",
+    "name": {
+      "str": "contemplation: blazing aura"
+    },
+    "description": "Contemplate your powers and improve your ability to heat the surrounding air to dangerous temperatures.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_pyrokinetic_blast",
+    "name": {
+      "str": "contemplation: conflagration"
+    },
+    "description": "Contemplate your powers and improve your manifestation of explosions.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_telekinetic_pull",
+    "name": {
+      "str": "contemplation: far hand"
+    },
+    "description": "Contemplate your powers and improve your manipulation of outgoing forces.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_telekinetic_push",
+    "name": {
+      "str": "contemplation: force shove"
+    },
+    "description": "Contemplate your powers and improve your manipulation of incoming forces.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_telekinetic_momentum",
+    "name": {
+      "str": "contemplation: momentum alteration"
+    },
+    "description": "Contemplate your powers and improve your control of momentum.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_telekinetic_wave",
+    "name": {
+      "str": "contemplation: wave of force"
+    },
+    "description": "Contemplate your powers and develop your ability to control bursts of telekinetic force.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_telekinetic_strength",
+    "name": {
+      "str": "contemplation: enhance strength"
+    },
+    "description": "Contemplate your powers and improve your ability to move very heavy objects with your powers.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_telekinetic_hammer",
+    "name": {
+      "str": "contemplation: mindhammer"
+    },
+    "description": "Contemplate your powers and improve your ability to smash a small area with telekinetic force.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_telekinetic_vehicle_lift",
+    "name": {
+      "str": "contemplation: lift vehicle"
+    },
+    "description": "Contemplate your powers and improve your ability to pick up vehicles briefly.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_telekinetic_shield",
+    "name": {
+      "str": "contemplation: inertial barrier"
+    },
+    "description": "Contemplate your powers and improve your creation of force barriers.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_telekinetic_explosion",
+    "name": {
+      "str": "contemplation: wrecking ball"
+    },
+    "description": "Contemplate your powers and improve your manifestation of telekinetic explosions.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_telekinetic_aegis",
+    "name": {
+      "str": "contemplation: aegis"
+    },
+    "description": "Contemplate your powers and improve your ability to shield yourself from all harm.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_telepathic_concentration",
+    "name": {
+      "str": "contemplation: telepathic concentration"
+    },
+    "description": "Contemplate your powers and improve your laser-like focus.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_telepathic_shield",
+    "name": {
+      "str": "contemplation: telepathic shield"
+    },
+    "description": "Contemplate your powers and improve the resilience of your mind.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_telepathic_morale",
+    "name": {
+      "str": "contemplation: mood stabilization"
+    },
+    "description": "Contemplate your powers and improve your control of your own emotions.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_telepathic_blast",
+    "name": {
+      "str": "contemplation: synaptic overload"
+    },
+    "description": "Contemplate your powers and improve your mental strength to telepathically assault your enemies.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_telepathic_confusion",
+    "name": {
+      "str": "contemplation: sensory deprivation"
+    },
+    "description": "Contemplate your powers and improve your ability to confound your enemies's senses.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_telepathic_invisibility",
+    "name": {
+      "str": "contemplation: obscurity"
+    },
+    "description": "Contemplate your powers and improve your ability to make your enemies ignore you.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_telepathic_scream",
+    "name": {
+      "str": "contemplation: psychic scream"
+    },
+    "description": "Contemplate your powers and improve the volume of your undirected psionic shrieking.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_telepathic_mind_control",
+    "name": {
+      "str": "contemplation: mind control"
+    },
+    "description": "Contemplate your powers and improve your domination of others' minds.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_teleport_blink",
+    "name": {
+      "str": "contemplation: blink"
+    },
+    "description": "Contemplate your powers and improve your ability to travel nearby without crossing the intervening space.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_teleport_slow",
+    "name": {
+      "str": "contemplation: stutterstep"
+    },
+    "description": "Contemplate your powers and improve your ability to reshape space around your enemies.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_teleport_transpose",
+    "name": {
+      "str": "contemplation: transposition"
+    },
+    "description": "Contemplate your powers and improve your control of relative position exchange.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_teleport_farstep",
+    "name": {
+      "str": "contemplation: farstep"
+    },
+    "description": "Contemplate your powers and develop your ability to instantly travel to a new location.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_teleport_collapse",
+    "name": {
+      "str": "contemplation: spacial vortex"
+    },
+    "description": "Contemplate your powers and improve your ability to bring distant points close together.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_teleport_gateway",
+    "name": {
+      "str": "contemplation: gateway"
+    },
+    "description": "Contemplate your powers and improve your ability to travel to long-distant points.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_teleport_banish",
+    "name": {
+      "str": "contemplation: oubliette"
+    },
+    "description": "Contemplate your powers and improve your ability to banish your enemies to other dimensions.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_vita_health_power",
+    "name": {
+      "str": "contemplation: healthy glow"
+    },
+    "description": "Contemplate your powers and improve your ability to enhance your overall health.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_vita_stop_bleeding",
+    "name": {
+      "str": "contemplation: staunch wound"
+    },
+    "description": "Contemplate your powers and improve your ability to stop bleeding.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_vita_hurt_touch",
+    "name": {
+      "str": "contemplation: enervating touch"
+    },
+    "description": "Contemplate your powers and improve your ability to induce decay.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_vita_healing_touch",
+    "name": {
+      "str": "contemplation: medicinal touch"
+    },
+    "description": "Contemplate your powers and improve your ability to speed your allies' healing.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_vita_sleeping_trance",
+    "name": {
+      "str": "contemplation: wakeful rest"
+    },
+    "description": "Contemplate your powers and develop your ability to instantly travel to a new location.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_vita_pain_split",
+    "name": {
+      "str": "contemplation: damage balancing"
+    },
+    "description": "Contemplate your powers and improve your ability to direct your body's healing ability to where it is most needed.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_vita_stop_infection",
+    "name": {
+      "str": "contemplation: allay infection"
+    },
+    "description": "Contemplate your powers and improve your ability to use your powers to disinfect.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_vita_healing_trance",
+    "name": {
+      "str": "contemplation: revitalizing meditation"
+    },
+    "description": "Contemplate your powers and improve your ability to speed healing while meditating.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_vita_blood_purge",
+    "name": {
+      "str": "contemplation: blood purge"
+    },
+    "description": "Contemplate your powers and improve your ability to cleanse impurities from your blood.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_practice_vita_banish_illness",
+    "name": {
+      "str": "contemplation: banish illness"
+    },
+    "description": "Contemplate your powers and improve your ability to cure permanent or long-term conditions.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_prac_psionics_begin",
+    "name": {
+      "str": "meditation (beginner)"
+    },
+    "description": "Practice calming and emptying your mind, thinking thoughts as they come and then allowing them to flow through you and onward.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_prac_psionics_inter",
+    "name": {
+      "str": "meditation (intermediate)"
+    },
+    "description": "Clear your mind even in the midst of discomfort, maintaining your calm and poise.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_prac_psionics_advan",
+    "name": {
+      "str": "psionic cultivation"
+    },
+    "description": "Focus on your inner metal strength, making it easy to call forth your psionic gifts.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_prac_psionics_prof_basic",
+    "name": {
+      "str": "psionic channeling"
+    },
+    "description": "Practice focusing your powers through a crystalline medium.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_telekin_push_heavy_things",
+    "name": {
+      "str": "Enhance Strength"
+    },
+    "description": "Focus your powers to allow you move much heavier objects and smash through walls.  The concentration required means you will be unable to engage in combat with any real aptitude while concentrating.\n\n[(d)rop the Enhanced Strength to stop concentrating and regain your combat ability]",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_telekin_lift_cars",
+    "name": {
+      "str": "Vehicular Lifting"
+    },
+    "description": "Focus your powers to raise a vehicle just enough to change a tire or perform repairs.  As your powers increase, you will be able to lift heavier vehicles.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_vitakin_disease_purge",
+    "name": {
+      "str": "Purge Disease"
+    },
+    "description": "Enter a deep meditative trance and purge your body of illness, even serious ones like cancer or multiple sclerosis.  It will not cure mutation.  Some illnesses are more difficult to successfully eradicate than others.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_prac_psionics_prof_containment",
+    "name": {
+      "str": "energy containment"
+    },
+    "description": "You are proficient in preventing stray substances or thoughts from contaminating your work.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_prac_psionics_prof_ritual",
+    "name": {
+      "str": "thought-form construction"
+    },
+    "description": "You are adept at the focused concentration and elaborate mental exercises required to practice more esoteric psionic abilities.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_prac_psionics_prof_warping",
+    "name": {
+      "str": "dimensional metaphysics"
+    },
+    "description": "You are familiar with how psionic power flows between dimensions and can manipulate that flow.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_prac_psionics_prof_morphic",
+    "name": {
+      "str": "morphology alteration"
+    },
+    "description": "You have mastered using psionics to affect the form of living beings.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "mon_devourer_lab_sec",
+    "type": "MONSTER",
+    "name": {
+      "str": "mon_devourer_lab_sec"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "id": "mon_transcendant_alpha_psion",
+    "type": "MONSTER",
+    "looks_like": "mon_mutant_alpha",
+    "name": {
+      "str": "mathematician A57"
+    },
+    "description": "No one could mistake this person for a human; they move with astonishing speed and grace, but every motion is precisely controlled.  As they catch sight of you, a momentary grimace mars the perfection of their unnaturally beautiful face, and as they move quickly toward you, they make a quick gesture and some debris on the floor moves out of their way.",
+    "symbol": "@",
+    "color": "magenta",
+    "hp": 150,
+    "regen_morale": true,
+    "death_drops": "mon_mathematician_alpha_five_seven_death_drops",
+    "zombify_into": "mon_zombie_survivor",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  }
+]

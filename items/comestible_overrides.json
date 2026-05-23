@@ -1,0 +1,57 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "egg_chicken",
+    "name": {
+      "str": "chicken egg"
+    },
+    "description": "No description.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g",
+    "comestible_type": "FOOD",
+    "calories": 0,
+    "charges": 1
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "egg_pigeon",
+    "name": {
+      "str": "feral pigeon egg"
+    },
+    "description": "No description.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g",
+    "comestible_type": "FOOD",
+    "calories": 0,
+    "charges": 1
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "panacea",
+    "name": {
+      "str": "compound XV471 \"Panaceus\"",
+      "str_pl": "doses of compound XV471 \"Panaceus\""
+    },
+    "description": "No description.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g",
+    "comestible_type": "FOOD",
+    "calories": 0,
+    "charges": 1
+  }
+]

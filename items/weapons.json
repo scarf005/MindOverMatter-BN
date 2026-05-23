@@ -3,90 +3,401 @@
     "id": "grenade_inferno",
     "type": "TOOL",
     "category": "weapons",
-    "name": { "str": "inferno grenade" },
+    "name": {
+      "str": "inferno grenade"
+    },
     "description": "This is an inferno grenade, designed to channel Netherum energy to increase its incendiary power.  Once you throw it, you will have five seconds to get away before it explodes into a raging firestorm.",
-    "weight": "230 g",
-    "volume": "270 ml",
-    "price": 2000,
-    "price_postapoc": 1500,
+    "weight": 230,
+    "volume": 270,
+    "price": 50,
+    "price_postapoc": 35,
     "to_hit": -1,
-    "melee_damage": { "bash": 6 },
-    "material": [ "steel", "nether_crystal" ],
+    "material": [
+      "steel",
+      "nether_crystal"
+    ],
     "symbol": "*",
     "color": "red",
     "use_action": {
       "need_wielding": true,
       "target": "grenade_inferno_act",
-      "msg": "You pull the pin on the grenade.",
-      "target_charges": 5,
-      "active": true,
+      "msg": "You pull the pin on the %s.",
       "menu_text": "Pull pin",
       "type": "transform"
-    },
-    "flags": [ "BOMB", "ACT_IN_FIRE", "GRENADE" ]
+    }
   },
   {
     "id": "grenade_inferno_act",
     "type": "TOOL",
     "category": "weapons",
-    "name": { "str": "active inferno grenade" },
+    "name": {
+      "str": "active inferno grenade"
+    },
     "description": "This is an active inferno grenade.  Better throw it!",
-    "weight": "230 g",
-    "volume": "270 ml",
+    "weight": 230,
+    "volume": 270,
     "price": 0,
     "price_postapoc": 0,
     "to_hit": -1,
-    "melee_damage": { "bash": 6 },
-    "material": [ "steel", "nether_crystal" ],
+    "material": [
+      "steel",
+      "nether_crystal"
+    ],
     "symbol": "*",
     "color": "red",
-    "initial_charges": 5,
-    "max_charges": 5,
-    "turns_per_charge": 1,
-    "revert_to": "canister_empty",
-    "use_action": [ "GRENADE_INC_ACT" ],
-    "flags": [ "ACT_IN_FIRE", "BOMB", "TRADER_AVOID", "DANGEROUS" ]
+    "countdown_action": {
+      "type": "explosion",
+      "fields_radius": 5,
+      "do_flashbang": true,
+      "fields_type": "fd_fire",
+      "fields_min_intensity": 2,
+      "fields_max_intensity": 3
+    },
+    "countdown_interval": 5
+  },
+  {
+    "id": "grenade_inferno_makeshift",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": {
+      "str": "makeshift inferno grenade"
+    },
+    "description": "This is a post-apocalyptic recreation of an inferno grenade, less powerful than a lab-made one but still very dangerous.  Once you throw it, you will have five seconds to get away before it explodes into a raging firestorm.",
+    "weight": 230,
+    "volume": 270,
+    "price": 20,
+    "price_postapoc": 15,
+    "to_hit": -1,
+    "material": [
+      "steel",
+      "nether_crystal"
+    ],
+    "symbol": "*",
+    "color": "red",
+    "use_action": {
+      "need_wielding": true,
+      "target": "grenade_inferno_makeshift_act",
+      "msg": "You pull the pin on the %s.",
+      "menu_text": "Pull pin",
+      "type": "transform"
+    }
+  },
+  {
+    "id": "grenade_inferno_makeshift_act",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": {
+      "str": "active makeshift inferno grenade"
+    },
+    "description": "This is an active makeshift inferno grenade.  Better throw it!",
+    "weight": 230,
+    "volume": 270,
+    "price": 0,
+    "price_postapoc": 0,
+    "to_hit": -1,
+    "material": [
+      "steel",
+      "nether_crystal"
+    ],
+    "symbol": "*",
+    "color": "red",
+    "countdown_action": {
+      "type": "explosion",
+      "fields_radius": 3,
+      "do_flashbang": true,
+      "fields_type": "fd_fire",
+      "fields_min_intensity": 2,
+      "fields_max_intensity": 3
+    },
+    "countdown_interval": 5
+  },
+  {
+    "id": "grenade_anti_psi",
+    "type": "TOOL",
+    "category": "weapons",
+    "looks_like": "grenade",
+    "name": {
+      "str": "null grenade"
+    },
+    "description": "A strange grenade, designed like nothing you've seen before.  It's round, with flat black crystalline panels like television screens on four sides, and two buttons on either end.  On both of the buttons is a large \u03a8, surrounded by a circle with a line through it.",
+    "weight": 397,
+    "volume": 540,
+    "price": 10000,
+    "price_postapoc": 200,
+    "material": [
+      "steel",
+      "plastic",
+      "nether_crystal"
+    ],
+    "symbol": "*",
+    "color": "dark_gray",
+    "use_action": {
+      "need_wielding": true,
+      "target": "grenade_anti_psi_act",
+      "msg": "You press the buttons on the sides of the null grenade.",
+      "menu_text": "Push buttons",
+      "type": "transform"
+    }
+  },
+  {
+    "id": "grenade_anti_psi_act",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": {
+      "str": "active null grenade"
+    },
+    "description": "This null grenade is activate and ready to unleash its pulse.  You'd better throw it!",
+    "weight": 397,
+    "volume": 270,
+    "price": 0,
+    "price_postapoc": 0,
+    "to_hit": -1,
+    "material": [
+      "steel",
+      "plastic",
+      "nether_crystal"
+    ],
+    "symbol": "*",
+    "color": "dark_gray",
+    "use_action": {
+      "type": "manualnoise",
+      "noise_message": "",
+      "noise_id": "silent",
+      "noise": 0,
+      "no_charges_message": "",
+      "use_message": ""
+    },
+    "countdown_action": {
+      "type": "cast_spell",
+      "spell_id": "grenade_anti_psi_explosion",
+      "no_fail": true,
+      "level": 0
+    },
+    "countdown_interval": 5
+  },
+  {
+    "id": "grenade_anti_psi_expended",
+    "type": "TOOL",
+    "category": "weapons",
+    "looks_like": "grenade",
+    "name": {
+      "str": "expended null grenade"
+    },
+    "description": "A strange grenade, designed like nothing you've seen before.  It's round, with flat black crystalline panels like television screens on four sides, and two buttons on either end.  On both of the buttons is a large \u03a8, surrounded by a circle with a line through it.  The buttons on either end are depressed.",
+    "weight": 397,
+    "volume": 540,
+    "price": 10000,
+    "price_postapoc": 0,
+    "material": [
+      "steel",
+      "plastic",
+      "nether_crystal"
+    ],
+    "symbol": "*",
+    "color": "dark_gray"
+  },
+  {
+    "id": "pyrokinetic_matrix_crystal_bomb",
+    "type": "TOOL",
+    "category": "weapons",
+    "looks_like": "matrix_crystal_pyrokinesis",
+    "name": {
+      "str": "pyrokinetic matrix crystal bomb"
+    },
+    "description": "A matrix crystal attuned to pyrokinesis.  This one has a (currently) stable loop of energy set up within it.  It would take only a thought to destabilize the energy loop and set up a reaction that would lead to a massive explosion.",
+    "use_action": {
+      "need_wielding": true,
+      "target": "pyrokinetic_matrix_crystal_bomb_act",
+      "msg": "With a thought, you destabilize the matrix crystal.",
+      "menu_text": "Overcharge the crystal",
+      "type": "transform"
+    },
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "id": "pyrokinetic_matrix_crystal_bomb_act",
+    "type": "TOOL",
+    "category": "weapons",
+    "looks_like": "matrix_crystal_pyrokinesis",
+    "name": {
+      "str": "destabilized pyrokinetic matrix crystal bomb"
+    },
+    "description": "A matrix crystal attuned to pyrokinesis.  The faint light in its depths is growing brighter and brighter, and the crystal itself is heating up as you hold it.",
+    "use_action": {
+      "type": "manualnoise",
+      "noise_message": "",
+      "noise_id": "silent",
+      "noise": 0,
+      "no_charges_message": "",
+      "use_message": ""
+    },
+    "countdown_action": {
+      "type": "explosion",
+      "explosion": {
+        "power": 120000,
+        "fire": true,
+        "shrapnel": 0
+      },
+      "fields_type": "fd_fire",
+      "fields_radius": 10,
+      "fields_min_intensity": 2,
+      "fields_max_intensity": 3
+    },
+    "countdown_interval": 5,
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
   },
   {
     "id": "mom_pulse_rifle",
-    "looks_like": "ar15",
+    "looks_like": "laser_rifle",
     "type": "GUN",
     "reload_noise_volume": 10,
-    "name": { "str": "LV429 Pulse Rifle" },
-    "description": "The LV429 fires a series of extremely short high-energy laser pulses, more like bullets than a traditional laser beam, greatly reducing dwell time and weapon effectiveness.  Matrix crystal technology has made the weapon compact enough to be man-portable and provided it with enough power for essentially unlimited operation, but heat dissipation is still a problem, preventing it from being fired more than once every few seconds.",
-    "weight": "4350 g",
-    "volume": "3 L",
-    "longest_side": "965 mm",
-    "price": 1600000,
-    "price_postapoc": 6500,
+    "name": {
+      "str": "LV429 Pulse Rifle"
+    },
+    "description": "The LV429 fires a series of extremely short high-energy laser pulses, more like bullets than a traditional laser beam, greatly reducing dwell time and increasing weapon effectiveness.  Matrix crystal technology has made the weapon compact enough to be man-portable and provided it with enough power for essentially unlimited combat operations, but heat dissipation is still a problem, preventing it from being fired more than once every few seconds.",
+    "weight": 4350,
+    "volume": 3000,
+    "price": 16,
+    "price_postapoc": 65,
     "to_hit": -1,
-    "melee_damage": { "bash": 12 },
-    "material": [ "steel", "plastic", "nether_crystal" ],
+    "material": [
+      "steel",
+      "plastic",
+      "nether_crystal"
+    ],
     "symbol": "(",
     "color": "cyan",
     "skill": "rifle",
-    "range": 35,
     "dispersion": 10,
-    "durability": 10,
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ] ],
-    "loudness": 23,
+    "recoil": 0,
+    "durability": 4,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "loudness": 5,
     "reload": 0,
     "clip_size": 1,
     "valid_mod_locations": [
-      [ "emitter", 1 ],
-      [ "grip", 1 ],
-      [ "rail", 1 ],
-      [ "sights", 1 ],
-      [ "sling", 1 ],
-      [ "stock", 1 ],
-      [ "stock accessory", 1 ],
-      [ "underbarrel", 1 ]
+      [
+        "emitter",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "stock accessory",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
     ],
-    "ammo": [ "mom_pulse_rifle_ammo" ],
-    "ammo_effects": [ "LASER", "INCENDIARY" ],
-    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE", "NO_REPAIR" ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "mom_pulse_rifle_ammo": 1 } } ],
-    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "8 s", "regenerate_ammo": true } },
-    "//": "Recharge time is 8 seconds due to bug #48019, making it actually 4 seconds. Reduce to 4 seconds if that ever gets fixed."
+    "ammo": [
+      "mom_pulse_rifle_ammo"
+    ],
+    "ammo_effects": [
+      "LASER",
+      "IGNITE"
+    ],
+    "faults": [
+      "fault_overheat_explosion",
+      "fault_overheat_melting"
+    ],
+    "//": "Recharge time is 8 seconds due to bug #48019, making it actually 4 seconds. Reduce to 4 seconds if that ever gets fixed.",
+    "ranged_damage": 0
+  },
+  {
+    "id": "mom_pulse_rifle_prototype",
+    "looks_like": "laser_rifle",
+    "type": "GUN",
+    "name": {
+      "str": "LV429-P Pulse Rifle"
+    },
+    "description": "The LV429 fires a series of extremely short high-energy laser pulses, more like bullets than a traditional laser beam, greatly reducing dwell time and increasing weapon effectiveness.  Matrix crystal technology has made the weapon compact enough to be man-portable and provided it with enough power for essentially unlimited operation.  This is a prototype, obvious from the bright red coloration of the barrel and grip, as well as the word \"prototype\" written in large letters on the stock and the flammable symbol next to it.",
+    "//": "Recharge time is 2 seconds due to bug #48019, making it actually 1 second. Reduce to 1 seconds if that ever gets fixed.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g",
+    "ammo": "NULL",
+    "ranged_damage": 0,
+    "dispersion": 0,
+    "durability": 1,
+    "clip_size": 1,
+    "reload": 100,
+    "skill": "rifle"
+  },
+  {
+    "id": "mom_exodii_stungun_pistol",
+    "looks_like": "v29",
+    "type": "GUN",
+    "name": {
+      "str": "On\u0161ut \u00a7A"
+    },
+    "description": "The world where this crowd-control weapon came from made great use of psionic technology, but it wasn't enough to save them from their own Cataclysm.  The Exodii left most devices they found in the ruins, assuming that they would be too difficult to maintain, but took some of the simpler weapons with them.  The On\u0161ut \u00a7A overloads the target's mind, trapping them in a hallucinatory waking dream.  This renders them almost completely harmless while in effect, with the unfortunate disadvantage of not affecting zombies.",
+    "reload_noise_volume": 5,
+    "weight": 566,
+    "volume": 79,
+    "symbol": "(",
+    "color": "cyan",
+    "skill": "pistol",
+    "material": [
+      "nether_crystal",
+      "steel",
+      "plastic"
+    ],
+    "ranged_damage": {
+      "damage_type": "psi_telepathic_damage",
+      "amount": 3
+    },
+    "dispersion": 180,
+    "durability": 8,
+    "loudness": 7,
+    "reload": 200,
+    "ammo_effects": [
+      "EXODII_NEURAL_STUNGUN"
+    ],
+    "ammo": [
+      "psionic_charge_power"
+    ],
+    "clip_size": 1
   }
 ]

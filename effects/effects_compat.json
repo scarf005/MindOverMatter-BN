@@ -1,0 +1,148 @@
+[
+  {
+    "type": "effect_type",
+    "id": "effect_clair_night_eyes_1",
+    "name": [
+      "Night Eyes"
+    ],
+    "desc": [
+      "You can sense your surroundings in the dark."
+    ],
+    "apply_message": "",
+    "remove_message": "The darkness hides your surroundings again.",
+    "rating": "good",
+    "max_duration": 7200,
+    "max_intensity": 106,
+    "dur_add_perc": 10
+  },
+  {
+    "type": "effect_type",
+    "id": "effect_clair_night_eyes_2",
+    "name": [
+      "Night Eyes"
+    ],
+    "desc": [
+      "You can sense your surroundings in the dark."
+    ],
+    "apply_message": "",
+    "remove_message": "The darkness hides your surroundings again.",
+    "rating": "good",
+    "max_duration": 7200,
+    "max_intensity": 106,
+    "dur_add_perc": 10
+  },
+  {
+    "type": "effect_type",
+    "id": "effect_clair_night_eyes_3",
+    "name": [
+      "Night Eyes"
+    ],
+    "desc": [
+      "You can sense your surroundings in the dark."
+    ],
+    "apply_message": "",
+    "remove_message": "The darkness hides your surroundings again.",
+    "rating": "good",
+    "max_duration": 7200,
+    "max_intensity": 106,
+    "dur_add_perc": 10
+  },
+  {
+    "type": "effect_type",
+    "id": "effect_clair_night_eyes_4",
+    "name": [
+      "Night Eyes"
+    ],
+    "desc": [
+      "You can sense your surroundings in the dark."
+    ],
+    "apply_message": "",
+    "remove_message": "The darkness hides your surroundings again.",
+    "rating": "good",
+    "max_duration": 7200,
+    "max_intensity": 106,
+    "dur_add_perc": 10
+  },
+  {
+    "type": "effect_type",
+    "id": "effect_clair_night_eyes_5",
+    "name": [
+      "Night Eyes"
+    ],
+    "desc": [
+      "You can sense your surroundings in the dark."
+    ],
+    "apply_message": "",
+    "remove_message": "The darkness hides your surroundings again.",
+    "rating": "good",
+    "max_duration": 7200,
+    "max_intensity": 106,
+    "dur_add_perc": 10
+  },
+  {
+    "type": "effect_type",
+    "id": "effect_clair_night_eyes_6",
+    "name": [
+      "Night Eyes"
+    ],
+    "desc": [
+      "You can sense your surroundings in the dark."
+    ],
+    "apply_message": "",
+    "remove_message": "The darkness hides your surroundings again.",
+    "rating": "good",
+    "max_duration": 7200,
+    "max_intensity": 106,
+    "dur_add_perc": 10
+  },
+  {
+    "type": "effect_type",
+    "id": "effect_clair_night_eyes_7",
+    "name": [
+      "Night Eyes"
+    ],
+    "desc": [
+      "You can sense your surroundings in the dark."
+    ],
+    "apply_message": "",
+    "remove_message": "The darkness hides your surroundings again.",
+    "rating": "good",
+    "max_duration": 7200,
+    "max_intensity": 106,
+    "dur_add_perc": 10
+  },
+  {
+    "type": "effect_type",
+    "id": "effect_clair_night_eyes_8",
+    "name": [
+      "Night Eyes"
+    ],
+    "desc": [
+      "You can sense your surroundings in the dark."
+    ],
+    "apply_message": "",
+    "remove_message": "The darkness hides your surroundings again.",
+    "rating": "good",
+    "max_duration": 7200,
+    "max_intensity": 106,
+    "dur_add_perc": 10
+  },
+  {
+    "type": "effect_type",
+    "id": "effect_telepath_invisibility",
+    "name": [
+      "Obscurity"
+    ],
+    "desc": [
+      "You are hiding your presence from your enemies."
+    ],
+    "apply_message": "",
+    "remove_message": "You are again visible and vulnerable.",
+    "rating": "good",
+    "max_duration": 600,
+    "max_intensity": 14,
+    "flags": [
+      "EFFECT_INVISIBLE"
+    ]
+  }
+]

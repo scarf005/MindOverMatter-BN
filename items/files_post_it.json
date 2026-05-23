@@ -5,78 +5,86 @@
     "category": "books",
     "symbol": ",",
     "color": "white",
-    "name": { "str": "post-it note" },
+    "name": {
+      "str": "post-it note"
+    },
     "snippet_category": "lab_postit_psi",
     "description": "A bright yellow post-it note.",
     "price": 0,
     "price_postapoc": 0,
-    "material": [ "paper" ],
-    "flags": [ "TRADER_AVOID" ],
+    "material": [
+      "paper"
+    ],
+    "flags": [
+      "TRADER_AVOID"
+    ],
     "weight": "12 mg",
-    "volume": "1 ml",
-    "copy-from": "lab_postit_bio"
+    "volume": "1 ml"
   },
   {
     "type": "GENERIC",
     "id": "lab_file_telepathy_item",
-    "name": { "str": "testing report (telepathy)", "str_pl": "copies of testing report (telepathy)" },
+    "name": {
+      "str": "testing report (telepathy)",
+      "str_pl": "copies of testing report (telepathy)"
+    },
     "category": "books",
     "description": "A folder full of what appear to be transcripts of confidential psychotherapy sessions.  Most of it is rather trivial, but certain passages catch your eye…",
     "weight": "15 g",
     "to_hit": -3,
     "color": "white",
     "symbol": ",",
-    "material": [ "paper" ],
+    "material": [
+      "paper"
+    ],
     "volume": "50 ml",
-    "flags": [ "TRADER_AVOID" ],
+    "flags": [
+      "TRADER_AVOID"
+    ],
     "copy-from": "file",
-    "use_action": {
-      "type": "effect_on_conditions",
-      "description": "Activate to read the file",
-      "effect_on_conditions": [
-        {
-          "id": "EOC_LAB_TELEPATH_FILE",
-          "effect": [ { "u_message": "lab_file_telepathy", "snippet": true, "same_snippet": true, "popup": true } ]
-        }
-      ]
-    }
+    "snippet_category": "lab_file_telepathy"
   },
   {
     "type": "GENERIC",
     "id": "lab_file_OS647_P_item",
-    "name": { "str": "OS647-P Proposal Response", "str_pl": "copies of OS647-P Proposal Response" },
+    "name": {
+      "str": "OS647-P Proposal Response",
+      "str_pl": "copies of OS647-P Proposal Response"
+    },
     "category": "books",
     "description": "A note written on official XEDRA letterhead.",
     "weight": "15 g",
     "to_hit": -3,
     "color": "white",
     "symbol": ",",
-    "material": [ "paper" ],
+    "material": [
+      "paper"
+    ],
     "volume": "50 ml",
-    "flags": [ "TRADER_AVOID" ],
+    "flags": [
+      "TRADER_AVOID"
+    ],
     "copy-from": "file",
-    "use_action": {
-      "type": "effect_on_conditions",
-      "description": "Activate to read the file",
-      "effect_on_conditions": [
-        {
-          "id": "EOC_LAB_FILE_OS647_P_SNIPPET",
-          "effect": [ { "u_message": "lab_file_OS647_P", "snippet": true, "same_snippet": true, "popup": true } ]
-        }
-      ]
-    }
+    "snippet_category": "lab_file_OS647_P"
   },
   {
     "type": "GENERIC",
     "id": "id_science_visitor_phavian",
     "symbol": ",",
     "color": "red",
-    "name": { "str": "visitor's pass", "str_pl": "visitor's passes" },
+    "name": {
+      "str": "visitor's pass",
+      "str_pl": "visitor's passes"
+    },
     "description": "A visitor's pass to some sort of facility.  The reverse side describes the protocol for using it; this could grant one-time access at a card reader, if you can find one.  It also lists the addresses of nearby facilities; activate it to add their locations to your map.  There is a prominent symbol stamped on it with the word \"PHAVIAN\" underneath.",
     "price": 60000,
-    "flags": [ "SCIENCE_CARD_VISITOR" ],
+    "flags": [
+      "SCIENCE_CARD_VISITOR"
+    ],
     "price_postapoc": 250,
-    "material": [ "plastic" ],
+    "material": [
+      "plastic"
+    ],
     "weight": "3 g",
     "volume": "5 ml",
     "to_hit": -3,

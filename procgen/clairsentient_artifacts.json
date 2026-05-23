@@ -1,0 +1,12 @@
+[
+  {
+    "type": "item_group",
+    "id": "clairsentient_crystal_artifact_item",
+    "subtype": "distribution"
+  },
+  {
+    "type": "item_group",
+    "id": "clairsentient_crystal_awakening_artifact_item",
+    "subtype": "distribution"
+  }
+]

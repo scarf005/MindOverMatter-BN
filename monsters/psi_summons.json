@@ -1,0 +1,191 @@
+[
+  {
+    "id": "mon_pyrokin_hotair_1",
+    "type": "MONSTER",
+    "name": "warm air",
+    "description": "A patch of warm air, heated by pyrokinesis.",
+    "looks_like": "fd_biolum",
+    "default_faction": "player",
+    "species": [
+      "UNKNOWN"
+    ],
+    "volume": 62500,
+    "weight": 81500,
+    "hp": 1,
+    "speed": 0,
+    "symbol": "@",
+    "color": "cyan",
+    "aggression": -99,
+    "morale": 2,
+    "luminance": 15,
+    "dodge": 6,
+    "harvest": "exempt",
+    "material": [
+      "flesh"
+    ],
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "vision_day": 10,
+    "vision_night": 3
+  },
+  {
+    "id": "mon_pyrokin_hotair_2",
+    "type": "MONSTER",
+    "luminance": 30,
+    "name": {
+      "str": "mon_pyrokin_hotair_2"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "id": "mon_pyrokin_hotair_3",
+    "type": "MONSTER",
+    "luminance": 50,
+    "name": {
+      "str": "mon_pyrokin_hotair_3"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "id": "mon_pyrokin_hotair_4",
+    "type": "MONSTER",
+    "luminance": 80,
+    "name": {
+      "str": "mon_pyrokin_hotair_4"
+    },
+    "description": "No description.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "id": "mon_photokin_image",
+    "type": "MONSTER",
+    "name": "Lucid Shadow",
+    "description": "A light illusion made to look like yourself.",
+    "looks_like": "mon_civilian_stationary",
+    "default_faction": "factionless",
+    "species": [
+      "UNKNOWN"
+    ],
+    "volume": 62500,
+    "weight": 0,
+    "hp": 1,
+    "speed": 150,
+    "symbol": "@",
+    "color": "cyan",
+    "aggression": -99,
+    "morale": 2,
+    "luminance": 16,
+    "dodge": 8,
+    "harvest": "exempt",
+    "fear_triggers": [
+      "PLAYER_CLOSE"
+    ],
+    "material": [
+      "flesh"
+    ],
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "vision_day": 10,
+    "vision_night": 3
+  },
+  {
+    "id": "mon_photokin_army_image",
+    "type": "MONSTER",
+    "name": "Phantom Legionnaire",
+    "description": "A light illusion made to look like yourself.",
+    "looks_like": "mon_civilian_stationary",
+    "default_faction": "factionless",
+    "species": [
+      "UNKNOWN"
+    ],
+    "volume": 62500,
+    "weight": 0,
+    "hp": 1,
+    "speed": 150,
+    "symbol": "@",
+    "color": "cyan",
+    "aggression": -99,
+    "morale": 2,
+    "luminance": 16,
+    "dodge": 8,
+    "harvest": "exempt",
+    "fear_triggers": [
+      "PLAYER_CLOSE"
+    ],
+    "material": [
+      "flesh"
+    ],
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "vision_day": 10,
+    "vision_night": 3
+  }
+]

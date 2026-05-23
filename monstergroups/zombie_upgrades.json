@@ -1,0 +1,51 @@
+[
+  {
+    "type": "monstergroup",
+    "monsters": [
+      {
+        "monster": "mon_zombie_blank",
+        "freq": 30,
+        "cost_multiplier": 1
+      }
+    ],
+    "name": "GROUP_ZOMBIE_UPGRADE",
+    "default": "mon_zombie_blank"
+  },
+  {
+    "type": "monstergroup",
+    "default": "mon_zombie_blank",
+    "monsters": [
+      {
+        "monster": "mon_zombie_blank",
+        "freq": 450,
+        "cost_multiplier": 1
+      },
+      {
+        "monster": "mon_zombie_nullpsi",
+        "freq": 225,
+        "cost_multiplier": 1
+      },
+      {
+        "monster": "mon_zombie_pupating_psi",
+        "freq": 150,
+        "cost_multiplier": 1
+      },
+      {
+        "monster": "mon_zombie_concentration_ender",
+        "freq": 200,
+        "cost_multiplier": 1
+      },
+      {
+        "monster": "mon_zombie_psi_void",
+        "freq": 100,
+        "cost_multiplier": 1
+      },
+      {
+        "monster": "mon_zombie_master",
+        "freq": 25,
+        "cost_multiplier": 1
+      }
+    ],
+    "name": "GROUP_ZOMBIE_BLANK_UPGRADE"
+  }
+]

@@ -1,0 +1,665 @@
+[
+  {
+    "id": "mon_hidebehind",
+    "type": "MONSTER",
+    "looks_like": "mon_cougar",
+    "name": {
+      "//~": "Named after the American folkloric monster.",
+      "str": "hidebehind"
+    },
+    "description": "Even looking directly at this cougar and knowing that it is there, a part of your brain simply refuses to see it.  It flickers in and out of sight in a way that makes your eyes hurt, and if you turn your attention away from it even for a moment, it disappears completely.",
+    "morale": 80,
+    "//vision_mindsight": "25",
+    "//": "Extended flags are from telepathic suggestion that the hidebehind is not there.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "id": "mon_bandersnatch",
+    "type": "MONSTER",
+    "looks_like": "mon_bear",
+    "name": {
+      "str": "bandersnatch",
+      "str_pl": "bandersnatches"
+    },
+    "description": "An American black bear.  A large omnivorous scavenger, it has powerful claws and jaws, and is an effective ambush hunter.  This one is distinguished from its fellows by its intent expression, its lack of caution in your presence, and the fact that it's hovering six inches off the ground.",
+    "//": "A telekinetic bear",
+    "aggression": 0,
+    "grab_strength": 50,
+    "fear_triggers": [
+      "SOUND"
+    ],
+    "anger_triggers": [
+      "PLAYER_WEAK",
+      "HURT",
+      "PLAYER_CLOSE",
+      "FRIEND_ATTACKED",
+      "PLAYER_NEAR_BABY"
+    ],
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "id": "mon_fear_hawk",
+    "type": "MONSTER",
+    "name": {
+      "str": "fear hawk"
+    },
+    "description": "A hawk with striking golden eyes.  Its call seems to pierce deep into your psyche even when it's not directed at you.",
+    "bodytype": "bird",
+    "default_faction": "fear_hawk",
+    "categories": [
+      "WILDLIFE"
+    ],
+    "species": [
+      "BIRD"
+    ],
+    "volume": 3000,
+    "weight": 1500,
+    "hp": 8,
+    "speed": 110,
+    "material": [
+      "flesh"
+    ],
+    "symbol": "v",
+    "color": "dark_gray",
+    "aggression": 80,
+    "morale": 90,
+    "melee_dice": 1,
+    "melee_dice_sides": 3,
+    "melee_skill": 2,
+    "dodge": 3,
+    "harvest": "mutant_bird",
+    "fear_triggers": [
+      "PLAYER_CLOSE"
+    ],
+    "vision_day": 10,
+    "vision_night": 3
+  },
+  {
+    "id": "mon_cow_biokinetic",
+    "type": "MONSTER",
+    "name": {
+      "str": "cow"
+    },
+    "description": "The domestic cow, a baleful, ruminating farm animal.  She is quite muscular, and would be a great source of milk if domesticated or of meat and leather if slaughtered.  This one moves with an oddly fluid grace.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "id": "mon_hodag",
+    "type": "MONSTER",
+    "looks_like": "mon_cow",
+    "name": {
+      "str": "hodag"
+    },
+    "description": "This is very similar to a cow, though the bone spikes growing from its back and its clawed feet separate it from any cow you've ever seen.  Despite its fearsome armaments, it grazes placidly on grass.",
+    "//": "armor, HP, and speed boost power are from biokinesis",
+    "symbol": "C",
+    "color": "yellow",
+    "aggression": 0,
+    "morale": 80,
+    "anger_triggers": [
+      "HURT",
+      "PLAYER_NEAR_BABY",
+      "PLAYER_WEAK"
+    ],
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "id": "mon_hodag_calf",
+    "looks_like": "mon_cow_calf",
+    "type": "MONSTER",
+    "name": {
+      "str": "baby hodag"
+    },
+    "description": "This is very similar to a calf, though the short bone spikes growing from its back and its clawed feet separate it from any calf you've ever seen.  Despite its fearsome armaments, it grazes placidly on grass.",
+    "symbol": "C",
+    "color": "light_gray",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "id": "mon_cockatrice",
+    "type": "MONSTER",
+    "name": {
+      "str": "cockatrice"
+    },
+    "description": "This strange mutant bird gains its name from its odd appearance.  Although its features seem to be becoming more reptilian, it doesn't appear dangerous.  However, it looks at you like it understands you in some way.",
+    "default_faction": "small_animal",
+    "bodytype": "bird",
+    "categories": [
+      "WILDLIFE"
+    ],
+    "species": [
+      "BIRD"
+    ],
+    "volume": 750,
+    "weight": 1000,
+    "hp": 20,
+    "speed": 130,
+    "material": [
+      "flesh"
+    ],
+    "symbol": "v",
+    "color": "red",
+    "looks_like": "mon_chicken",
+    "aggression": 0,
+    "morale": 80,
+    "melee_skill": 2,
+    "melee_dice": 2,
+    "melee_dice_sides": 1,
+    "dodge": 6,
+    "anger_triggers": [
+      "HURT",
+      "FRIEND_ATTACKED",
+      "PLAYER_NEAR_BABY"
+    ],
+    "harvest": "bird_tiny",
+    "baby_flags": [
+      "SPRING",
+      "SUMMER",
+      "AUTUMN"
+    ],
+    "vision_day": 10,
+    "vision_night": 3
+  },
+  {
+    "id": "mon_cockatrice_chick",
+    "type": "MONSTER",
+    "description": "A strange tiny chick, it could be from a number of different species if it weren't for the patches of scales between its feathers.",
+    "name": {
+      "str": "strange chick"
+    },
+    "petfood": {
+      "food": [
+        "BIRDFOOD"
+      ],
+      "feed": "The %s seems to like you!  It runs around your legs and seems friendly.",
+      "pet": "The %s runs around your leg."
+    },
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "id": "mon_pigeon_passenger",
+    "type": "MONSTER",
+    "//": "Intentionally unable to be culled when friendly.",
+    "name": {
+      "str": "pigeon passenger"
+    },
+    "description": "A gentle, plump, small-billed bird with a third eye, between its bill and forehead.  On the ground, it struts about with a characteristic bobbing of the head.  It is a strong, swift flier thanks to its long wings and powerful flight muscles.  Is it following you?",
+    "volume": 1000,
+    "weight": 360,
+    "hp": 4,
+    "speed": 150,
+    "symbol": "v",
+    "color": "dark_gray",
+    "fear_triggers": [
+      "SOUND",
+      "FRIEND_ATTACKED",
+      "FRIEND_DIED",
+      "FIRE",
+      "HURT"
+    ],
+    "petfood": {
+      "food": [
+        "BIRDFOOD"
+      ],
+      "feed": "The %s seems to like you!  It runs around your legs and seems friendly.",
+      "pet": "The %s runs around your leg."
+    },
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "id": "mon_pigeon_passenger_chick",
+    "type": "MONSTER",
+    "description": "A tiny darkly-colored chick, it could be from a number of different species if it weren't for the third eye below the center of its forehead.",
+    "petfood": {
+      "food": [
+        "BIRDFOOD"
+      ],
+      "feed": "The %s seems to like you!  It runs around your legs and seems friendly.",
+      "pet": "The %s runs around your leg."
+    },
+    "name": {
+      "str": "mon_pigeon_passenger_chick"
+    },
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "id": "mon_psi_gremlin",
+    "type": "MONSTER",
+    "looks_like": "mon_fox_red",
+    "name": {
+      "str": "gremlin"
+    },
+    "//": "A Nether-affected fox",
+    "description": "The red fox, an omnivorous canine and largest of the true foxes, it is a wily hunter with a combative, suspicious temperament.  Sparks occasionally crackle over its fur and its body distorts oddly as it moves, covering more ground with each stride than the length of its legs would indicate.",
+    "special_when_hit": [
+      "ZAPBACK",
+      75
+    ],
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "id": "mon_dire_hound",
+    "type": "MONSTER",
+    "name": {
+      "str": "direhound"
+    },
+    "description": "This large canid has grown to terrifying proportions, roughly three times the size of some of its brethren.  Its teeth give steak knives a run for their money, and it looks to be the social center of any surrounding dogs.",
+    "//": "I've considered having this be an evolution point for several canid species outside of dogs, such as wolves or coyotes.",
+    "default_faction": "dog",
+    "bodytype": "dog",
+    "categories": [
+      "WILDLIFE"
+    ],
+    "species": [
+      "MAMMAL"
+    ],
+    "volume": 90000,
+    "weight": 90000,
+    "hp": 100,
+    "speed": 150,
+    "material": [
+      "flesh"
+    ],
+    "symbol": "W",
+    "color": "light_gray",
+    "looks_like": "mon_dog",
+    "aggression": 0,
+    "morale": 70,
+    "melee_skill": 8,
+    "melee_dice": 3,
+    "melee_dice_sides": 12,
+    "dodge": 3,
+    "vision_day": 50,
+    "vision_night": 5,
+    "harvest": "mutant_mammal_large_fur",
+    "baby_flags": [
+      "SPRING",
+      "SUMMER",
+      "AUTUMN",
+      "WINTER"
+    ],
+    "petfood": {
+      "food": [
+        "DOGFOOD"
+      ],
+      "feed": "The %s seems to like you!  It lets you pat its head and seems friendly.",
+      "pet": "The %s happily wags its tail while you pat its head."
+    },
+    "anger_triggers": [
+      "HURT",
+      "FRIEND_ATTACKED",
+      "FRIEND_DIED"
+    ],
+    "zombify_into": "mon_dog_zombie_brute"
+  },
+  {
+    "id": "mon_hellhound",
+    "type": "MONSTER",
+    "looks_like": "mon_dog",
+    "name": {
+      "str": "hellhound"
+    },
+    "description": "This once-average Labrador mixed-breed dog has clearly gone feral.  Though it likely still instinctively trusts humans, it's probably far from domestic by now.  The air around it wavers like the haze over summer asphalt.",
+    "aggression": 4,
+    "morale": 40,
+    "//": "FIXME: For some reason, extending special attacks does not work",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "id": "mon_hellhound_pup",
+    "type": "MONSTER",
+    "looks_like": "mon_dog_pup",
+    "name": {
+      "str": "hellpup"
+    },
+    "description": "An adorable, defenseless Labrador puppy.  Much safer to tame than an adult dog.  Its breath is very hot.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "id": "mon_fear_deer",
+    "type": "MONSTER",
+    "looks_like": "mon_deer",
+    "name": {
+      "str": "king of the wood",
+      "str_pl": "kings of the wood"
+    },
+    "description": "The northern woodland white-tailed deer, a quick and strong grazing animal.  Favored prey of coyotes, wolves, and giant spider mutants.  This one has an almost regal aura of calm about it and gazes at the forest around it without fear.",
+    "aggression": -10,
+    "anger_triggers": [
+      "PLAYER_NEAR_BABY",
+      "PLAYER_WEAK",
+      "FRIEND_ATTACKED",
+      "FRIEND_DIED"
+    ],
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "id": "mon_fear_deer_fawn",
+    "type": "MONSTER",
+    "looks_like": "mon_deer_fawn",
+    "name": {
+      "str": "prince of the wood",
+      "str_pl": "princes of the wood"
+    },
+    "description": "A juvenile northern woodland white-tailed deer, a quick and strong grazing animal.  Favored prey of coyotes, wolves, and giant spider mutants.  This one doesn't seem as skittish as most deer are.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "id": "mon_wild_rabbit_blinker",
+    "type": "MONSTER",
+    "name": {
+      "str": "hopalong"
+    },
+    "description": "A brown-coated cottontail rabbit, with a fluffy white tail.  Its small size and docile nature makes it easy prey for predators, at least the ones that can catch it.  You can't tell which one of the two cottontail species from the region this is.  You can tell there's something different about it, though, when it suddenly vanishes and reappears nearby.",
+    "looks_like": "mon_rabbit",
+    "weight": 1200,
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "id": "mon_wild_rabbit_blinker_baby",
+    "type": "MONSTER",
+    "name": {
+      "str": "hopalong kit"
+    },
+    "description": "A tiny and very cute hopalong kit.",
+    "looks_like": "mon_rabbit_baby",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  }
+]

@@ -1,0 +1,3257 @@
+[
+  {
+    "type": "MONSTER",
+    "id": "mon_civilian_icu",
+    "name": {
+      "str": "mon_civilian_icu"
+    },
+    "description": "Compatibility placeholder.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_lab_rat",
+    "name": {
+      "str": "mon_lab_rat"
+    },
+    "description": "Compatibility placeholder.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_pigeon_chick",
+    "name": {
+      "str": "mon_pigeon_chick"
+    },
+    "description": "Compatibility placeholder.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_star_vampire",
+    "name": {
+      "str": "mon_star_vampire"
+    },
+    "description": "Compatibility placeholder.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_star_vampire_coiling",
+    "name": {
+      "str": "mon_star_vampire_coiling"
+    },
+    "description": "Compatibility placeholder.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_swarm_structure",
+    "name": {
+      "str": "mon_swarm_structure"
+    },
+    "description": "Compatibility placeholder.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_unseen_hunter",
+    "name": {
+      "str": "mon_unseen_hunter"
+    },
+    "description": "Compatibility placeholder.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_wild_rabbit",
+    "name": {
+      "str": "mon_wild_rabbit"
+    },
+    "description": "Compatibility placeholder.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_wild_rabbit_baby",
+    "name": {
+      "str": "mon_wild_rabbit_baby"
+    },
+    "description": "Compatibility placeholder.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_zombie_medical",
+    "name": {
+      "str": "mon_zombie_medical"
+    },
+    "description": "Compatibility placeholder.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "type": "GENERIC",
+    "id": "1l_gold",
+    "name": {
+      "str": "1l_gold"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "1l_lead",
+    "name": {
+      "str": "1l_lead"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "1l_platinum",
+    "name": {
+      "str": "1l_platinum"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "1l_silver",
+    "name": {
+      "str": "1l_silver"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "1l_tin",
+    "name": {
+      "str": "1l_tin"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "5l_aluminum",
+    "name": {
+      "str": "5l_aluminum"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "5l_brass",
+    "name": {
+      "str": "5l_brass"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "5l_copper",
+    "name": {
+      "str": "5l_copper"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "5l_iron",
+    "name": {
+      "str": "5l_iron"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "5l_steel",
+    "name": {
+      "str": "5l_steel"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "blue_pen",
+    "name": {
+      "str": "blue_pen"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "calming_stone",
+    "name": {
+      "str": "calming_stone"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "envelope",
+    "name": {
+      "str": "envelope"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "escape_stone",
+    "name": {
+      "str": "escape_stone"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "green_pen",
+    "name": {
+      "str": "green_pen"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "medical_cart",
+    "name": {
+      "str": "medical_cart"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "red_pen",
+    "name": {
+      "str": "red_pen"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "skull_human",
+    "name": {
+      "str": "skull_human"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "xedra_microphone",
+    "name": {
+      "str": "xedra_microphone"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "xedra_seismograph",
+    "name": {
+      "str": "xedra_seismograph"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "terrain",
+    "id": "office_cubical_phavian_roof_north",
+    "name": "office_cubical_phavian_roof_north",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "office_skyscraper_10_south",
+    "name": "office_skyscraper_10_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "office_skyscraper_10b_south",
+    "name": "office_skyscraper_10b_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "office_skyscraper_11_south",
+    "name": "office_skyscraper_11_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "office_skyscraper_12_south",
+    "name": "office_skyscraper_12_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "office_skyscraper_13_south",
+    "name": "office_skyscraper_13_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "office_skyscraper_14_south",
+    "name": "office_skyscraper_14_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "office_skyscraper_15_south",
+    "name": "office_skyscraper_15_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "office_skyscraper_16_south",
+    "name": "office_skyscraper_16_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "office_skyscraper_17_south",
+    "name": "office_skyscraper_17_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "office_skyscraper_18_south",
+    "name": "office_skyscraper_18_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "office_skyscraper_19_south",
+    "name": "office_skyscraper_19_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "office_skyscraper_1_south",
+    "name": "office_skyscraper_1_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "office_skyscraper_20_south",
+    "name": "office_skyscraper_20_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "office_skyscraper_2_south",
+    "name": "office_skyscraper_2_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "office_skyscraper_3_south",
+    "name": "office_skyscraper_3_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "office_skyscraper_4_south",
+    "name": "office_skyscraper_4_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "office_skyscraper_5_south",
+    "name": "office_skyscraper_5_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "office_skyscraper_6_south",
+    "name": "office_skyscraper_6_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "office_skyscraper_7_south",
+    "name": "office_skyscraper_7_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "office_skyscraper_8_south",
+    "name": "office_skyscraper_8_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "office_skyscraper_9_south",
+    "name": "office_skyscraper_9_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "office_skyscraper_9b_south",
+    "name": "office_skyscraper_9b_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "office_skyscraper_apartments_001_south",
+    "name": "office_skyscraper_apartments_001_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "office_skyscraper_apartments_002_south",
+    "name": "office_skyscraper_apartments_002_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "office_skyscraper_apartments_011_south",
+    "name": "office_skyscraper_apartments_011_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "office_skyscraper_apartments_012_south",
+    "name": "office_skyscraper_apartments_012_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "office_skyscraper_apartments_101_south",
+    "name": "office_skyscraper_apartments_101_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "office_skyscraper_apartments_102_south",
+    "name": "office_skyscraper_apartments_102_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "office_skyscraper_apartments_111_south",
+    "name": "office_skyscraper_apartments_111_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "office_skyscraper_apartments_112_south",
+    "name": "office_skyscraper_apartments_112_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "phavan_office_skyscraper_lab_lower_ne_south",
+    "name": "phavan_office_skyscraper_lab_lower_ne_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "phavan_office_skyscraper_lab_lower_nw_south",
+    "name": "phavan_office_skyscraper_lab_lower_nw_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "phavan_office_skyscraper_lab_lower_se_south",
+    "name": "phavan_office_skyscraper_lab_lower_se_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "phavan_office_skyscraper_lab_lower_sw_south",
+    "name": "phavan_office_skyscraper_lab_lower_sw_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "phavan_office_skyscraper_lab_middle_ne_south",
+    "name": "phavan_office_skyscraper_lab_middle_ne_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "phavan_office_skyscraper_lab_middle_nw_south",
+    "name": "phavan_office_skyscraper_lab_middle_nw_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "phavan_office_skyscraper_lab_middle_se_south",
+    "name": "phavan_office_skyscraper_lab_middle_se_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "phavan_office_skyscraper_lab_middle_sw_south",
+    "name": "phavan_office_skyscraper_lab_middle_sw_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "phavan_office_skyscraper_lab_upper_ne_south",
+    "name": "phavan_office_skyscraper_lab_upper_ne_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "phavan_office_skyscraper_lab_upper_nw_south",
+    "name": "phavan_office_skyscraper_lab_upper_nw_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "phavan_office_skyscraper_lab_upper_se_south",
+    "name": "phavan_office_skyscraper_lab_upper_se_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "phavan_office_skyscraper_lab_upper_sw_south",
+    "name": "phavan_office_skyscraper_lab_upper_sw_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "special_earth",
+    "name": "special_earth",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "special_rock",
+    "name": "special_rock",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "t_carpet_concrete_green",
+    "name": "t_carpet_concrete_green",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "t_carpet_concrete_red",
+    "name": "t_carpet_concrete_red",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "t_carpet_concrete_yellow",
+    "name": "t_carpet_concrete_yellow",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "t_carpet_linoleum_gray_green",
+    "name": "t_carpet_linoleum_gray_green",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "t_carpet_linoleum_white_purple",
+    "name": "t_carpet_linoleum_white_purple",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "t_concrete_roof",
+    "name": "t_concrete_roof",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "t_door_metal_elocked",
+    "name": "t_door_metal_elocked",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "t_grass_alien",
+    "name": "t_grass_alien",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "t_linoleum_whitefloor_olight",
+    "name": "t_linoleum_whitefloor_olight",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "t_nether_glass_floor",
+    "name": "t_nether_glass_floor",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "t_puddle",
+    "name": "t_puddle",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "t_reinforced_glass_lab",
+    "name": "t_reinforced_glass_lab",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "t_soil",
+    "name": "t_soil",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "t_strconc_floor_glimmer",
+    "name": "t_strconc_floor_glimmer",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "t_strconc_floor_olight",
+    "name": "t_strconc_floor_olight",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "t_tree_dead_warped",
+    "name": "t_tree_dead_warped",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "t_wall_glass_lab",
+    "name": "t_wall_glass_lab",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "t_wood_roof",
+    "name": "t_wood_roof",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "urban_35_24_south",
+    "name": "urban_35_24_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "urban_35_25_south",
+    "name": "urban_35_25_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "urban_35_26_south",
+    "name": "urban_35_26_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "urban_35_27_south",
+    "name": "urban_35_27_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "urban_35_28_south",
+    "name": "urban_35_28_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "urban_35_29_south",
+    "name": "urban_35_29_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "urban_35_30_south",
+    "name": "urban_35_30_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "urban_35_31_south",
+    "name": "urban_35_31_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "urban_35_32_south",
+    "name": "urban_35_32_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "urban_35_33_south",
+    "name": "urban_35_33_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "urban_35_34_south",
+    "name": "urban_35_34_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "terrain",
+    "id": "urban_35_35_south",
+    "name": "urban_35_35_south",
+    "description": "Compatibility placeholder.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2
+  },
+  {
+    "type": "SPELL",
+    "id": "death_conflagration",
+    "name": {
+      "str": "death_conflagration"
+    },
+    "description": "Compatibility placeholder.",
+    "valid_targets": [
+      "self"
+    ],
+    "effect": "target_attack",
+    "base_casting_time": 0,
+    "effect_str": "death_conflagration",
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "type": "SPELL",
+    "id": "death_fakespell",
+    "name": {
+      "str": "death_fakespell"
+    },
+    "description": "Compatibility placeholder.",
+    "valid_targets": [
+      "self"
+    ],
+    "effect": "target_attack",
+    "base_casting_time": 0,
+    "effect_str": "death_fakespell",
+    "damage_type": "bash",
+    "energy_source": "NONE"
+  },
+  {
+    "type": "mutation_flag",
+    "id": "ATTUNEMENT"
+  },
+  {
+    "type": "mutation_flag",
+    "id": "FLASH_PROTECTION"
+  },
+  {
+    "type": "mutation_flag",
+    "id": "GLARE_RESIST"
+  },
+  {
+    "type": "mutation_flag",
+    "id": "HERITAGE"
+  },
+  {
+    "type": "mutation_flag",
+    "id": "MEND_ALL"
+  },
+  {
+    "type": "mutation_flag",
+    "id": "NO_PSIONICS"
+  },
+  {
+    "type": "mutation_flag",
+    "id": "PHOTOKINETIC"
+  },
+  {
+    "type": "mutation_flag",
+    "id": "SEESLEEP"
+  },
+  {
+    "type": "mutation_flag",
+    "id": "TEEPSHIELD"
+  },
+  {
+    "type": "mutation_flag",
+    "id": "TELESTOP"
+  },
+  {
+    "type": "mutation_flag",
+    "id": "UNCANNY_DODGE"
+  },
+  {
+    "type": "mutation_type",
+    "id": "Cybernetic"
+  },
+  {
+    "type": "start_location",
+    "id": "sloc_apartment_complex_roof",
+    "name": "sloc_apartment_complex_roof",
+    "terrain": [
+      "field"
+    ]
+  },
+  {
+    "type": "start_location",
+    "id": "sloc_apartments_rooftop2",
+    "name": "sloc_apartments_rooftop2",
+    "terrain": [
+      "field"
+    ]
+  },
+  {
+    "type": "start_location",
+    "id": "sloc_middle_of_nowhere",
+    "name": "sloc_middle_of_nowhere",
+    "terrain": [
+      "field"
+    ]
+  },
+  {
+    "type": "start_location",
+    "id": "sloc_office_tower_rooftop",
+    "name": "sloc_office_tower_rooftop",
+    "terrain": [
+      "field"
+    ]
+  },
+  {
+    "type": "start_location",
+    "id": "sloc_shelter_vandal",
+    "name": "sloc_shelter_vandal",
+    "terrain": [
+      "field"
+    ]
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_amalgamation_photokinetic_flashbanger",
+    "name": {
+      "str": "mon_amalgamation_photokinetic_flashbanger"
+    },
+    "description": "Compatibility placeholder.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_amalgamation_photokinetic_irradiator",
+    "name": {
+      "str": "mon_amalgamation_photokinetic_irradiator"
+    },
+    "description": "Compatibility placeholder.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_amalgamation_telekinetic_shielder",
+    "name": {
+      "str": "mon_amalgamation_telekinetic_shielder"
+    },
+    "description": "Compatibility placeholder.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_amalgamation_telepathic_distractor",
+    "name": {
+      "str": "mon_amalgamation_telepathic_distractor"
+    },
+    "description": "Compatibility placeholder.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_amalgamation_vitakinetic_debuffer",
+    "name": {
+      "str": "mon_amalgamation_vitakinetic_debuffer"
+    },
+    "description": "Compatibility placeholder.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_hanging_roper",
+    "name": {
+      "str": "mon_hanging_roper"
+    },
+    "description": "Compatibility placeholder.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_hanging_roper_lab_devourer",
+    "name": {
+      "str": "mon_hanging_roper_lab_devourer"
+    },
+    "description": "Compatibility placeholder.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_nether_leech",
+    "name": {
+      "str": "mon_nether_leech"
+    },
+    "description": "Compatibility placeholder.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_nether_leech_lab_devourer",
+    "name": {
+      "str": "mon_nether_leech_lab_devourer"
+    },
+    "description": "Compatibility placeholder.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_pigeon_passenger",
+    "name": {
+      "str": "mon_pigeon_passenger"
+    },
+    "description": "Compatibility placeholder.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_pigeon_passenger_chick",
+    "name": {
+      "str": "mon_pigeon_passenger_chick"
+    },
+    "description": "Compatibility placeholder.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_wild_rabbit_blinker",
+    "name": {
+      "str": "mon_wild_rabbit_blinker"
+    },
+    "description": "Compatibility placeholder.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_wild_rabbit_blinker_baby",
+    "name": {
+      "str": "mon_wild_rabbit_blinker_baby"
+    },
+    "description": "Compatibility placeholder.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_zombie_blank",
+    "name": {
+      "str": "mon_zombie_blank"
+    },
+    "description": "Compatibility placeholder.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_zombie_concentration_ender",
+    "name": {
+      "str": "mon_zombie_concentration_ender"
+    },
+    "description": "Compatibility placeholder.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_zombie_nullpsi",
+    "name": {
+      "str": "mon_zombie_nullpsi"
+    },
+    "description": "Compatibility placeholder.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_zombie_psi_void",
+    "name": {
+      "str": "mon_zombie_psi_void"
+    },
+    "description": "Compatibility placeholder.",
+    "default_faction": "zombie",
+    "species": [
+      "ZOMBIE"
+    ],
+    "symbol": "Z",
+    "color": "white",
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 10,
+    "speed": 100,
+    "material": [
+      "flesh"
+    ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 0,
+    "vision_day": 10,
+    "vision_night": 3,
+    "harvest": "zombie"
+  },
+  {
+    "type": "tool_quality",
+    "id": "FINE_GRIND",
+    "name": {
+      "str": "FINE_GRIND"
+    }
+  },
+  {
+    "type": "tool_quality",
+    "id": "BLOW_HOT_AIR",
+    "name": {
+      "str": "BLOW_HOT_AIR"
+    }
+  },
+  {
+    "type": "tool_quality",
+    "id": "CHISEL_WOOD",
+    "name": {
+      "str": "CHISEL_WOOD"
+    }
+  },
+  {
+    "type": "tool_quality",
+    "id": "HACK",
+    "name": {
+      "str": "HACK"
+    }
+  },
+  {
+    "type": "tool_quality",
+    "id": "HAMMER_SOFT",
+    "name": {
+      "str": "HAMMER_SOFT"
+    }
+  },
+  {
+    "type": "tool_quality",
+    "id": "PRYING_NAIL",
+    "name": {
+      "str": "PRYING_NAIL"
+    }
+  },
+  {
+    "type": "fault",
+    "id": "fault_overheat_explosion",
+    "name": {
+      "str": "fault_overheat_explosion"
+    },
+    "description": "Compatibility placeholder."
+  },
+  {
+    "type": "fault",
+    "id": "fault_overheat_melting",
+    "name": {
+      "str": "fault_overheat_melting"
+    },
+    "description": "Compatibility placeholder."
+  },
+  {
+    "type": "fault",
+    "id": "fault_overheat_safety",
+    "name": {
+      "str": "fault_overheat_safety"
+    },
+    "description": "Compatibility placeholder."
+  },
+  {
+    "type": "material",
+    "id": "wind",
+    "name": "wind",
+    "bash_resist": 0,
+    "cut_resist": 0,
+    "acid_resist": 0,
+    "elec_resist": 0,
+    "fire_resist": 0,
+    "bullet_resist": 0,
+    "chip_resist": 0,
+    "density": 1,
+    "dmg_adj": [
+      "wind",
+      "wind",
+      "wind",
+      "wind"
+    ],
+    "bash_dmg_verb": "hit",
+    "cut_dmg_verb": "cut",
+    "specific_heat_liquid": 1,
+    "specific_heat_solid": 1,
+    "latent_heat": 1,
+    "freeze_point": 0
+  },
+  {
+    "type": "material",
+    "id": "alien_liquid",
+    "name": "alien_liquid",
+    "bash_resist": 0,
+    "cut_resist": 0,
+    "acid_resist": 0,
+    "elec_resist": 0,
+    "fire_resist": 0,
+    "bullet_resist": 0,
+    "chip_resist": 0,
+    "density": 1,
+    "dmg_adj": [
+      "alien_liquid",
+      "alien_liquid",
+      "alien_liquid",
+      "alien_liquid"
+    ],
+    "bash_dmg_verb": "hit",
+    "cut_dmg_verb": "cut",
+    "specific_heat_liquid": 1,
+    "specific_heat_solid": 1,
+    "latent_heat": 1,
+    "freeze_point": 0
+  },
+  {
+    "type": "material",
+    "id": "id",
+    "name": "id",
+    "bash_resist": 0,
+    "cut_resist": 0,
+    "acid_resist": 0,
+    "elec_resist": 0,
+    "fire_resist": 0,
+    "bullet_resist": 0,
+    "chip_resist": 0,
+    "density": 1,
+    "dmg_adj": [
+      "id",
+      "id",
+      "id",
+      "id"
+    ],
+    "bash_dmg_verb": "hit",
+    "cut_dmg_verb": "cut",
+    "specific_heat_liquid": 1,
+    "specific_heat_solid": 1,
+    "latent_heat": 1,
+    "freeze_point": 0
+  },
+  {
+    "type": "material",
+    "id": "light",
+    "name": "light",
+    "bash_resist": 0,
+    "cut_resist": 0,
+    "acid_resist": 0,
+    "elec_resist": 0,
+    "fire_resist": 0,
+    "bullet_resist": 0,
+    "chip_resist": 0,
+    "density": 1,
+    "dmg_adj": [
+      "light",
+      "light",
+      "light",
+      "light"
+    ],
+    "bash_dmg_verb": "hit",
+    "cut_dmg_verb": "cut",
+    "specific_heat_liquid": 1,
+    "specific_heat_solid": 1,
+    "latent_heat": 1,
+    "freeze_point": 0
+  },
+  {
+    "type": "SPECIES",
+    "id": "FERAL",
+    "name": "FERAL"
+  },
+  {
+    "id": "emit_plasma",
+    "type": "emit",
+    "field": "fd_electricity",
+    "intensity": 1,
+    "chance": 1
+  },
+  {
+    "type": "GENERIC",
+    "id": "UPS_OFF",
+    "name": {
+      "str": "UPS_OFF"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "apron_cotton",
+    "name": {
+      "str": "apron_cotton"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "apron_plastic",
+    "name": {
+      "str": "apron_plastic"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "camera_bag",
+    "name": {
+      "str": "camera_bag"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "coin_dime",
+    "name": {
+      "str": "coin_dime"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "coin_penny",
+    "name": {
+      "str": "coin_penny"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "condom_sealed",
+    "name": {
+      "str": "condom_sealed"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "hat_field",
+    "name": {
+      "str": "hat_field"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "id_science_visitor_1",
+    "name": {
+      "str": "id_science_visitor_1"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "id_science_visitor_phavian",
+    "name": {
+      "str": "id_science_visitor_phavian"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "itzcuauhtli_combat_shirt",
+    "name": {
+      "str": "itzcuauhtli_combat_shirt"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "itzcuauhtli_jacket_army_modern",
+    "name": {
+      "str": "itzcuauhtli_jacket_army_modern"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "knife_combat_army",
+    "name": {
+      "str": "knife_combat_army"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "lab_file_mutagen_guide",
+    "name": {
+      "str": "lab_file_mutagen_guide"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "lab_file_mutation_testing",
+    "name": {
+      "str": "lab_file_mutation_testing"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "lab_postit_portal",
+    "name": {
+      "str": "lab_postit_portal"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "lab_postit_psi",
+    "name": {
+      "str": "lab_postit_psi"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "lanyard",
+    "name": {
+      "str": "lanyard"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "memory_card_unread",
+    "name": {
+      "str": "memory_card_unread"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "methed_alcohol",
+    "name": {
+      "str": "methed_alcohol"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "nylon_holster",
+    "name": {
+      "str": "nylon_holster"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "subwaystationmap",
+    "name": {
+      "str": "subwaystationmap"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "technician_coveralls",
+    "name": {
+      "str": "technician_coveralls"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "wallet_photo",
+    "name": {
+      "str": "wallet_photo"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "item_group",
+    "id": "adderall_bottle_plastic_pill_prescription_1_10",
+    "subtype": "collection"
+  },
+  {
+    "type": "item_group",
+    "id": "banknotes",
+    "subtype": "collection"
+  },
+  {
+    "type": "item_group",
+    "id": "charged_cigs",
+    "subtype": "collection"
+  },
+  {
+    "type": "item_group",
+    "id": "charged_electrical_measuring",
+    "subtype": "collection"
+  },
+  {
+    "type": "item_group",
+    "id": "charged_laptop",
+    "subtype": "collection"
+  },
+  {
+    "type": "item_group",
+    "id": "charged_matches",
+    "subtype": "collection"
+  },
+  {
+    "type": "item_group",
+    "id": "charged_smart_phone",
+    "subtype": "collection"
+  },
+  {
+    "type": "item_group",
+    "id": "coins",
+    "subtype": "collection"
+  },
+  {
+    "type": "item_group",
+    "id": "default_zombie_items_bags_small",
+    "subtype": "collection"
+  },
+  {
+    "type": "item_group",
+    "id": "discount_cards",
+    "subtype": "collection"
+  },
+  {
+    "type": "item_group",
+    "id": "loaded_webbing_belt",
+    "subtype": "collection"
+  },
+  {
+    "type": "item_group",
+    "id": "tools_common_small",
+    "subtype": "collection"
+  },
+  {
+    "type": "item_group",
+    "id": "wallets",
+    "subtype": "collection"
+  },
+  {
+    "type": "json_flag",
+    "id": "BATTERY_HEAVY",
+    "context": [
+      "ANY"
+    ]
+  },
+  {
+    "type": "json_flag",
+    "id": "BATTERY_LIGHT",
+    "context": [
+      "ANY"
+    ]
+  },
+  {
+    "type": "json_flag",
+    "id": "BATTERY_MEDIUM",
+    "context": [
+      "ANY"
+    ]
+  },
+  {
+    "type": "json_flag",
+    "id": "CALORIES_INTAKE",
+    "context": [
+      "ANY"
+    ]
+  },
+  {
+    "type": "json_flag",
+    "id": "COMBAT_TOGGLEABLE",
+    "context": [
+      "ANY"
+    ]
+  },
+  {
+    "type": "json_flag",
+    "id": "EDIBLE_FROZEN",
+    "context": [
+      "ANY"
+    ]
+  },
+  {
+    "type": "json_flag",
+    "id": "ELECTRONIC",
+    "context": [
+      "ANY"
+    ]
+  },
+  {
+    "type": "json_flag",
+    "id": "INTEGRATED",
+    "context": [
+      "ANY"
+    ]
+  },
+  {
+    "type": "json_flag",
+    "id": "IRREPLACEABLE_CONSUMABLE",
+    "context": [
+      "ANY"
+    ]
+  },
+  {
+    "type": "json_flag",
+    "id": "MAGICAL",
+    "context": [
+      "ANY"
+    ]
+  },
+  {
+    "type": "json_flag",
+    "id": "MUNDANE",
+    "context": [
+      "ANY"
+    ]
+  },
+  {
+    "type": "json_flag",
+    "id": "NO_AUTO_CONSUME",
+    "context": [
+      "ANY"
+    ]
+  },
+  {
+    "type": "json_flag",
+    "id": "NO_TURRET",
+    "context": [
+      "ANY"
+    ]
+  },
+  {
+    "type": "json_flag",
+    "id": "OVERHEATS",
+    "context": [
+      "ANY"
+    ]
+  },
+  {
+    "type": "json_flag",
+    "id": "PADDED",
+    "context": [
+      "ANY"
+    ]
+  },
+  {
+    "type": "json_flag",
+    "id": "PORTAL_PROOF",
+    "context": [
+      "ANY"
+    ]
+  },
+  {
+    "type": "json_flag",
+    "id": "RAD_DETECT",
+    "context": [
+      "ANY"
+    ]
+  },
+  {
+    "type": "json_flag",
+    "id": "RELIC_PINK",
+    "context": [
+      "ANY"
+    ]
+  },
+  {
+    "type": "json_flag",
+    "id": "SINGLE_USE",
+    "context": [
+      "ANY"
+    ]
+  },
+  {
+    "type": "json_flag",
+    "id": "SOFT",
+    "context": [
+      "ANY"
+    ]
+  },
+  {
+    "type": "json_flag",
+    "id": "SPAWN_ACTIVE",
+    "context": [
+      "ANY"
+    ]
+  },
+  {
+    "type": "json_flag",
+    "id": "WATER_BREAK",
+    "context": [
+      "ANY"
+    ]
+  },
+  {
+    "type": "json_flag",
+    "id": "WATER_BREAK_ACTIVE",
+    "context": [
+      "ANY"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "acetaminophen",
+    "name": {
+      "str": "acetaminophen"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "eggplant",
+    "name": {
+      "str": "eggplant"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "glue_strong",
+    "name": {
+      "str": "glue_strong"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "guayaba",
+    "name": {
+      "str": "guayaba"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "ibuprofen",
+    "name": {
+      "str": "ibuprofen"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "integrated_welder",
+    "name": {
+      "str": "integrated_welder"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "irradiated_eggplant",
+    "name": {
+      "str": "irradiated_eggplant"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "irradiated_guayaba",
+    "name": {
+      "str": "irradiated_guayaba"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "irradiated_lulo",
+    "name": {
+      "str": "irradiated_lulo"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "irradiated_maracuya",
+    "name": {
+      "str": "irradiated_maracuya"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "irradiated_plantain",
+    "name": {
+      "str": "irradiated_plantain"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "lulo",
+    "name": {
+      "str": "lulo"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "maracuya",
+    "name": {
+      "str": "maracuya"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "memory_card",
+    "name": {
+      "str": "memory_card"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "mutagen_chelator",
+    "name": {
+      "str": "mutagen_chelator"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "pipe_fittings",
+    "name": {
+      "str": "pipe_fittings"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "plantain",
+    "name": {
+      "str": "plantain"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "scrap_aluminum",
+    "name": {
+      "str": "scrap_aluminum"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "requirement",
+    "id": "plastic_bottles_any",
+    "components": []
+  },
+  {
+    "type": "requirement",
+    "id": "small_gas_canister_case",
+    "components": []
+  },
+  {
+    "type": "requirement",
+    "id": "steel_chunk_any",
+    "components": []
+  },
+  {
+    "type": "requirement",
+    "id": "steel_lump_any",
+    "components": []
+  },
+  {
+    "type": "requirement",
+    "id": "any_strong_acid",
+    "components": []
+  },
+  {
+    "type": "tool_quality",
+    "id": "MATRIX_CHANNEL",
+    "name": {
+      "str": "MATRIX_CHANNEL"
+    }
+  },
+  {
+    "type": "tool_quality",
+    "id": "MATRIX_FOCUS",
+    "name": {
+      "str": "MATRIX_FOCUS"
+    }
+  },
+  {
+    "type": "GENERIC",
+    "id": "lab_file_OS647_P_item",
+    "name": {
+      "str": "lab_file_OS647_P_item"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "lab_file_QD944_P_item",
+    "name": {
+      "str": "lab_file_QD944_P_item"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "lab_file_biokinesis_item",
+    "name": {
+      "str": "lab_file_biokinesis_item"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "lab_file_clairsentience_item",
+    "name": {
+      "str": "lab_file_clairsentience_item"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "lab_file_electrokinesis_item",
+    "name": {
+      "str": "lab_file_electrokinesis_item"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "lab_file_matrix_research_item",
+    "name": {
+      "str": "lab_file_matrix_research_item"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "lab_file_phavian_memo_item",
+    "name": {
+      "str": "lab_file_phavian_memo_item"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "lab_file_photokinesis_item",
+    "name": {
+      "str": "lab_file_photokinesis_item"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "lab_file_private_correspondence",
+    "name": {
+      "str": "lab_file_private_correspondence"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "lab_file_pyrokinesis_item",
+    "name": {
+      "str": "lab_file_pyrokinesis_item"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "lab_file_telekinesis_item",
+    "name": {
+      "str": "lab_file_telekinesis_item"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "lab_file_telepathy_item",
+    "name": {
+      "str": "lab_file_telepathy_item"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "lab_file_teleportation_item",
+    "name": {
+      "str": "lab_file_teleportation_item"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "lab_file_vitakinesis_item",
+    "name": {
+      "str": "lab_file_vitakinesis_item"
+    },
+    "description": "Compatibility placeholder.",
+    "symbol": "?",
+    "color": "white",
+    "material": [
+      "plastic"
+    ],
+    "volume": "1 ml",
+    "weight": "1 g"
+  },
+  {
+    "type": "item_group",
+    "id": "wallet_phavian_leather_full",
+    "subtype": "collection",
+    "entries": []
+  },
+  {
+    "type": "item_group",
+    "id": "wallet_phavian_full",
+    "subtype": "collection",
+    "entries": []
+  },
+  {
+    "type": "item_group",
+    "id": "wallet_phavian_stylish_full",
+    "subtype": "collection",
+    "entries": []
+  },
+  {
+    "type": "json_flag",
+    "id": "SCIENCE_CARD_VISITOR",
+    "context": [
+      "ITEM"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_recipe_no_result",
+    "name": {
+      "str": "completed meditation"
+    },
+    "description": "A completed psionic meditation.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "mom_telekinetic_lifting_field_training",
+    "name": {
+      "str": "completed lifting field meditation"
+    },
+    "description": "A completed telekinetic lifting field meditation.",
+    "symbol": "*",
+    "color": "dark_gray",
+    "material": [
+      "paper"
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [
+      "TRADER_AVOID",
+      "ZERO_WEIGHT"
+    ]
+  }
+]

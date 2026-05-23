@@ -1,63 +1,96 @@
 [
   {
-    "id": [ "TALK_PORTAL_STORM_WHAT_ARE_YOU", "TALK_PORTAL_STORM_DO_FOR_ME", "TALK_PORTAL_STORM_WHAT_DO_YOU_GET" ],
+    "id": [
+      "TALK_PORTAL_STORM_WHAT_ARE_YOU",
+      "TALK_PORTAL_STORM_DO_FOR_ME",
+      "TALK_PORTAL_STORM_WHAT_DO_YOU_GET"
+    ],
     "type": "talk_topic",
     "responses": [
       {
         "text": "[Premonition] *Determine if the voice is a threat*",
         "topic": "TALK_PORTAL_STORM_DANGER_SENSE_FAIL",
-        "condition": { "math": [ "u_val('spell_level', 'spell: clair_danger_sense')", "<=", "7" ] }
+        "condition": {
+          "u_has_trait": "CLAIRSENTIENT"
+        }
       },
       {
         "text": "[Premonition 8+] *Determine if the voice is a threat*",
         "topic": "TALK_PORTAL_STORM_DANGER_SENSE_SUCCEED",
-        "condition": { "math": [ "u_val('spell_level', 'spell: clair_danger_sense')", ">", "7" ] }
+        "condition": {
+          "u_has_trait": "CLAIRSENTIENT"
+        }
       }
     ]
   },
   {
-    "id": [ "TALK_PORTAL_STORM_WHAT_ARE_YOU", "TALK_PORTAL_STORM_DO_FOR_ME", "TALK_PORTAL_STORM_WHAT_DO_YOU_GET" ],
+    "id": [
+      "TALK_PORTAL_STORM_WHAT_ARE_YOU",
+      "TALK_PORTAL_STORM_DO_FOR_ME",
+      "TALK_PORTAL_STORM_WHAT_DO_YOU_GET"
+    ],
     "type": "talk_topic",
     "responses": [
       {
         "text": "[Telepath] *Read the voice's mind(?)*",
         "topic": "TALK_PORTAL_STORM_telepathy",
-        "condition": { "u_has_trait": "TELEPATH" }
+        "condition": {
+          "u_has_trait": "TELEPATH"
+        }
       }
     ]
   },
   {
-    "id": [ "TALK_PORTAL_STORM_telepathy" ],
+    "id": [
+      "TALK_PORTAL_STORM_telepathy"
+    ],
     "type": "talk_topic",
     "dynamic_line": "&You reach out to the voice's location(?) and try to touch its thoughts.  In an instant, your mind is filled by a babble of your *own* thoughts, at exactly the moment you think them, which then repeat again as you realize what is happening and your thoughts about the experience are reflected back at you and your brain is filled with an agonizing cacophony until you break the connection.",
     "responses": [
       {
         "text": "Well, that was a mistake.",
-        "topic": "TALK_PORTAL_STORM_CONVERSATION",
-        "effect": [ { "math": [ "u_pain()", "+=", "5" ] } ]
+        "topic": "TALK_PORTAL_STORM_CONVERSATION"
       }
     ]
   },
   {
-    "id": [ "TALK_PORTAL_STORM_DANGER_SENSE_FAIL" ],
+    "id": [
+      "TALK_PORTAL_STORM_DANGER_SENSE_FAIL"
+    ],
     "type": "talk_topic",
     "dynamic_line": "&You extend your senses, alert for danger, and are immediately almost blinded.  In the heart of the portal storm, there's danger everywhere.  In the air and ground, in the things half-glimpsed that vanish when you look at them, and in yourself, just waiting for the right conditions to be unleashed.  If there's anything sinister in the voice's offer, you cannot tell.",
-    "responses": [ { "text": "*Close your inner eye*", "topic": "TALK_PORTAL_STORM_CONVERSATION" } ]
+    "responses": [
+      {
+        "text": "*Close your inner eye*",
+        "topic": "TALK_PORTAL_STORM_CONVERSATION"
+      }
+    ]
   },
   {
-    "id": [ "TALK_PORTAL_STORM_DANGER_SENSE_SUCCEED" ],
+    "id": [
+      "TALK_PORTAL_STORM_DANGER_SENSE_SUCCEED"
+    ],
     "type": "talk_topic",
     "dynamic_line": "&You extend your senses, alert for danger.  Shutting out the ever-present danger of the post-Cataclysmic world and the portal storm, you focus on the voice.  There is danger there, but not directly.  Whatever the outcome of its offer, it is not meant as a trap.",
-    "responses": [ { "text": "*Close your inner eye*", "topic": "TALK_PORTAL_STORM_CONVERSATION" } ]
+    "responses": [
+      {
+        "text": "*Close your inner eye*",
+        "topic": "TALK_PORTAL_STORM_CONVERSATION"
+      }
+    ]
   },
   {
-    "id": [ "TALK_PORTAL_STORM_WHAT_DO_YOU_GET" ],
+    "id": [
+      "TALK_PORTAL_STORM_WHAT_DO_YOU_GET"
+    ],
     "type": "talk_topic",
     "responses": [
       {
         "text": "[Clarity 3+] *Is the voice lying?*",
         "topic": "TALK_PORTAL_STORM_CLARITY",
-        "condition": { "math": [ "u_val('spell_level', 'spell: clair_clear_sight')", ">=", "3" ] }
+        "condition": {
+          "u_has_trait": "CLAIRSENTIENT"
+        }
       }
     ]
   },
@@ -66,8 +99,14 @@
     "type": "talk_topic",
     "dynamic_line": "&You open your inner eye and in its light you see the truth.  This *is* you.  Was you.  Might be you.  You know it like you know yourself.  Whatever game it's playing, its intentions are not malicious.  They are your own.",
     "responses": [
-      { "text": "What do I need to do?", "topic": "TALK_PORTAL_STORM_I_NEED_TO_DO" },
-      { "text": "Leave me alone.", "topic": "TALK_PORTAL_STORM_IGNORE" }
+      {
+        "text": "What do I need to do?",
+        "topic": "TALK_PORTAL_STORM_I_NEED_TO_DO"
+      },
+      {
+        "text": "Leave me alone.",
+        "topic": "TALK_PORTAL_STORM_IGNORE"
+      }
     ]
   },
   {
@@ -77,8 +116,9 @@
       {
         "text": "[Gateway 8+] Thanks, but here I can leave without your help.  Be seeing you.  (End your story)",
         "topic": "TALK_PORTAL_STORM_TELEPORT_OUT",
-        "condition": { "math": [ "u_val('spell_level', 'spell: teleport_gateway')", ">=", "8" ] },
-        "effect": { "give_achievement": "teleported_offworld" }
+        "condition": {
+          "u_has_trait": "TELEPORTER"
+        }
       }
     ]
   },
@@ -89,8 +129,7 @@
     "responses": [
       {
         "text": "That's what life's about: making the right choice at the right time.",
-        "topic": "TALK_DONE",
-        "effect": [ "u_die" ]
+        "topic": "TALK_DONE"
       }
     ]
   }
